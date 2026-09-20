@@ -1,0 +1,1507 @@
+#Build: Synplify Pro (R) X-2025.09LR-SP1, Build 154R, May 20 2026
+#install: C:\lscc\radiant\2026.1\synpbase
+#OS: Windows 10 or later
+#Hostname: 8FMZ0R3
+
+# Sat Sep 19 18:19:37 2026
+
+#Implementation: impl_1
+
+
+Copyright (C) 1994-2025 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: X-2025.09LR-SP1
+Install: C:\lscc\radiant\2026.1\synpbase
+OS: Windows 10 or later
+Hostname: 8FMZ0R3
+
+Implementation : impl_1
+Synopsys HDL Compiler, Version comp202509synp2, Build 154R, Built May 20 2026 06:20:37, @
+
+@N|Running in 64-bit mode
+###########################################################[
+
+Copyright (C) 1994-2025 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: X-2025.09LR-SP1
+Install: C:\lscc\radiant\2026.1\synpbase
+OS: Windows 10 or later
+Hostname: 8FMZ0R3
+
+Implementation : impl_1
+Synopsys VHDL Compiler, Version comp202509synp2, Build 154R, Built May 20 2026 06:20:37, @
+
+@N|Running in 64-bit mode
+@N:Can't find top module!
+Top entity isn't set yet!
+@N: CD140 :	| Using the VHDL 1993 Standard for file 'C:\lscc\radiant\2026.1\ip\pmi\pmi_iCE40UP.vhd'.
+VHDL syntax check successful!
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 150MB peak: 150MB)
+
+
+Process completed successfully.
+# Sat Sep 19 18:19:37 2026
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2025 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: X-2025.09LR-SP1
+Install: C:\lscc\radiant\2026.1\synpbase
+OS: Windows 10 or later
+Hostname: 8FMZ0R3
+
+Implementation : impl_1
+Synopsys Verilog Compiler, Version comp202509synp2, Build 154R, Built May 20 2026 06:20:37, @
+
+@N|Running in 64-bit mode
+@I::"C:\lscc\radiant\2026.1\synpbase\lib\generic\ice40up.v" (library work)
+@I::"C:\lscc\radiant\2026.1\synpbase\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"C:\lscc\radiant\2026.1\ip\pmi\pmi_iCE40UP.v" (library work)
+@I:"C:\lscc\radiant\2026.1\ip\pmi\pmi_iCE40UP.v":"C:\lscc\radiant\2026.1\ip\pmi\pmi_addsub.v" (library work)
+@I:"C:\lscc\radiant\2026.1\ip\pmi\pmi_addsub.v":"C:\lscc\radiant\2026.1\ip\pmi\../common/adder_subtractor/rtl\lscc_add_sub.v" (library work)
+@N: CG334 :"C:\lscc\radiant\2026.1\ip\pmi\../common/adder_subtractor/rtl\lscc_add_sub.v":313:13:313:25|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2026.1\ip\pmi\../common/adder_subtractor/rtl\lscc_add_sub.v":333:13:333:24|Read directive translate_on.
+@I:"C:\lscc\radiant\2026.1\ip\pmi\pmi_iCE40UP.v":"C:\lscc\radiant\2026.1\ip\pmi\pmi_add.v" (library work)
+@I:"C:\lscc\radiant\2026.1\ip\pmi\pmi_add.v":"C:\lscc\radiant\2026.1\ip\pmi\../common/adder/rtl\lscc_adder.v" (library work)
+@I:"C:\lscc\radiant\2026.1\ip\pmi\pmi_iCE40UP.v":"C:\lscc\radiant\2026.1\ip\pmi\pmi_complex_mult.v" (library work)
+@I:"C:\lscc\radiant\2026.1\ip\pmi\pmi_complex_mult.v":"C:\lscc\radiant\2026.1\ip\pmi\../common/complex_mult/rtl\lscc_complex_mult.v" (library work)
+@N: CG334 :"C:\lscc\radiant\2026.1\ip\pmi\pmi_complex_mult.v":92:11:92:23|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2026.1\ip\pmi\pmi_complex_mult.v":101:11:101:22|Read directive translate_on.
+@I:"C:\lscc\radiant\2026.1\ip\pmi\pmi_iCE40UP.v":"C:\lscc\radiant\2026.1\ip\pmi\pmi_counter.v" (library work)
+@I:"C:\lscc\radiant\2026.1\ip\pmi\pmi_counter.v":"C:\lscc\radiant\2026.1\ip\pmi\../common/counter/rtl\lscc_cntr.v" (library work)
+@N: CG334 :"C:\lscc\radiant\2026.1\ip\pmi\../common/counter/rtl\lscc_cntr.v":129:13:129:25|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2026.1\ip\pmi\../common/counter/rtl\lscc_cntr.v":143:13:143:24|Read directive translate_on.
+@I:"C:\lscc\radiant\2026.1\ip\pmi\pmi_iCE40UP.v":"C:\lscc\radiant\2026.1\ip\pmi\pmi_fifo.v" (library work)
+@I:"C:\lscc\radiant\2026.1\ip\pmi\pmi_fifo.v":"C:\lscc\radiant\2026.1\ip\pmi\../common/fifo/rtl\lscc_fifo.v" (library work)
+@N: CG334 :"C:\lscc\radiant\2026.1\ip\pmi\../common/fifo/rtl\lscc_fifo.v":3275:17:3275:29|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2026.1\ip\pmi\../common/fifo/rtl\lscc_fifo.v":3282:17:3282:28|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\2026.1\ip\pmi\../common/fifo/rtl\lscc_fifo.v":3339:17:3339:29|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2026.1\ip\pmi\../common/fifo/rtl\lscc_fifo.v":3346:17:3346:28|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\2026.1\ip\pmi\../common/fifo/rtl\lscc_fifo.v":3401:17:3401:29|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2026.1\ip\pmi\../common/fifo/rtl\lscc_fifo.v":3408:17:3408:28|Read directive translate_on.
+@I:"C:\lscc\radiant\2026.1\ip\pmi\pmi_iCE40UP.v":"C:\lscc\radiant\2026.1\ip\pmi\pmi_fifo_dc.v" (library work)
+@I:"C:\lscc\radiant\2026.1\ip\pmi\pmi_fifo_dc.v":"C:\lscc\radiant\2026.1\ip\pmi\../common/fifo_dc/rtl\lscc_fifo_dc.v" (library work)
+@N: CG334 :"C:\lscc\radiant\2026.1\ip\pmi\../common/fifo_dc/rtl\lscc_fifo_dc.v":5142:25:5142:37|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2026.1\ip\pmi\../common/fifo_dc/rtl\lscc_fifo_dc.v":5146:25:5146:36|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\2026.1\ip\pmi\../common/fifo_dc/rtl\lscc_fifo_dc.v":5177:29:5177:41|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2026.1\ip\pmi\../common/fifo_dc/rtl\lscc_fifo_dc.v":5181:29:5181:40|Read directive translate_on.
+@I:"C:\lscc\radiant\2026.1\ip\pmi\pmi_fifo_dc.v":"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc.v" (library work)
+@I:"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc.v":"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_distributed_ram.v" (library work)
+@N: CG334 :"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_distributed_ram.v":170:17:170:29|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_distributed_ram.v":178:17:178:28|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_distributed_ram.v":222:25:222:37|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_distributed_ram.v":226:25:226:36|Read directive translate_on.
+@I:"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc.v":"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_ecc.v" (library work)
+@I:"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc.v":"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_flag_and_cnts_logic.v" (library work)
+@N: CG334 :"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_flag_and_cnts_logic.v":639:25:639:37|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_flag_and_cnts_logic.v":646:25:646:36|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_flag_and_cnts_logic.v":788:29:788:41|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_flag_and_cnts_logic.v":792:29:792:40|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_flag_and_cnts_logic.v":893:29:893:41|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_flag_and_cnts_logic.v":898:29:898:40|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_flag_and_cnts_logic.v":1027:29:1027:41|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_flag_and_cnts_logic.v":1031:29:1031:40|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_flag_and_cnts_logic.v":1232:29:1232:41|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_flag_and_cnts_logic.v":1236:29:1236:40|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_flag_and_cnts_logic.v":1328:29:1328:41|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_flag_and_cnts_logic.v":1333:29:1333:40|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_flag_and_cnts_logic.v":1467:29:1467:41|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_flag_and_cnts_logic.v":1471:29:1471:40|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_flag_and_cnts_logic.v":1665:29:1665:41|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_flag_and_cnts_logic.v":1667:29:1667:40|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_flag_and_cnts_logic.v":1693:29:1693:41|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_flag_and_cnts_logic.v":1695:29:1695:40|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_flag_and_cnts_logic.v":1766:29:1766:41|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_flag_and_cnts_logic.v":1768:29:1768:40|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_flag_and_cnts_logic.v":1794:29:1794:41|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_flag_and_cnts_logic.v":1796:29:1796:40|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_flag_and_cnts_logic.v":1844:29:1844:41|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_flag_and_cnts_logic.v":1848:29:1848:40|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_flag_and_cnts_logic.v":1895:29:1895:41|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_flag_and_cnts_logic.v":1899:29:1899:40|Read directive translate_on.
+@I:"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc.v":"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_gray_reg.v" (library work)
+@N: CG334 :"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_gray_reg.v":145:17:145:29|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_gray_reg.v":149:17:149:28|Read directive translate_on.
+@I:"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc.v":"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_gray_synchronizer.v" (library work)
+@N: CG334 :"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_gray_synchronizer.v":150:17:150:29|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_gray_synchronizer.v":155:17:155:28|Read directive translate_on.
+@I:"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc.v":"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_harden_prim.v" (library work)
+@I:"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc.v":"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_harden_rd_ctrl_logic.v" (library work)
+@N: CG334 :"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_harden_rd_ctrl_logic.v":229:25:229:37|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_harden_rd_ctrl_logic.v":233:25:233:36|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_harden_rd_ctrl_logic.v":247:29:247:41|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_harden_rd_ctrl_logic.v":249:29:249:40|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_harden_rd_ctrl_logic.v":300:29:300:41|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_harden_rd_ctrl_logic.v":304:29:304:40|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_harden_rd_ctrl_logic.v":339:29:339:41|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_harden_rd_ctrl_logic.v":343:29:343:40|Read directive translate_on.
+@I:"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc.v":"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_harden_rd_output_logic.v" (library work)
+@I:"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc.v":"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_harden_ring_counter.v" (library work)
+@N: CG334 :"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_harden_ring_counter.v":152:17:152:29|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_harden_ring_counter.v":157:17:157:28|Read directive translate_on.
+@I:"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc.v":"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_harden_wr_ctrl_logic.v" (library work)
+@N: CG334 :"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_harden_wr_ctrl_logic.v":195:29:195:41|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_harden_wr_ctrl_logic.v":197:29:197:40|Read directive translate_on.
+@I:"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc.v":"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_harden.v" (library work)
+@I:"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc.v":"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_prim_gen.v" (library work)
+@N: CG334 :"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_prim_gen.v":330:25:330:37|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_prim_gen.v":335:25:335:36|Read directive translate_on.
+@I:"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc.v":"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_rd_ctrl_logic.v" (library work)
+@N: CG334 :"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_rd_ctrl_logic.v":185:25:185:37|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_rd_ctrl_logic.v":189:25:189:36|Read directive translate_on.
+@I:"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc.v":"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_wr_ctrl_logic.v" (library work)
+@N: CG334 :"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_wr_ctrl_logic.v":167:25:167:37|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_wr_ctrl_logic.v":171:25:171:36|Read directive translate_on.
+@I:"C:\lscc\radiant\2026.1\ip\pmi\pmi_iCE40UP.v":"C:\lscc\radiant\2026.1\ip\pmi\pmi_mac.v" (library work)
+@I:"C:\lscc\radiant\2026.1\ip\pmi\pmi_mac.v":"C:\lscc\radiant\2026.1\ip\pmi\../common/mult_accumulate/rtl\lscc_mult_accumulate.v" (library work)
+@N: CG334 :"C:\lscc\radiant\2026.1\ip\pmi\pmi_mac.v":94:11:94:23|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2026.1\ip\pmi\pmi_mac.v":109:11:109:22|Read directive translate_on.
+@I:"C:\lscc\radiant\2026.1\ip\pmi\pmi_iCE40UP.v":"C:\lscc\radiant\2026.1\ip\pmi\pmi_multaddsubsum.v" (library work)
+@I:"C:\lscc\radiant\2026.1\ip\pmi\pmi_multaddsubsum.v":"C:\lscc\radiant\2026.1\ip\pmi\../common/mult_add_sub_sum/rtl\lscc_mult_add_sub_sum.v" (library work)
+@N: CG334 :"C:\lscc\radiant\2026.1\ip\pmi\../common/mult_add_sub_sum/rtl\lscc_mult_add_sub_sum.v":210:13:210:25|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2026.1\ip\pmi\../common/mult_add_sub_sum/rtl\lscc_mult_add_sub_sum.v":227:13:227:24|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\2026.1\ip\pmi\pmi_multaddsubsum.v":84:11:84:23|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2026.1\ip\pmi\pmi_multaddsubsum.v":93:11:93:22|Read directive translate_on.
+@I:"C:\lscc\radiant\2026.1\ip\pmi\pmi_iCE40UP.v":"C:\lscc\radiant\2026.1\ip\pmi\pmi_multaddsub.v" (library work)
+@I:"C:\lscc\radiant\2026.1\ip\pmi\pmi_multaddsub.v":"C:\lscc\radiant\2026.1\ip\pmi\../common/mult_add_sub/rtl\lscc_mult_add_sub.v" (library work)
+@N: CG334 :"C:\lscc\radiant\2026.1\ip\pmi\pmi_multaddsub.v":91:11:91:23|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2026.1\ip\pmi\pmi_multaddsub.v":100:11:100:22|Read directive translate_on.
+@I:"C:\lscc\radiant\2026.1\ip\pmi\pmi_iCE40UP.v":"C:\lscc\radiant\2026.1\ip\pmi\pmi_mult.v" (library work)
+@I:"C:\lscc\radiant\2026.1\ip\pmi\pmi_mult.v":"C:\lscc\radiant\2026.1\ip\pmi\../common/multiplier/rtl\lscc_multiplier.v" (library work)
+@N: CG334 :"C:\lscc\radiant\2026.1\ip\pmi\pmi_mult.v":87:11:87:23|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2026.1\ip\pmi\pmi_mult.v":96:11:96:22|Read directive translate_on.
+@I:"C:\lscc\radiant\2026.1\ip\pmi\pmi_iCE40UP.v":"C:\lscc\radiant\2026.1\ip\pmi\pmi_ram_dp.v" (library work)
+@I:"C:\lscc\radiant\2026.1\ip\pmi\pmi_ram_dp.v":"C:\lscc\radiant\2026.1\ip\pmi\../common/ram_dp/rtl\lscc_ram_dp.v" (library work)
+@N: CG334 :"C:\lscc\radiant\2026.1\ip\pmi\../common/ram_dp/rtl\lscc_ram_dp.v":1060:25:1060:37|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2026.1\ip\pmi\../common/ram_dp/rtl\lscc_ram_dp.v":1064:25:1064:36|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\2026.1\ip\pmi\../common/ram_dp/rtl\lscc_ram_dp.v":1095:29:1095:41|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2026.1\ip\pmi\../common/ram_dp/rtl\lscc_ram_dp.v":1099:29:1099:40|Read directive translate_on.
+@I:"C:\lscc\radiant\2026.1\ip\pmi\pmi_ram_dp.v":"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/ram_dp/rtl\lscc_lfmxo4_ram_dp.v" (library work)
+@I:"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/ram_dp/rtl\lscc_lfmxo4_ram_dp.v":"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/ram_dp/rtl\lscc_lfmxo4_ram_dp_impl.v" (library work)
+@I:"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/ram_dp/rtl\lscc_lfmxo4_ram_dp_impl.v":"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/ram_dp/rtl\lscc_lfmxo4_ram_dp_behavioral.v" (library work)
+@I:"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/ram_dp/rtl\lscc_lfmxo4_ram_dp_impl.v":"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/ram_dp/rtl\lscc_lfmxo4_ram_dp_lut_decode.v" (library work)
+@I:"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/ram_dp/rtl\lscc_lfmxo4_ram_dp_impl.v":"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/ram_dp/rtl\lscc_lfmxo4_ram_dp_functions.vh" (library work)
+@N: CG334 :"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/ram_dp/rtl\lscc_lfmxo4_ram_dp_impl.v":1034:17:1034:29|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/ram_dp/rtl\lscc_lfmxo4_ram_dp_impl.v":1038:17:1038:28|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/ram_dp/rtl\lscc_lfmxo4_ram_dp_impl.v":3344:25:3344:37|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/ram_dp/rtl\lscc_lfmxo4_ram_dp_impl.v":3348:25:3348:36|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/ram_dp/rtl\lscc_lfmxo4_ram_dp_impl.v":3559:17:3559:29|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/ram_dp/rtl\lscc_lfmxo4_ram_dp_impl.v":3563:17:3563:28|Read directive translate_on.
+@I:"C:\lscc\radiant\2026.1\ip\pmi\pmi_iCE40UP.v":"C:\lscc\radiant\2026.1\ip\pmi\pmi_ram_dq.v" (library work)
+@I:"C:\lscc\radiant\2026.1\ip\pmi\pmi_ram_dq.v":"C:\lscc\radiant\2026.1\ip\pmi\../common/ram_dq/rtl\lscc_ram_dq.v" (library work)
+@N: CG334 :"C:\lscc\radiant\2026.1\ip\pmi\../common/ram_dq/rtl\lscc_ram_dq.v":1485:25:1485:37|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2026.1\ip\pmi\../common/ram_dq/rtl\lscc_ram_dq.v":1491:25:1491:36|Read directive translate_on.
+@I:"C:\lscc\radiant\2026.1\ip\pmi\pmi_ram_dq.v":"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/ram_dq/rtl\lscc_lfmxo4_ram_dq.v" (library work)
+@I:"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/ram_dq/rtl\lscc_lfmxo4_ram_dq.v":"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/ram_dq/rtl\hsiao_ecc_encoder.v" (library work)
+@I:"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/ram_dq/rtl\lscc_lfmxo4_ram_dq.v":"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/ram_dq/rtl\hsiao_ecc_decoder.v" (library work)
+@I:"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/ram_dq/rtl\lscc_lfmxo4_ram_dq.v":"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/ram_dq/rtl\lscc_lfmxo4_ram_dq_lut_decode.v" (library work)
+@I:"C:\lscc\radiant\2026.1\ip\pmi\pmi_iCE40UP.v":"C:\lscc\radiant\2026.1\ip\pmi\pmi_rom.v" (library work)
+@I:"C:\lscc\radiant\2026.1\ip\pmi\pmi_rom.v":"C:\lscc\radiant\2026.1\ip\pmi\../common/rom/rtl\lscc_rom.v" (library work)
+@N: CG334 :"C:\lscc\radiant\2026.1\ip\pmi\../common/rom/rtl\lscc_rom.v":970:25:970:37|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2026.1\ip\pmi\../common/rom/rtl\lscc_rom.v":976:25:976:36|Read directive translate_on.
+@I:"C:\lscc\radiant\2026.1\ip\pmi\pmi_iCE40UP.v":"C:\lscc\radiant\2026.1\ip\pmi\pmi_sub.v" (library work)
+@I:"C:\lscc\radiant\2026.1\ip\pmi\pmi_sub.v":"C:\lscc\radiant\2026.1\ip\pmi\../common/subtractor/rtl\lscc_subtractor.v" (library work)
+@I:"C:\lscc\radiant\2026.1\ip\pmi\pmi_iCE40UP.v":"C:\lscc\radiant\2026.1\ip\pmi\pmi_ram_dp_be.v" (library work)
+@N: CG334 :"C:\lscc\radiant\2026.1\ip\pmi\pmi_ram_dp_be.v":194:11:194:23|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2026.1\ip\pmi\pmi_ram_dp_be.v":203:11:203:22|Read directive translate_on.
+@I:"C:\lscc\radiant\2026.1\ip\pmi\pmi_iCE40UP.v":"C:\lscc\radiant\2026.1\ip\pmi\pmi_ram_dq_be.v" (library work)
+@N: CG334 :"C:\lscc\radiant\2026.1\ip\pmi\pmi_ram_dq_be.v":92:11:92:23|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2026.1\ip\pmi\pmi_ram_dq_be.v":100:11:100:22|Read directive translate_on.
+@I:"C:\lscc\radiant\2026.1\ip\pmi\pmi_iCE40UP.v":"C:\lscc\radiant\2026.1\ip\pmi\pmi_dsp.v" (library work)
+@I::"C:\Users\skantimahanty\Documents\GitHub\engr155-lab3\project files\source\impl_1\counter.sv" (library work)
+@I::"C:\Users\skantimahanty\Documents\GitHub\engr155-lab3\project files\source\impl_1\lab3_skm.sv" (library work)
+@I::"C:\Users\skantimahanty\Documents\GitHub\engr155-lab3\project files\source\impl_1\lab2_scanner.sv" (library work)
+@I::"C:\Users\skantimahanty\Documents\GitHub\engr155-lab3\project files\source\impl_1\lab2_sevenseg.sv" (library work)
+@I::"C:\Users\skantimahanty\Documents\GitHub\engr155-lab3\project files\source\impl_1\lab3debouncer.sv" (library work)
+@I::"C:\Users\skantimahanty\Documents\GitHub\engr155-lab3\project files\source\impl_1\lab3led.sv" (library work)
+@I::"C:\Users\skantimahanty\Documents\GitHub\engr155-lab3\project files\source\impl_1\lab3main.sv" (library work)
+Verilog syntax check successful!
+
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 183MB peak: 184MB)
+
+
+Process completed successfully.
+# Sat Sep 19 18:19:38 2026
+
+###########################################################]
+###########################################################[
+@I::"C:\lscc\radiant\2026.1\synpbase\lib\generic\ice40up.v" (library work)
+@I::"C:\lscc\radiant\2026.1\synpbase\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"C:\lscc\radiant\2026.1\ip\pmi\pmi_iCE40UP.v" (library work)
+@I:"C:\lscc\radiant\2026.1\ip\pmi\pmi_iCE40UP.v":"C:\lscc\radiant\2026.1\ip\pmi\pmi_addsub.v" (library work)
+@I:"C:\lscc\radiant\2026.1\ip\pmi\pmi_addsub.v":"C:\lscc\radiant\2026.1\ip\pmi\../common/adder_subtractor/rtl\lscc_add_sub.v" (library work)
+@N: CG334 :"C:\lscc\radiant\2026.1\ip\pmi\../common/adder_subtractor/rtl\lscc_add_sub.v":313:13:313:25|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2026.1\ip\pmi\../common/adder_subtractor/rtl\lscc_add_sub.v":333:13:333:24|Read directive translate_on.
+@I:"C:\lscc\radiant\2026.1\ip\pmi\pmi_iCE40UP.v":"C:\lscc\radiant\2026.1\ip\pmi\pmi_add.v" (library work)
+@I:"C:\lscc\radiant\2026.1\ip\pmi\pmi_add.v":"C:\lscc\radiant\2026.1\ip\pmi\../common/adder/rtl\lscc_adder.v" (library work)
+@I:"C:\lscc\radiant\2026.1\ip\pmi\pmi_iCE40UP.v":"C:\lscc\radiant\2026.1\ip\pmi\pmi_complex_mult.v" (library work)
+@I:"C:\lscc\radiant\2026.1\ip\pmi\pmi_complex_mult.v":"C:\lscc\radiant\2026.1\ip\pmi\../common/complex_mult/rtl\lscc_complex_mult.v" (library work)
+@N: CG334 :"C:\lscc\radiant\2026.1\ip\pmi\pmi_complex_mult.v":92:11:92:23|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2026.1\ip\pmi\pmi_complex_mult.v":101:11:101:22|Read directive translate_on.
+@I:"C:\lscc\radiant\2026.1\ip\pmi\pmi_iCE40UP.v":"C:\lscc\radiant\2026.1\ip\pmi\pmi_counter.v" (library work)
+@I:"C:\lscc\radiant\2026.1\ip\pmi\pmi_counter.v":"C:\lscc\radiant\2026.1\ip\pmi\../common/counter/rtl\lscc_cntr.v" (library work)
+@N: CG334 :"C:\lscc\radiant\2026.1\ip\pmi\../common/counter/rtl\lscc_cntr.v":129:13:129:25|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2026.1\ip\pmi\../common/counter/rtl\lscc_cntr.v":143:13:143:24|Read directive translate_on.
+@I:"C:\lscc\radiant\2026.1\ip\pmi\pmi_iCE40UP.v":"C:\lscc\radiant\2026.1\ip\pmi\pmi_fifo.v" (library work)
+@I:"C:\lscc\radiant\2026.1\ip\pmi\pmi_fifo.v":"C:\lscc\radiant\2026.1\ip\pmi\../common/fifo/rtl\lscc_fifo.v" (library work)
+@N: CG334 :"C:\lscc\radiant\2026.1\ip\pmi\../common/fifo/rtl\lscc_fifo.v":3275:17:3275:29|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2026.1\ip\pmi\../common/fifo/rtl\lscc_fifo.v":3282:17:3282:28|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\2026.1\ip\pmi\../common/fifo/rtl\lscc_fifo.v":3339:17:3339:29|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2026.1\ip\pmi\../common/fifo/rtl\lscc_fifo.v":3346:17:3346:28|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\2026.1\ip\pmi\../common/fifo/rtl\lscc_fifo.v":3401:17:3401:29|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2026.1\ip\pmi\../common/fifo/rtl\lscc_fifo.v":3408:17:3408:28|Read directive translate_on.
+@I:"C:\lscc\radiant\2026.1\ip\pmi\pmi_iCE40UP.v":"C:\lscc\radiant\2026.1\ip\pmi\pmi_fifo_dc.v" (library work)
+@I:"C:\lscc\radiant\2026.1\ip\pmi\pmi_fifo_dc.v":"C:\lscc\radiant\2026.1\ip\pmi\../common/fifo_dc/rtl\lscc_fifo_dc.v" (library work)
+@N: CG334 :"C:\lscc\radiant\2026.1\ip\pmi\../common/fifo_dc/rtl\lscc_fifo_dc.v":5142:25:5142:37|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2026.1\ip\pmi\../common/fifo_dc/rtl\lscc_fifo_dc.v":5146:25:5146:36|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\2026.1\ip\pmi\../common/fifo_dc/rtl\lscc_fifo_dc.v":5177:29:5177:41|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2026.1\ip\pmi\../common/fifo_dc/rtl\lscc_fifo_dc.v":5181:29:5181:40|Read directive translate_on.
+@I:"C:\lscc\radiant\2026.1\ip\pmi\pmi_fifo_dc.v":"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc.v" (library work)
+@I:"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc.v":"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_distributed_ram.v" (library work)
+@N: CG334 :"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_distributed_ram.v":170:17:170:29|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_distributed_ram.v":178:17:178:28|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_distributed_ram.v":222:25:222:37|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_distributed_ram.v":226:25:226:36|Read directive translate_on.
+@I:"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc.v":"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_ecc.v" (library work)
+@I:"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc.v":"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_flag_and_cnts_logic.v" (library work)
+@N: CG334 :"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_flag_and_cnts_logic.v":639:25:639:37|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_flag_and_cnts_logic.v":646:25:646:36|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_flag_and_cnts_logic.v":788:29:788:41|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_flag_and_cnts_logic.v":792:29:792:40|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_flag_and_cnts_logic.v":893:29:893:41|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_flag_and_cnts_logic.v":898:29:898:40|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_flag_and_cnts_logic.v":1027:29:1027:41|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_flag_and_cnts_logic.v":1031:29:1031:40|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_flag_and_cnts_logic.v":1232:29:1232:41|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_flag_and_cnts_logic.v":1236:29:1236:40|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_flag_and_cnts_logic.v":1328:29:1328:41|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_flag_and_cnts_logic.v":1333:29:1333:40|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_flag_and_cnts_logic.v":1467:29:1467:41|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_flag_and_cnts_logic.v":1471:29:1471:40|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_flag_and_cnts_logic.v":1665:29:1665:41|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_flag_and_cnts_logic.v":1667:29:1667:40|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_flag_and_cnts_logic.v":1693:29:1693:41|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_flag_and_cnts_logic.v":1695:29:1695:40|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_flag_and_cnts_logic.v":1766:29:1766:41|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_flag_and_cnts_logic.v":1768:29:1768:40|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_flag_and_cnts_logic.v":1794:29:1794:41|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_flag_and_cnts_logic.v":1796:29:1796:40|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_flag_and_cnts_logic.v":1844:29:1844:41|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_flag_and_cnts_logic.v":1848:29:1848:40|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_flag_and_cnts_logic.v":1895:29:1895:41|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_flag_and_cnts_logic.v":1899:29:1899:40|Read directive translate_on.
+@I:"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc.v":"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_gray_reg.v" (library work)
+@N: CG334 :"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_gray_reg.v":145:17:145:29|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_gray_reg.v":149:17:149:28|Read directive translate_on.
+@I:"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc.v":"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_gray_synchronizer.v" (library work)
+@N: CG334 :"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_gray_synchronizer.v":150:17:150:29|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_gray_synchronizer.v":155:17:155:28|Read directive translate_on.
+@I:"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc.v":"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_harden_prim.v" (library work)
+@I:"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc.v":"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_harden_rd_ctrl_logic.v" (library work)
+@N: CG334 :"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_harden_rd_ctrl_logic.v":229:25:229:37|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_harden_rd_ctrl_logic.v":233:25:233:36|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_harden_rd_ctrl_logic.v":247:29:247:41|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_harden_rd_ctrl_logic.v":249:29:249:40|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_harden_rd_ctrl_logic.v":300:29:300:41|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_harden_rd_ctrl_logic.v":304:29:304:40|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_harden_rd_ctrl_logic.v":339:29:339:41|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_harden_rd_ctrl_logic.v":343:29:343:40|Read directive translate_on.
+@I:"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc.v":"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_harden_rd_output_logic.v" (library work)
+@I:"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc.v":"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_harden_ring_counter.v" (library work)
+@N: CG334 :"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_harden_ring_counter.v":152:17:152:29|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_harden_ring_counter.v":157:17:157:28|Read directive translate_on.
+@I:"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc.v":"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_harden_wr_ctrl_logic.v" (library work)
+@N: CG334 :"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_harden_wr_ctrl_logic.v":195:29:195:41|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_harden_wr_ctrl_logic.v":197:29:197:40|Read directive translate_on.
+@I:"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc.v":"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_harden.v" (library work)
+@I:"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc.v":"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_prim_gen.v" (library work)
+@N: CG334 :"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_prim_gen.v":330:25:330:37|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_prim_gen.v":335:25:335:36|Read directive translate_on.
+@I:"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc.v":"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_rd_ctrl_logic.v" (library work)
+@N: CG334 :"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_rd_ctrl_logic.v":185:25:185:37|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_rd_ctrl_logic.v":189:25:189:36|Read directive translate_on.
+@I:"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc.v":"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_wr_ctrl_logic.v" (library work)
+@N: CG334 :"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_wr_ctrl_logic.v":167:25:167:37|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/fifo_dc/rtl\lscc_lfmxo4_fifo_dc_wr_ctrl_logic.v":171:25:171:36|Read directive translate_on.
+@I:"C:\lscc\radiant\2026.1\ip\pmi\pmi_iCE40UP.v":"C:\lscc\radiant\2026.1\ip\pmi\pmi_mac.v" (library work)
+@I:"C:\lscc\radiant\2026.1\ip\pmi\pmi_mac.v":"C:\lscc\radiant\2026.1\ip\pmi\../common/mult_accumulate/rtl\lscc_mult_accumulate.v" (library work)
+@N: CG334 :"C:\lscc\radiant\2026.1\ip\pmi\pmi_mac.v":94:11:94:23|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2026.1\ip\pmi\pmi_mac.v":109:11:109:22|Read directive translate_on.
+@I:"C:\lscc\radiant\2026.1\ip\pmi\pmi_iCE40UP.v":"C:\lscc\radiant\2026.1\ip\pmi\pmi_multaddsubsum.v" (library work)
+@I:"C:\lscc\radiant\2026.1\ip\pmi\pmi_multaddsubsum.v":"C:\lscc\radiant\2026.1\ip\pmi\../common/mult_add_sub_sum/rtl\lscc_mult_add_sub_sum.v" (library work)
+@N: CG334 :"C:\lscc\radiant\2026.1\ip\pmi\../common/mult_add_sub_sum/rtl\lscc_mult_add_sub_sum.v":210:13:210:25|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2026.1\ip\pmi\../common/mult_add_sub_sum/rtl\lscc_mult_add_sub_sum.v":227:13:227:24|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\2026.1\ip\pmi\pmi_multaddsubsum.v":84:11:84:23|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2026.1\ip\pmi\pmi_multaddsubsum.v":93:11:93:22|Read directive translate_on.
+@I:"C:\lscc\radiant\2026.1\ip\pmi\pmi_iCE40UP.v":"C:\lscc\radiant\2026.1\ip\pmi\pmi_multaddsub.v" (library work)
+@I:"C:\lscc\radiant\2026.1\ip\pmi\pmi_multaddsub.v":"C:\lscc\radiant\2026.1\ip\pmi\../common/mult_add_sub/rtl\lscc_mult_add_sub.v" (library work)
+@N: CG334 :"C:\lscc\radiant\2026.1\ip\pmi\pmi_multaddsub.v":91:11:91:23|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2026.1\ip\pmi\pmi_multaddsub.v":100:11:100:22|Read directive translate_on.
+@I:"C:\lscc\radiant\2026.1\ip\pmi\pmi_iCE40UP.v":"C:\lscc\radiant\2026.1\ip\pmi\pmi_mult.v" (library work)
+@I:"C:\lscc\radiant\2026.1\ip\pmi\pmi_mult.v":"C:\lscc\radiant\2026.1\ip\pmi\../common/multiplier/rtl\lscc_multiplier.v" (library work)
+@N: CG334 :"C:\lscc\radiant\2026.1\ip\pmi\pmi_mult.v":87:11:87:23|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2026.1\ip\pmi\pmi_mult.v":96:11:96:22|Read directive translate_on.
+@I:"C:\lscc\radiant\2026.1\ip\pmi\pmi_iCE40UP.v":"C:\lscc\radiant\2026.1\ip\pmi\pmi_ram_dp.v" (library work)
+@I:"C:\lscc\radiant\2026.1\ip\pmi\pmi_ram_dp.v":"C:\lscc\radiant\2026.1\ip\pmi\../common/ram_dp/rtl\lscc_ram_dp.v" (library work)
+@N: CG334 :"C:\lscc\radiant\2026.1\ip\pmi\../common/ram_dp/rtl\lscc_ram_dp.v":1060:25:1060:37|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2026.1\ip\pmi\../common/ram_dp/rtl\lscc_ram_dp.v":1064:25:1064:36|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\2026.1\ip\pmi\../common/ram_dp/rtl\lscc_ram_dp.v":1095:29:1095:41|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2026.1\ip\pmi\../common/ram_dp/rtl\lscc_ram_dp.v":1099:29:1099:40|Read directive translate_on.
+@I:"C:\lscc\radiant\2026.1\ip\pmi\pmi_ram_dp.v":"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/ram_dp/rtl\lscc_lfmxo4_ram_dp.v" (library work)
+@I:"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/ram_dp/rtl\lscc_lfmxo4_ram_dp.v":"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/ram_dp/rtl\lscc_lfmxo4_ram_dp_impl.v" (library work)
+@I:"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/ram_dp/rtl\lscc_lfmxo4_ram_dp_impl.v":"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/ram_dp/rtl\lscc_lfmxo4_ram_dp_behavioral.v" (library work)
+@I:"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/ram_dp/rtl\lscc_lfmxo4_ram_dp_impl.v":"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/ram_dp/rtl\lscc_lfmxo4_ram_dp_lut_decode.v" (library work)
+@I:"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/ram_dp/rtl\lscc_lfmxo4_ram_dp_impl.v":"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/ram_dp/rtl\lscc_lfmxo4_ram_dp_functions.vh" (library work)
+@N: CG334 :"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/ram_dp/rtl\lscc_lfmxo4_ram_dp_impl.v":1034:17:1034:29|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/ram_dp/rtl\lscc_lfmxo4_ram_dp_impl.v":1038:17:1038:28|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/ram_dp/rtl\lscc_lfmxo4_ram_dp_impl.v":3344:25:3344:37|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/ram_dp/rtl\lscc_lfmxo4_ram_dp_impl.v":3348:25:3348:36|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/ram_dp/rtl\lscc_lfmxo4_ram_dp_impl.v":3559:17:3559:29|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/ram_dp/rtl\lscc_lfmxo4_ram_dp_impl.v":3563:17:3563:28|Read directive translate_on.
+@I:"C:\lscc\radiant\2026.1\ip\pmi\pmi_iCE40UP.v":"C:\lscc\radiant\2026.1\ip\pmi\pmi_ram_dq.v" (library work)
+@I:"C:\lscc\radiant\2026.1\ip\pmi\pmi_ram_dq.v":"C:\lscc\radiant\2026.1\ip\pmi\../common/ram_dq/rtl\lscc_ram_dq.v" (library work)
+@N: CG334 :"C:\lscc\radiant\2026.1\ip\pmi\../common/ram_dq/rtl\lscc_ram_dq.v":1485:25:1485:37|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2026.1\ip\pmi\../common/ram_dq/rtl\lscc_ram_dq.v":1491:25:1491:36|Read directive translate_on.
+@I:"C:\lscc\radiant\2026.1\ip\pmi\pmi_ram_dq.v":"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/ram_dq/rtl\lscc_lfmxo4_ram_dq.v" (library work)
+@I:"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/ram_dq/rtl\lscc_lfmxo4_ram_dq.v":"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/ram_dq/rtl\hsiao_ecc_encoder.v" (library work)
+@I:"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/ram_dq/rtl\lscc_lfmxo4_ram_dq.v":"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/ram_dq/rtl\hsiao_ecc_decoder.v" (library work)
+@I:"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/ram_dq/rtl\lscc_lfmxo4_ram_dq.v":"C:\lscc\radiant\2026.1\ip\pmi\../LFMXO4/ram_dq/rtl\lscc_lfmxo4_ram_dq_lut_decode.v" (library work)
+@I:"C:\lscc\radiant\2026.1\ip\pmi\pmi_iCE40UP.v":"C:\lscc\radiant\2026.1\ip\pmi\pmi_rom.v" (library work)
+@I:"C:\lscc\radiant\2026.1\ip\pmi\pmi_rom.v":"C:\lscc\radiant\2026.1\ip\pmi\../common/rom/rtl\lscc_rom.v" (library work)
+@N: CG334 :"C:\lscc\radiant\2026.1\ip\pmi\../common/rom/rtl\lscc_rom.v":970:25:970:37|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2026.1\ip\pmi\../common/rom/rtl\lscc_rom.v":976:25:976:36|Read directive translate_on.
+@I:"C:\lscc\radiant\2026.1\ip\pmi\pmi_iCE40UP.v":"C:\lscc\radiant\2026.1\ip\pmi\pmi_sub.v" (library work)
+@I:"C:\lscc\radiant\2026.1\ip\pmi\pmi_sub.v":"C:\lscc\radiant\2026.1\ip\pmi\../common/subtractor/rtl\lscc_subtractor.v" (library work)
+@I:"C:\lscc\radiant\2026.1\ip\pmi\pmi_iCE40UP.v":"C:\lscc\radiant\2026.1\ip\pmi\pmi_ram_dp_be.v" (library work)
+@N: CG334 :"C:\lscc\radiant\2026.1\ip\pmi\pmi_ram_dp_be.v":194:11:194:23|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2026.1\ip\pmi\pmi_ram_dp_be.v":203:11:203:22|Read directive translate_on.
+@I:"C:\lscc\radiant\2026.1\ip\pmi\pmi_iCE40UP.v":"C:\lscc\radiant\2026.1\ip\pmi\pmi_ram_dq_be.v" (library work)
+@N: CG334 :"C:\lscc\radiant\2026.1\ip\pmi\pmi_ram_dq_be.v":92:11:92:23|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2026.1\ip\pmi\pmi_ram_dq_be.v":100:11:100:22|Read directive translate_on.
+@I:"C:\lscc\radiant\2026.1\ip\pmi\pmi_iCE40UP.v":"C:\lscc\radiant\2026.1\ip\pmi\pmi_dsp.v" (library work)
+@I::"C:\Users\skantimahanty\Documents\GitHub\engr155-lab3\project files\source\impl_1\counter.sv" (library work)
+@I::"C:\Users\skantimahanty\Documents\GitHub\engr155-lab3\project files\source\impl_1\lab3_skm.sv" (library work)
+@I::"C:\Users\skantimahanty\Documents\GitHub\engr155-lab3\project files\source\impl_1\lab2_scanner.sv" (library work)
+@I::"C:\Users\skantimahanty\Documents\GitHub\engr155-lab3\project files\source\impl_1\lab2_sevenseg.sv" (library work)
+@I::"C:\Users\skantimahanty\Documents\GitHub\engr155-lab3\project files\source\impl_1\lab3debouncer.sv" (library work)
+@I::"C:\Users\skantimahanty\Documents\GitHub\engr155-lab3\project files\source\impl_1\lab3led.sv" (library work)
+@I::"C:\Users\skantimahanty\Documents\GitHub\engr155-lab3\project files\source\impl_1\lab3main.sv" (library work)
+Verilog syntax check successful!
+File C:\Users\skantimahanty\Documents\GitHub\engr155-lab3\project files\source\impl_1\lab3_skm.sv changed - recompiling
+@N: CG364 :"C:\lscc\radiant\2026.1\synpbase\lib\generic\ice40up.v":795:7:795:11|Synthesizing module HSOSC in library work.
+Running optimization stage 1 on HSOSC .......
+Finished optimization stage 1 on HSOSC (CPU Time 0h:00m:00s, Memory Used current: 185MB peak: 186MB)
+@N: CG364 :"C:\Users\skantimahanty\Documents\GitHub\engr155-lab3\project files\source\impl_1\counter.sv":5:7:5:13|Synthesizing module counter in library work.
+
+	width=32'b00000000000000000000000000011000
+	max_count=24'b000000000101110110111111
+   Generated name = counter_24s_23999
+Running optimization stage 1 on counter_24s_23999 .......
+Finished optimization stage 1 on counter_24s_23999 (CPU Time 0h:00m:00s, Memory Used current: 186MB peak: 186MB)
+@N: CG364 :"C:\Users\skantimahanty\Documents\GitHub\engr155-lab3\project files\source\impl_1\lab2_scanner.sv":5:7:5:18|Synthesizing module lab2_scanner in library work.
+
+	width=32'b00000000000000000000000000011000
+	max_count=24'b000000000101110110111111
+   Generated name = lab2_scanner_24s_23999
+Running optimization stage 1 on lab2_scanner_24s_23999 .......
+Finished optimization stage 1 on lab2_scanner_24s_23999 (CPU Time 0h:00m:00s, Memory Used current: 186MB peak: 187MB)
+@N: CG364 :"C:\Users\skantimahanty\Documents\GitHub\engr155-lab3\project files\source\impl_1\lab3main.sv":1:7:1:14|Synthesizing module lab3main in library work.
+Running optimization stage 1 on lab3main .......
+Finished optimization stage 1 on lab3main (CPU Time 0h:00m:00s, Memory Used current: 186MB peak: 187MB)
+@N: CG364 :"C:\Users\skantimahanty\Documents\GitHub\engr155-lab3\project files\source\impl_1\counter.sv":5:7:5:13|Synthesizing module counter in library work.
+
+	width=32'b00000000000000000000000000011000
+	max_count=24'b000000010111011011111111
+   Generated name = counter_24s_95999
+Running optimization stage 1 on counter_24s_95999 .......
+Finished optimization stage 1 on counter_24s_95999 (CPU Time 0h:00m:00s, Memory Used current: 186MB peak: 187MB)
+@N: CG364 :"C:\Users\skantimahanty\Documents\GitHub\engr155-lab3\project files\source\impl_1\lab3debouncer.sv":6:7:6:19|Synthesizing module lab3debouncer in library work.
+Running optimization stage 1 on lab3debouncer .......
+Finished optimization stage 1 on lab3debouncer (CPU Time 0h:00m:00s, Memory Used current: 187MB peak: 188MB)
+@N: CG364 :"C:\Users\skantimahanty\Documents\GitHub\engr155-lab3\project files\source\impl_1\lab2_sevenseg.sv":5:7:5:19|Synthesizing module lab2_sevenseg in library work.
+Running optimization stage 1 on lab2_sevenseg .......
+Finished optimization stage 1 on lab2_sevenseg (CPU Time 0h:00m:00s, Memory Used current: 187MB peak: 188MB)
+@N: CG364 :"C:\Users\skantimahanty\Documents\GitHub\engr155-lab3\project files\source\impl_1\lab3led.sv":5:7:5:13|Synthesizing module lab3led in library work.
+Running optimization stage 1 on lab3led .......
+Finished optimization stage 1 on lab3led (CPU Time 0h:00m:00s, Memory Used current: 188MB peak: 189MB)
+@N: CG364 :"C:\Users\skantimahanty\Documents\GitHub\engr155-lab3\project files\source\impl_1\counter.sv":5:7:5:13|Synthesizing module counter in library work.
+
+	width=32'b00000000000000000000000000011000
+	max_count=24'b000000110000110100111111
+   Generated name = counter_24s_199999
+Running optimization stage 1 on counter_24s_199999 .......
+Finished optimization stage 1 on counter_24s_199999 (CPU Time 0h:00m:00s, Memory Used current: 188MB peak: 189MB)
+@N: CG364 :"C:\Users\skantimahanty\Documents\GitHub\engr155-lab3\project files\source\impl_1\lab3_skm.sv":6:7:6:14|Synthesizing module lab3_skm in library work.
+Running optimization stage 1 on lab3_skm .......
+Finished optimization stage 1 on lab3_skm (CPU Time 0h:00m:00s, Memory Used current: 188MB peak: 189MB)
+Running optimization stage 2 on lab3_skm .......
+Finished optimization stage 2 on lab3_skm (CPU Time 0h:00m:00s, Memory Used current: 188MB peak: 189MB)
+Running optimization stage 2 on counter_24s_199999 .......
+Finished optimization stage 2 on counter_24s_199999 (CPU Time 0h:00m:00s, Memory Used current: 188MB peak: 189MB)
+Running optimization stage 2 on lab3led .......
+Finished optimization stage 2 on lab3led (CPU Time 0h:00m:00s, Memory Used current: 188MB peak: 189MB)
+Running optimization stage 2 on lab2_sevenseg .......
+Finished optimization stage 2 on lab2_sevenseg (CPU Time 0h:00m:00s, Memory Used current: 188MB peak: 189MB)
+Running optimization stage 2 on lab3debouncer .......
+Finished optimization stage 2 on lab3debouncer (CPU Time 0h:00m:00s, Memory Used current: 189MB peak: 190MB)
+Running optimization stage 2 on counter_24s_95999 .......
+Finished optimization stage 2 on counter_24s_95999 (CPU Time 0h:00m:00s, Memory Used current: 189MB peak: 190MB)
+Running optimization stage 2 on lab3main .......
+Finished optimization stage 2 on lab3main (CPU Time 0h:00m:00s, Memory Used current: 189MB peak: 190MB)
+Running optimization stage 2 on lab2_scanner_24s_23999 .......
+Finished optimization stage 2 on lab2_scanner_24s_23999 (CPU Time 0h:00m:00s, Memory Used current: 189MB peak: 190MB)
+Running optimization stage 2 on counter_24s_23999 .......
+Finished optimization stage 2 on counter_24s_23999 (CPU Time 0h:00m:00s, Memory Used current: 189MB peak: 190MB)
+Running optimization stage 2 on HSOSC .......
+Finished optimization stage 2 on HSOSC (CPU Time 0h:00m:00s, Memory Used current: 189MB peak: 190MB)
+
+For a summary of runtime per design unit, please see file:
+==========================================================
+@L: C:\Users\skantimahanty\Documents\GitHub\engr155-lab3\project files\impl_1\synwork\layer0.duruntime
+
+
+
+At c_ver Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 189MB peak: 190MB)
+
+
+Process completed successfully.
+# Sat Sep 19 18:19:39 2026
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2025 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: X-2025.09LR-SP1
+Install: C:\lscc\radiant\2026.1\synpbase
+OS: Windows 10 or later
+Hostname: 8FMZ0R3
+
+Implementation : impl_1
+Synopsys Synopsys Netlist Linker, Version comp202509synp2, Build 154R, Built May 20 2026 06:20:37, @
+
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 153MB peak: 154MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sat Sep 19 18:19:39 2026
+
+###########################################################]
+
+For a summary of runtime and memory usage for all design units, please see file:
+==========================================================
+@L: C:\Users\skantimahanty\Documents\GitHub\engr155-lab3\project files\impl_1\synwork\lab3_impl_1_comp.rt.csv
+
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 86MB peak: 88MB)
+
+Process took 0h:00m:02s realtime, 0h:00m:02s cputime
+
+Process completed successfully.
+# Sat Sep 19 18:19:39 2026
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2025 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: X-2025.09LR-SP1
+Install: C:\lscc\radiant\2026.1\synpbase
+OS: Windows 10 or later
+Hostname: 8FMZ0R3
+
+Implementation : impl_1
+Synopsys Synopsys Netlist Linker, Version comp202509synp2, Build 154R, Built May 20 2026 06:20:37, @
+
+@N|Running in 64-bit mode
+File C:\Users\skantimahanty\Documents\GitHub\engr155-lab3\project files\impl_1\synwork\lab3_impl_1_comp.srs changed - recompiling
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 154MB peak: 154MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sat Sep 19 18:19:40 2026
+
+###########################################################]
+# Sat Sep 19 18:19:41 2026
+
+
+Copyright (C) 1994-2025 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: X-2025.09LR-SP1
+Install: C:\lscc\radiant\2026.1\synpbase
+OS: Windows 10 or later
+Hostname: 8FMZ0R3
+
+Implementation : impl_1
+Synopsys Lattice Technology Pre-mapping, Version map202509latsp1, Build 093R, Built May 20 2026 06:42:48, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 186MB peak: 186MB)
+
+
+Done reading skeleton netlist (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 191MB peak: 204MB)
+
+Reading constraint file: C:\lscc\radiant\2026.1\scripts\tcl\flow\radiant_synplify_vars.tcl
+Reading constraint file: C:\Users\skantimahanty\Documents\GitHub\engr155-lab3\project files\impl_1\lab3_impl_1_cpe.ldc
+@L: C:\Users\skantimahanty\Documents\GitHub\engr155-lab3\project files\impl_1\lab3_impl_1_scck.rpt 
+See clock summary report "C:\Users\skantimahanty\Documents\GitHub\engr155-lab3\project files\impl_1\lab3_impl_1_scck.rpt"
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 194MB peak: 204MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 194MB peak: 204MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 196MB peak: 204MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 196MB peak: 204MB)
+
+NConnInternalConnection caching is on
+@W: FX1172 :"c:\users\skantimahanty\documents\github\engr155-lab3\project files\source\impl_1\counter.sv":13:3:13:11|User-specified initial value defined for instance scan.count.count[23:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\skantimahanty\documents\github\engr155-lab3\project files\source\impl_1\counter.sv":13:3:13:11|User-specified initial value defined for instance debouncer.debounce_counter.count[23:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\users\skantimahanty\documents\github\engr155-lab3\project files\source\impl_1\counter.sv":13:3:13:11|User-specified initial value defined for instance count.count[23:0] is being ignored due to limitations in architecture. 
+
+Starting HSTDM IP insertion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 251MB peak: 251MB)
+
+
+Finished HSTDM IP insertion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 251MB peak: 251MB)
+
+
+Started DisTri Cleanup (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 251MB peak: 251MB)
+
+
+Finished DisTri Cleanup (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 251MB peak: 252MB)
+
+
+Starting clock optimization report phase (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 253MB peak: 253MB)
+
+
+Finished clock optimization report phase (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 253MB peak: 253MB)
+
+@N: FX1184 |Applying syn_allowed_resources blockrams=30 on top level netlist lab3_skm 
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 253MB peak: 253MB)
+
+
+
+Clock Summary
+******************
+
+          Start                               Requested     Requested     Clock        Clock                     Clock
+Level     Clock                               Frequency     Period        Type         Group                     Load 
+----------------------------------------------------------------------------------------------------------------------
+0 -       lab3_skm|int_osc_inferred_clock     200.0 MHz     5.000         inferred     Inferred_clkgroup_0_1     115  
+======================================================================================================================
+
+
+
+Clock Load Summary
+***********************
+
+                                    Clock     Source                  Clock Pin               Non-clock Pin     Non-clock Pin
+Clock                               Load      Pin                     Seq Example             Seq Example       Comb Example 
+-----------------------------------------------------------------------------------------------------------------------------
+lab3_skm|int_osc_inferred_clock     115       hf_osc.CLKHF(HSOSC)     count.count[23:0].C     -                 -            
+=============================================================================================================================
+
+@W: MT530 :"c:\users\skantimahanty\documents\github\engr155-lab3\project files\source\impl_1\counter.sv":13:3:13:11|Found inferred clock lab3_skm|int_osc_inferred_clock which controls 115 sequential elements including scan.count.count[23:0]. This clock has no specified timing constraint which may adversely impact design performance. 
+
+ICG Latch Removal Summary:
+Number of ICG latches removed: 0
+Number of ICG latches not removed:	0
+
+
+@S |Clock Optimization Summary
+
+
+
+#### START OF PREMAP CLOCK OPTIMIZATION REPORT #####[
+
+0 non-gated/non-generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+1 gated/generated clock tree(s) driving 115 clock pin(s) of sequential element(s)
+0 instances converted, 115 sequential instances remain driven by gated/generated clocks
+
+========================================================== Gated/Generated Clocks ===========================================================
+Clock Tree ID     Driving Element     Drive Element Type     Unconverted Fanout     Sample Instance            Explanation                   
+---------------------------------------------------------------------------------------------------------------------------------------------
+@KP:ckid0_5       hf_osc.CLKHF        HSOSC                  115                    scan.count.count[23:0]     Clock Optimization not enabled
+=============================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######
+
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file C:\Users\skantimahanty\Documents\GitHub\engr155-lab3\project files\impl_1\lab3_impl_1.sap.
+
+Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 254MB peak: 254MB)
+
+
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 254MB peak: 255MB)
+
+
+Finished constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 255MB peak: 255MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 171MB peak: 257MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sat Sep 19 18:19:41 2026
+
+###########################################################]
+Map & Optimize Report
+
+# Sat Sep 19 18:19:42 2026
+
+
+Copyright (C) 1994-2025 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: X-2025.09LR-SP1
+Install: C:\lscc\radiant\2026.1\synpbase
+OS: Windows 10 or later
+Hostname: 8FMZ0R3
+
+Implementation : impl_1
+Synopsys Lattice Technology Mapper, Version map202509latsp1, Build 093R, Built May 20 2026 06:42:48, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 186MB peak: 186MB)
+
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 188MB peak: 204MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 188MB peak: 204MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 190MB peak: 204MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 192MB peak: 204MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 249MB peak: 249MB)
+
+@N: BZ173 :"c:\users\skantimahanty\documents\github\engr155-lab3\project files\source\impl_1\lab2_sevenseg.sv":9:8:9:11|ROM right.seg_1[6:0] (in view: work.lab3led(verilog)) mapped in logic.
+@N: BZ173 :"c:\users\skantimahanty\documents\github\engr155-lab3\project files\source\impl_1\lab2_sevenseg.sv":9:8:9:11|ROM left.seg_1[6:0] (in view: work.lab3led(verilog)) mapped in logic.
+@N: BZ173 :"c:\users\skantimahanty\documents\github\engr155-lab3\project files\source\impl_1\lab2_sevenseg.sv":9:8:9:11|ROM right.seg_1[6:0] (in view: work.lab3led(verilog)) mapped in logic.
+@N: MO106 :"c:\users\skantimahanty\documents\github\engr155-lab3\project files\source\impl_1\lab2_sevenseg.sv":9:8:9:11|Found ROM right.seg_1[6:0] (in view: work.lab3led(verilog)) with 16 words by 7 bits.
+@N: BZ173 :"c:\users\skantimahanty\documents\github\engr155-lab3\project files\source\impl_1\lab2_sevenseg.sv":9:8:9:11|ROM left.seg_1[6:0] (in view: work.lab3led(verilog)) mapped in logic.
+@N: MO106 :"c:\users\skantimahanty\documents\github\engr155-lab3\project files\source\impl_1\lab2_sevenseg.sv":9:8:9:11|Found ROM left.seg_1[6:0] (in view: work.lab3led(verilog)) with 16 words by 7 bits.
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 255MB peak: 255MB)
+
+
+Starting area decomp  (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 255MB peak: 255MB)
+
+
+Finished area decomp  (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 255MB peak: 255MB)
+
+
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 255MB peak: 256MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 262MB peak: 262MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+NConnInternalConnection caching is on
+@N: BN362 :"c:\users\skantimahanty\documents\github\engr155-lab3\project files\source\impl_1\lab3main.sv":148:4:148:12|Removing sequential instance decoder.num[4] (in view: work.lab3_skm(verilog)) because it does not drive other instances.
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 263MB peak: 263MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 264MB peak: 264MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:01s; Memory used current: 264MB peak: 264MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 264MB peak: 265MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 265MB peak: 265MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 265MB peak: 271MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:01s		   -13.30ns		 258 /       114
+   2		0h:00m:01s		   -13.30ns		 256 /       114
+   3		0h:00m:01s		   -13.30ns		 256 /       114
+@N: FX271 :"c:\users\skantimahanty\documents\github\engr155-lab3\project files\source\impl_1\counter.sv":13:3:13:11|Replicating instance scan.count.count[12] (in view: work.lab3_skm(verilog)) with 18 loads 2 times to improve timing.
+@N: FX271 :"c:\users\skantimahanty\documents\github\engr155-lab3\project files\source\impl_1\counter.sv":13:3:13:11|Replicating instance scan.count.count[11] (in view: work.lab3_skm(verilog)) with 15 loads 1 time to improve timing.
+@N: FX271 :"c:\users\skantimahanty\documents\github\engr155-lab3\project files\source\impl_1\counter.sv":13:3:13:11|Replicating instance scan.count.count[13] (in view: work.lab3_skm(verilog)) with 14 loads 1 time to improve timing.
+@N: FX271 :"c:\users\skantimahanty\documents\github\engr155-lab3\project files\source\impl_1\counter.sv":13:3:13:11|Replicating instance scan.count.count[6] (in view: work.lab3_skm(verilog)) with 10 loads 1 time to improve timing.
+@N: FX271 :"c:\users\skantimahanty\documents\github\engr155-lab3\project files\source\impl_1\counter.sv":13:3:13:11|Replicating instance scan.count.count[8] (in view: work.lab3_skm(verilog)) with 10 loads 1 time to improve timing.
+@N: FX271 :"c:\users\skantimahanty\documents\github\engr155-lab3\project files\source\impl_1\counter.sv":13:3:13:11|Replicating instance scan.count.count[3] (in view: work.lab3_skm(verilog)) with 8 loads 1 time to improve timing.
+@N: FX271 :"c:\users\skantimahanty\documents\github\engr155-lab3\project files\source\impl_1\counter.sv":13:3:13:11|Replicating instance scan.count.count[7] (in view: work.lab3_skm(verilog)) with 8 loads 1 time to improve timing.
+@N: FX271 :"c:\users\skantimahanty\documents\github\engr155-lab3\project files\source\impl_1\counter.sv":13:3:13:11|Replicating instance scan.count.count[2] (in view: work.lab3_skm(verilog)) with 8 loads 1 time to improve timing.
+@N: FX271 :"c:\users\skantimahanty\documents\github\engr155-lab3\project files\source\impl_1\counter.sv":13:3:13:11|Replicating instance scan.count.count[0] (in view: work.lab3_skm(verilog)) with 8 loads 1 time to improve timing.
+@N: FX271 :"c:\users\skantimahanty\documents\github\engr155-lab3\project files\source\impl_1\counter.sv":13:3:13:11|Replicating instance scan.count.count[1] (in view: work.lab3_skm(verilog)) with 8 loads 1 time to improve timing.
+@N: FX271 :"c:\users\skantimahanty\documents\github\engr155-lab3\project files\source\impl_1\counter.sv":13:3:13:11|Replicating instance scan.count.count[5] (in view: work.lab3_skm(verilog)) with 9 loads 1 time to improve timing.
+Timing driven replication report
+Added 12 Registers via timing driven replication
+Added 10 LUTs via timing driven replication
+
+   4		0h:00m:01s		   -10.53ns		 329 /       126
+   5		0h:00m:01s		   -10.53ns		 332 /       126
+
+@N: FX271 :"c:\users\skantimahanty\documents\github\engr155-lab3\project files\source\impl_1\counter.sv":13:3:13:11|Replicating instance scan.count.count[15] (in view: work.lab3_skm(verilog)) with 15 loads 1 time to improve timing.
+Timing driven replication report
+Added 1 Registers via timing driven replication
+Added 0 LUTs via timing driven replication
+
+   6		0h:00m:01s		    -7.75ns		 334 /       127
+   7		0h:00m:01s		    -7.75ns		 337 /       127
+   8		0h:00m:01s		    -7.75ns		 337 /       127
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 270MB peak: 271MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 271MB peak: 271MB)
+
+@W: FX310 |Ignoring option "-dcc_insertion" since the technology does not support DCC. 
+
+Starting CDBProcessSetClockGroups... (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 271MB peak: 271MB)
+
+
+Finished with CDBProcessSetClockGroups (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 271MB peak: 272MB)
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 223MB peak: 272MB)
+
+Writing Analyst data base C:\Users\skantimahanty\Documents\GitHub\engr155-lab3\project files\impl_1\synwork\lab3_impl_1_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 270MB peak: 272MB)
+
+Writing Verilog Simulation files
+
+Writing scf file... (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 271MB peak: 272MB)
+
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+
+Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 271MB peak: 272MB)
+
+
+Finished Writing Netlists (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 271MB peak: 272MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 269MB peak: 272MB)
+
+@W: MT246 :"c:\users\skantimahanty\documents\github\engr155-lab3\project files\source\impl_1\lab3_skm.sv":20:9:20:14|Blackbox HSOSC is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
+@W: MT420 |Found inferred clock lab3_skm|int_osc_inferred_clock with period 5.00ns. Please declare a user-defined clock on net int_osc.
+
+
+##### START OF TIMING REPORT #####[
+# Timing report written on Sat Sep 19 18:19:44 2026
+#
+
+
+Top view:               lab3_skm
+Requested Frequency:    200.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    C:\lscc\radiant\2026.1\scripts\tcl\flow\radiant_synplify_vars.tcl
+                       C:\Users\skantimahanty\Documents\GitHub\engr155-lab3\project files\impl_1\lab3_impl_1_cpe.ldc
+                       
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: -12.795
+
+                                    Requested     Estimated     Requested     Estimated                 Clock        Clock                
+Starting Clock                      Frequency     Frequency     Period        Period        Slack       Type         Group                
+------------------------------------------------------------------------------------------------------------------------------------------
+lab3_skm|int_osc_inferred_clock     200.0 MHz     61.8 MHz      5.000         16.169        -11.169     inferred     Inferred_clkgroup_0_1
+System                              200.0 MHz     58.9 MHz      5.000         16.964        -11.964     system       system_clkgroup      
+==========================================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                            |    rise  to  rise     |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                         Ending                           |  constraint  slack    |  constraint  slack  |  constraint  slack  |  constraint  slack
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+System                           lab3_skm|int_osc_inferred_clock  |  5.000       -11.964  |  No paths    -      |  No paths    -      |  No paths    -    
+lab3_skm|int_osc_inferred_clock  System                           |  5.000       -12.795  |  No paths    -      |  No paths    -      |  No paths    -    
+lab3_skm|int_osc_inferred_clock  lab3_skm|int_osc_inferred_clock  |  5.000       -11.169  |  No paths    -      |  No paths    -      |  No paths    -    
+==========================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: lab3_skm|int_osc_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                             Starting                                                                  Arrival            
+Instance                     Reference                           Type        Pin     Net               Time        Slack  
+                             Clock                                                                                        
+--------------------------------------------------------------------------------------------------------------------------
+count.count[5]               lab3_skm|int_osc_inferred_clock     FD1P3DZ     Q       counter[5]        0.796       -12.795
+count.count[6]               lab3_skm|int_osc_inferred_clock     FD1P3DZ     Q       counter[6]        0.796       -12.723
+scan.count.count_fast[5]     lab3_skm|int_osc_inferred_clock     FD1P3DZ     Q       count_fast[5]     0.796       -11.169
+scan.count.count_fast[6]     lab3_skm|int_osc_inferred_clock     FD1P3DZ     Q       count_fast[6]     0.796       -11.097
+scan.count.count_fast[7]     lab3_skm|int_osc_inferred_clock     FD1P3DZ     Q       count_fast[7]     0.796       -11.066
+scan.count.count_fast[0]     lab3_skm|int_osc_inferred_clock     FD1P3DZ     Q       count_fast[0]     0.796       -11.066
+scan.count.count_fast[1]     lab3_skm|int_osc_inferred_clock     FD1P3DZ     Q       count_fast[1]     0.796       -10.993
+scan.count.count_fast[2]     lab3_skm|int_osc_inferred_clock     FD1P3DZ     Q       count_fast[2]     0.796       -10.962
+scan.count.count[4]          lab3_skm|int_osc_inferred_clock     FD1P3DZ     Q       count2[4]         0.796       -10.900
+scan.count.count_fast[3]     lab3_skm|int_osc_inferred_clock     FD1P3DZ     Q       count_fast[3]     0.796       -10.869
+==========================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                  Starting                                                                 Required            
+Instance          Reference                           Type        Pin     Net              Time         Slack  
+                  Clock                                                                                        
+---------------------------------------------------------------------------------------------------------------
+seg_obuf[0]       lab3_skm|int_osc_inferred_clock     OB          I       seg_c[0]         5.000        -12.795
+seg_obuf[1]       lab3_skm|int_osc_inferred_clock     OB          I       seg_c[1]         5.000        -12.795
+seg_obuf[2]       lab3_skm|int_osc_inferred_clock     OB          I       seg_c[2]         5.000        -12.795
+seg_obuf[3]       lab3_skm|int_osc_inferred_clock     OB          I       seg_c[3]         5.000        -12.795
+seg_obuf[4]       lab3_skm|int_osc_inferred_clock     OB          I       seg_c[4]         5.000        -12.795
+seg_obuf[5]       lab3_skm|int_osc_inferred_clock     OB          I       seg_c[5]         5.000        -12.795
+seg_obuf[6]       lab3_skm|int_osc_inferred_clock     OB          I       seg_c[6]         5.000        -12.795
+anode_obuf[0]     lab3_skm|int_osc_inferred_clock     OB          I       anode_c_i[1]     5.000        -12.702
+decoder.state     lab3_skm|int_osc_inferred_clock     FD1P3DZ     D       state_0          4.845        -11.169
+anode_obuf[1]     lab3_skm|int_osc_inferred_clock     OB          I       anode_c[1]       5.000        -10.763
+===============================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      5.000
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    + Estimated clock delay at ending point: 0.000
+    = Required time:                         5.000
+
+    - Propagation time:                      17.795
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -12.795
+
+    Number of logic level(s):                7
+    Starting point:                          count.count[5] / Q
+    Ending point:                            seg_obuf[0] / I
+    The start point is clocked by            lab3_skm|int_osc_inferred_clock [rising] (rise=0.000 fall=2.500 period=5.000) on pin CK
+    The end   point is clocked by            System [rising]
+
+Instance / Net                                    Pin      Pin               Arrival      No. of    
+Name                                  Type        Name     Dir     Delay     Time         Fan Out(s)
+----------------------------------------------------------------------------------------------------
+count.count[5]                        FD1P3DZ     Q        Out     0.796     0.796 f      -         
+counter[5]                            Net         -        -       1.599     -            3         
+led.right.seg_1_6_0_.multilto6        LUT4        A        In      -         2.395 f      -         
+led.right.seg_1_6_0_.multilto6        LUT4        Z        Out     0.661     3.056 r      -         
+multilt7_0                            Net         -        -       1.371     -            1         
+led.right.seg_1_6_0_.multilto10_0     LUT4        B        In      -         4.427 r      -         
+led.right.seg_1_6_0_.multilto10_0     LUT4        Z        Out     0.558     4.986 f      -         
+multilto10_0                          Net         -        -       1.371     -            1         
+led.right.seg_1_6_0_.multilto14_1     LUT4        D        In      -         6.356 f      -         
+led.right.seg_1_6_0_.multilto14_1     LUT4        Z        Out     0.465     6.822 r      -         
+multilto14_1                          Net         -        -       1.371     -            1         
+led.right.seg_1_6_0_.multilto14       LUT4        C        In      -         8.193 r      -         
+led.right.seg_1_6_0_.multilto14       LUT4        Z        Out     0.558     8.751 r      -         
+multilt16_0                           Net         -        -       1.371     -            1         
+led.right.seg_1_6_0_.multilto23_0     LUT4        D        In      -         10.122 r     -         
+led.right.seg_1_6_0_.multilto23_0     LUT4        Z        Out     0.465     10.587 r     -         
+multilto23_0                          Net         -        -       1.371     -            1         
+led.right.seg_1_6_0_.multilto23       LUT4        D        In      -         11.958 r     -         
+led.right.seg_1_6_0_.multilto23       LUT4        Z        Out     0.465     12.423 r     -         
+anode_c[1]                            Net         -        -       1.371     -            9         
+led.right.seg_1_6_0_.seg_ns[0]        LUT4        A        In      -         13.794 r     -         
+led.right.seg_1_6_0_.seg_ns[0]        LUT4        Z        Out     0.661     14.455 r     -         
+seg_c[0]                              Net         -        -       3.340     -            1         
+seg_obuf[0]                           OB          I        In      -         17.795 r     -         
+====================================================================================================
+Total path delay (propagation time + setup) of 17.795 is 4.630(26.0%) logic and 13.165(74.0%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 2: 
+      Requested Period:                      5.000
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    + Estimated clock delay at ending point: 0.000
+    = Required time:                         5.000
+
+    - Propagation time:                      17.795
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -12.795
+
+    Number of logic level(s):                7
+    Starting point:                          count.count[5] / Q
+    Ending point:                            seg_obuf[6] / I
+    The start point is clocked by            lab3_skm|int_osc_inferred_clock [rising] (rise=0.000 fall=2.500 period=5.000) on pin CK
+    The end   point is clocked by            System [rising]
+
+Instance / Net                                    Pin      Pin               Arrival      No. of    
+Name                                  Type        Name     Dir     Delay     Time         Fan Out(s)
+----------------------------------------------------------------------------------------------------
+count.count[5]                        FD1P3DZ     Q        Out     0.796     0.796 f      -         
+counter[5]                            Net         -        -       1.599     -            3         
+led.right.seg_1_6_0_.multilto6        LUT4        A        In      -         2.395 f      -         
+led.right.seg_1_6_0_.multilto6        LUT4        Z        Out     0.661     3.056 r      -         
+multilt7_0                            Net         -        -       1.371     -            1         
+led.right.seg_1_6_0_.multilto10_0     LUT4        B        In      -         4.427 r      -         
+led.right.seg_1_6_0_.multilto10_0     LUT4        Z        Out     0.558     4.986 f      -         
+multilto10_0                          Net         -        -       1.371     -            1         
+led.right.seg_1_6_0_.multilto14_1     LUT4        D        In      -         6.356 f      -         
+led.right.seg_1_6_0_.multilto14_1     LUT4        Z        Out     0.465     6.822 r      -         
+multilto14_1                          Net         -        -       1.371     -            1         
+led.right.seg_1_6_0_.multilto14       LUT4        C        In      -         8.193 r      -         
+led.right.seg_1_6_0_.multilto14       LUT4        Z        Out     0.558     8.751 r      -         
+multilt16_0                           Net         -        -       1.371     -            1         
+led.right.seg_1_6_0_.multilto23_0     LUT4        D        In      -         10.122 r     -         
+led.right.seg_1_6_0_.multilto23_0     LUT4        Z        Out     0.465     10.587 r     -         
+multilto23_0                          Net         -        -       1.371     -            1         
+led.right.seg_1_6_0_.multilto23       LUT4        D        In      -         11.958 r     -         
+led.right.seg_1_6_0_.multilto23       LUT4        Z        Out     0.465     12.423 r     -         
+anode_c[1]                            Net         -        -       1.371     -            9         
+led.right.seg_1_6_0_.seg_ns[6]        LUT4        A        In      -         13.794 r     -         
+led.right.seg_1_6_0_.seg_ns[6]        LUT4        Z        Out     0.661     14.455 r     -         
+seg_c[6]                              Net         -        -       3.340     -            1         
+seg_obuf[6]                           OB          I        In      -         17.795 r     -         
+====================================================================================================
+Total path delay (propagation time + setup) of 17.795 is 4.630(26.0%) logic and 13.165(74.0%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 3: 
+      Requested Period:                      5.000
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    + Estimated clock delay at ending point: 0.000
+    = Required time:                         5.000
+
+    - Propagation time:                      17.795
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -12.795
+
+    Number of logic level(s):                7
+    Starting point:                          count.count[5] / Q
+    Ending point:                            seg_obuf[5] / I
+    The start point is clocked by            lab3_skm|int_osc_inferred_clock [rising] (rise=0.000 fall=2.500 period=5.000) on pin CK
+    The end   point is clocked by            System [rising]
+
+Instance / Net                                    Pin      Pin               Arrival      No. of    
+Name                                  Type        Name     Dir     Delay     Time         Fan Out(s)
+----------------------------------------------------------------------------------------------------
+count.count[5]                        FD1P3DZ     Q        Out     0.796     0.796 f      -         
+counter[5]                            Net         -        -       1.599     -            3         
+led.right.seg_1_6_0_.multilto6        LUT4        A        In      -         2.395 f      -         
+led.right.seg_1_6_0_.multilto6        LUT4        Z        Out     0.661     3.056 r      -         
+multilt7_0                            Net         -        -       1.371     -            1         
+led.right.seg_1_6_0_.multilto10_0     LUT4        B        In      -         4.427 r      -         
+led.right.seg_1_6_0_.multilto10_0     LUT4        Z        Out     0.558     4.986 f      -         
+multilto10_0                          Net         -        -       1.371     -            1         
+led.right.seg_1_6_0_.multilto14_1     LUT4        D        In      -         6.356 f      -         
+led.right.seg_1_6_0_.multilto14_1     LUT4        Z        Out     0.465     6.822 r      -         
+multilto14_1                          Net         -        -       1.371     -            1         
+led.right.seg_1_6_0_.multilto14       LUT4        C        In      -         8.193 r      -         
+led.right.seg_1_6_0_.multilto14       LUT4        Z        Out     0.558     8.751 r      -         
+multilt16_0                           Net         -        -       1.371     -            1         
+led.right.seg_1_6_0_.multilto23_0     LUT4        D        In      -         10.122 r     -         
+led.right.seg_1_6_0_.multilto23_0     LUT4        Z        Out     0.465     10.587 r     -         
+multilto23_0                          Net         -        -       1.371     -            1         
+led.right.seg_1_6_0_.multilto23       LUT4        D        In      -         11.958 r     -         
+led.right.seg_1_6_0_.multilto23       LUT4        Z        Out     0.465     12.423 r     -         
+anode_c[1]                            Net         -        -       1.371     -            9         
+led.right.seg_1_6_0_.seg_ns[5]        LUT4        A        In      -         13.794 r     -         
+led.right.seg_1_6_0_.seg_ns[5]        LUT4        Z        Out     0.661     14.455 r     -         
+seg_c[5]                              Net         -        -       3.340     -            1         
+seg_obuf[5]                           OB          I        In      -         17.795 r     -         
+====================================================================================================
+Total path delay (propagation time + setup) of 17.795 is 4.630(26.0%) logic and 13.165(74.0%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 4: 
+      Requested Period:                      5.000
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    + Estimated clock delay at ending point: 0.000
+    = Required time:                         5.000
+
+    - Propagation time:                      17.795
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -12.795
+
+    Number of logic level(s):                7
+    Starting point:                          count.count[5] / Q
+    Ending point:                            seg_obuf[4] / I
+    The start point is clocked by            lab3_skm|int_osc_inferred_clock [rising] (rise=0.000 fall=2.500 period=5.000) on pin CK
+    The end   point is clocked by            System [rising]
+
+Instance / Net                                    Pin      Pin               Arrival      No. of    
+Name                                  Type        Name     Dir     Delay     Time         Fan Out(s)
+----------------------------------------------------------------------------------------------------
+count.count[5]                        FD1P3DZ     Q        Out     0.796     0.796 f      -         
+counter[5]                            Net         -        -       1.599     -            3         
+led.right.seg_1_6_0_.multilto6        LUT4        A        In      -         2.395 f      -         
+led.right.seg_1_6_0_.multilto6        LUT4        Z        Out     0.661     3.056 r      -         
+multilt7_0                            Net         -        -       1.371     -            1         
+led.right.seg_1_6_0_.multilto10_0     LUT4        B        In      -         4.427 r      -         
+led.right.seg_1_6_0_.multilto10_0     LUT4        Z        Out     0.558     4.986 f      -         
+multilto10_0                          Net         -        -       1.371     -            1         
+led.right.seg_1_6_0_.multilto14_1     LUT4        D        In      -         6.356 f      -         
+led.right.seg_1_6_0_.multilto14_1     LUT4        Z        Out     0.465     6.822 r      -         
+multilto14_1                          Net         -        -       1.371     -            1         
+led.right.seg_1_6_0_.multilto14       LUT4        C        In      -         8.193 r      -         
+led.right.seg_1_6_0_.multilto14       LUT4        Z        Out     0.558     8.751 r      -         
+multilt16_0                           Net         -        -       1.371     -            1         
+led.right.seg_1_6_0_.multilto23_0     LUT4        D        In      -         10.122 r     -         
+led.right.seg_1_6_0_.multilto23_0     LUT4        Z        Out     0.465     10.587 r     -         
+multilto23_0                          Net         -        -       1.371     -            1         
+led.right.seg_1_6_0_.multilto23       LUT4        D        In      -         11.958 r     -         
+led.right.seg_1_6_0_.multilto23       LUT4        Z        Out     0.465     12.423 r     -         
+anode_c[1]                            Net         -        -       1.371     -            9         
+led.right.seg_1_6_0_.seg_ns[4]        LUT4        A        In      -         13.794 r     -         
+led.right.seg_1_6_0_.seg_ns[4]        LUT4        Z        Out     0.661     14.455 r     -         
+seg_c[4]                              Net         -        -       3.340     -            1         
+seg_obuf[4]                           OB          I        In      -         17.795 r     -         
+====================================================================================================
+Total path delay (propagation time + setup) of 17.795 is 4.630(26.0%) logic and 13.165(74.0%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 5: 
+      Requested Period:                      5.000
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    + Estimated clock delay at ending point: 0.000
+    = Required time:                         5.000
+
+    - Propagation time:                      17.795
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -12.795
+
+    Number of logic level(s):                7
+    Starting point:                          count.count[5] / Q
+    Ending point:                            seg_obuf[3] / I
+    The start point is clocked by            lab3_skm|int_osc_inferred_clock [rising] (rise=0.000 fall=2.500 period=5.000) on pin CK
+    The end   point is clocked by            System [rising]
+
+Instance / Net                                    Pin      Pin               Arrival      No. of    
+Name                                  Type        Name     Dir     Delay     Time         Fan Out(s)
+----------------------------------------------------------------------------------------------------
+count.count[5]                        FD1P3DZ     Q        Out     0.796     0.796 f      -         
+counter[5]                            Net         -        -       1.599     -            3         
+led.right.seg_1_6_0_.multilto6        LUT4        A        In      -         2.395 f      -         
+led.right.seg_1_6_0_.multilto6        LUT4        Z        Out     0.661     3.056 r      -         
+multilt7_0                            Net         -        -       1.371     -            1         
+led.right.seg_1_6_0_.multilto10_0     LUT4        B        In      -         4.427 r      -         
+led.right.seg_1_6_0_.multilto10_0     LUT4        Z        Out     0.558     4.986 f      -         
+multilto10_0                          Net         -        -       1.371     -            1         
+led.right.seg_1_6_0_.multilto14_1     LUT4        D        In      -         6.356 f      -         
+led.right.seg_1_6_0_.multilto14_1     LUT4        Z        Out     0.465     6.822 r      -         
+multilto14_1                          Net         -        -       1.371     -            1         
+led.right.seg_1_6_0_.multilto14       LUT4        C        In      -         8.193 r      -         
+led.right.seg_1_6_0_.multilto14       LUT4        Z        Out     0.558     8.751 r      -         
+multilt16_0                           Net         -        -       1.371     -            1         
+led.right.seg_1_6_0_.multilto23_0     LUT4        D        In      -         10.122 r     -         
+led.right.seg_1_6_0_.multilto23_0     LUT4        Z        Out     0.465     10.587 r     -         
+multilto23_0                          Net         -        -       1.371     -            1         
+led.right.seg_1_6_0_.multilto23       LUT4        D        In      -         11.958 r     -         
+led.right.seg_1_6_0_.multilto23       LUT4        Z        Out     0.465     12.423 r     -         
+anode_c[1]                            Net         -        -       1.371     -            9         
+led.right.seg_1_6_0_.seg_ns[3]        LUT4        A        In      -         13.794 r     -         
+led.right.seg_1_6_0_.seg_ns[3]        LUT4        Z        Out     0.661     14.455 r     -         
+seg_c[3]                              Net         -        -       3.340     -            1         
+seg_obuf[3]                           OB          I        In      -         17.795 r     -         
+====================================================================================================
+Total path delay (propagation time + setup) of 17.795 is 4.630(26.0%) logic and 13.165(74.0%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: System
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                 Starting                                     Arrival            
+Instance         Reference     Type     Pin     Net           Time        Slack  
+                 Clock                                                           
+---------------------------------------------------------------------------------
+cols_ibuf[0]     System        IB       O       cols_c[0]     0.000       -11.964
+cols_ibuf[2]     System        IB       O       cols_c[2]     0.000       -11.891
+cols_ibuf[3]     System        IB       O       cols_c[3]     0.000       -11.664
+cols_ibuf[1]     System        IB       O       cols_c[1]     0.000       -11.633
+=================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                        Starting                                                  Required            
+Instance                Reference     Type        Pin     Net                     Time         Slack  
+                        Clock                                                                         
+------------------------------------------------------------------------------------------------------
+decoder.num[3]          System        FD1P3DZ     D       numnext_cnst_0_i[3]     4.845        -11.964
+decoder.state           System        FD1P3DZ     D       state_0                 4.845        -11.829
+decoder.num[1]          System        FD1P3DZ     D       N_9_0                   4.845        -9.931 
+decoder.num[0]          System        FD1P3DZ     D       N_7_0                   4.845        -8.002 
+decoder.coldummy[0]     System        FD1P3DZ     SP      state_3                 4.845        -6.001 
+decoder.coldummy[1]     System        FD1P3DZ     SP      state_3                 4.845        -6.001 
+decoder.num[0]          System        FD1P3DZ     SP      state_3                 4.845        -6.001 
+decoder.num[1]          System        FD1P3DZ     SP      state_3                 4.845        -6.001 
+decoder.num[2]          System        FD1P3DZ     SP      state_3                 4.845        -6.001 
+decoder.num[3]          System        FD1P3DZ     SP      state_3                 4.845        -6.001 
+======================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      5.000
+    - Setup time:                            0.155
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         4.845
+
+    - Propagation time:                      16.809
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 -11.964
+
+    Number of logic level(s):                5
+    Starting point:                          cols_ibuf[0] / O
+    Ending point:                            decoder.num[3] / D
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            lab3_skm|int_osc_inferred_clock [rising] (rise=0.000 fall=2.500 period=5.000) on pin CK
+
+Instance / Net                       Pin      Pin               Arrival      No. of    
+Name                     Type        Name     Dir     Delay     Time         Fan Out(s)
+---------------------------------------------------------------------------------------
+cols_ibuf[0]             IB          O        Out     0.000     0.000 f      -         
+cols_c[0]                Net         -        -       6.717     -            9         
+decoder.g0_4             LUT4        A        In      -         6.717 f      -         
+decoder.g0_4             LUT4        Z        Out     0.661     7.378 r      -         
+N_13_0                   Net         -        -       1.371     -            2         
+decoder.num_RNO_2[3]     LUT4        A        In      -         8.749 r      -         
+decoder.num_RNO_2[3]     LUT4        Z        Out     0.661     9.411 r      -         
+g3_3                     Net         -        -       1.371     -            1         
+decoder.num_RNO_1[3]     LUT4        A        In      -         10.782 r     -         
+decoder.num_RNO_1[3]     LUT4        Z        Out     0.661     11.444 r     -         
+g3_5                     Net         -        -       1.371     -            1         
+decoder.num_RNO_0[3]     LUT4        C        In      -         12.815 r     -         
+decoder.num_RNO_0[3]     LUT4        Z        Out     0.558     13.373 r     -         
+g3                       Net         -        -       1.371     -            1         
+decoder.num_RNO[3]       LUT4        C        In      -         14.744 r     -         
+decoder.num_RNO[3]       LUT4        Z        Out     0.558     15.302 r     -         
+numnext_cnst_0_i[3]      Net         -        -       1.507     -            1         
+decoder.num[3]           FD1P3DZ     D        In      -         16.809 r     -         
+=======================================================================================
+Total path delay (propagation time + setup) of 16.964 is 3.256(19.2%) logic and 13.708(80.8%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 2: 
+      Requested Period:                      5.000
+    - Setup time:                            0.155
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         4.845
+
+    - Propagation time:                      16.736
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 -11.891
+
+    Number of logic level(s):                5
+    Starting point:                          cols_ibuf[2] / O
+    Ending point:                            decoder.num[3] / D
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            lab3_skm|int_osc_inferred_clock [rising] (rise=0.000 fall=2.500 period=5.000) on pin CK
+
+Instance / Net                       Pin      Pin               Arrival      No. of    
+Name                     Type        Name     Dir     Delay     Time         Fan Out(s)
+---------------------------------------------------------------------------------------
+cols_ibuf[2]             IB          O        Out     0.000     0.000 f      -         
+cols_c[2]                Net         -        -       6.717     -            9         
+decoder.g0_4             LUT4        B        In      -         6.717 f      -         
+decoder.g0_4             LUT4        Z        Out     0.589     7.306 r      -         
+N_13_0                   Net         -        -       1.371     -            2         
+decoder.num_RNO_2[3]     LUT4        A        In      -         8.677 r      -         
+decoder.num_RNO_2[3]     LUT4        Z        Out     0.661     9.339 r      -         
+g3_3                     Net         -        -       1.371     -            1         
+decoder.num_RNO_1[3]     LUT4        A        In      -         10.710 r     -         
+decoder.num_RNO_1[3]     LUT4        Z        Out     0.661     11.371 r     -         
+g3_5                     Net         -        -       1.371     -            1         
+decoder.num_RNO_0[3]     LUT4        C        In      -         12.742 r     -         
+decoder.num_RNO_0[3]     LUT4        Z        Out     0.558     13.300 r     -         
+g3                       Net         -        -       1.371     -            1         
+decoder.num_RNO[3]       LUT4        C        In      -         14.671 r     -         
+decoder.num_RNO[3]       LUT4        Z        Out     0.558     15.229 r     -         
+numnext_cnst_0_i[3]      Net         -        -       1.507     -            1         
+decoder.num[3]           FD1P3DZ     D        In      -         16.736 r     -         
+=======================================================================================
+Total path delay (propagation time + setup) of 16.891 is 3.183(18.8%) logic and 13.708(81.2%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 3: 
+      Requested Period:                      5.000
+    - Setup time:                            0.155
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         4.845
+
+    - Propagation time:                      16.674
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 -11.829
+
+    Number of logic level(s):                5
+    Starting point:                          cols_ibuf[0] / O
+    Ending point:                            decoder.state / D
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            lab3_skm|int_osc_inferred_clock [rising] (rise=0.000 fall=2.500 period=5.000) on pin CK
+
+Instance / Net                               Pin      Pin               Arrival      No. of    
+Name                             Type        Name     Dir     Delay     Time         Fan Out(s)
+-----------------------------------------------------------------------------------------------
+cols_ibuf[0]                     IB          O        Out     0.000     0.000 f      -         
+cols_c[0]                        Net         -        -       6.717     -            9         
+decoder.coldummy_RNIBULRM[1]     LUT4        A        In      -         6.717 f      -         
+decoder.coldummy_RNIBULRM[1]     LUT4        Z        Out     0.661     7.378 r      -         
+col_pmux_3_ns_1                  Net         -        -       1.371     -            4         
+decoder.state_RNO_17             LUT4        A        In      -         8.749 r      -         
+decoder.state_RNO_17             LUT4        Z        Out     0.661     9.411 r      -         
+state_RNO_17                     Net         -        -       1.371     -            1         
+decoder.state_RNO_9              LUT4        B        In      -         10.782 r     -         
+decoder.state_RNO_9              LUT4        Z        Out     0.589     11.371 r     -         
+state_RNO_9                      Net         -        -       1.371     -            1         
+decoder.state_RNO_2              LUT4        B        In      -         12.742 r     -         
+decoder.state_RNO_2              LUT4        Z        Out     0.589     13.331 r     -         
+state_RNO_2                      Net         -        -       1.371     -            1         
+decoder.state_RNO                LUT4        D        In      -         14.702 r     -         
+decoder.state_RNO                LUT4        Z        Out     0.465     15.168 r     -         
+state_0                          Net         -        -       1.507     -            1         
+decoder.state                    FD1P3DZ     D        In      -         16.674 r     -         
+===============================================================================================
+Total path delay (propagation time + setup) of 16.829 is 3.122(18.5%) logic and 13.708(81.5%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 4: 
+      Requested Period:                      5.000
+    - Setup time:                            0.155
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         4.845
+
+    - Propagation time:                      16.643
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 -11.798
+
+    Number of logic level(s):                5
+    Starting point:                          cols_ibuf[0] / O
+    Ending point:                            decoder.state / D
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            lab3_skm|int_osc_inferred_clock [rising] (rise=0.000 fall=2.500 period=5.000) on pin CK
+
+Instance / Net                               Pin      Pin               Arrival      No. of    
+Name                             Type        Name     Dir     Delay     Time         Fan Out(s)
+-----------------------------------------------------------------------------------------------
+cols_ibuf[0]                     IB          O        Out     0.000     0.000 f      -         
+cols_c[0]                        Net         -        -       6.717     -            9         
+decoder.coldummy_RNIBULRM[1]     LUT4        A        In      -         6.717 f      -         
+decoder.coldummy_RNIBULRM[1]     LUT4        Z        Out     0.661     7.378 r      -         
+col_pmux_3_ns_1                  Net         -        -       1.371     -            4         
+decoder.state_RNO_18             LUT4        A        In      -         8.749 r      -         
+decoder.state_RNO_18             LUT4        Z        Out     0.661     9.411 r      -         
+state_RNO_18                     Net         -        -       1.371     -            1         
+decoder.state_RNO_9              LUT4        C        In      -         10.782 r     -         
+decoder.state_RNO_9              LUT4        Z        Out     0.558     11.340 r     -         
+state_RNO_9                      Net         -        -       1.371     -            1         
+decoder.state_RNO_2              LUT4        B        In      -         12.711 r     -         
+decoder.state_RNO_2              LUT4        Z        Out     0.589     13.300 r     -         
+state_RNO_2                      Net         -        -       1.371     -            1         
+decoder.state_RNO                LUT4        D        In      -         14.671 r     -         
+decoder.state_RNO                LUT4        Z        Out     0.465     15.136 r     -         
+state_0                          Net         -        -       1.507     -            1         
+decoder.state                    FD1P3DZ     D        In      -         16.643 r     -         
+===============================================================================================
+Total path delay (propagation time + setup) of 16.798 is 3.090(18.4%) logic and 13.708(81.6%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 5: 
+      Requested Period:                      5.000
+    - Setup time:                            0.155
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         4.845
+
+    - Propagation time:                      16.602
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 -11.757
+
+    Number of logic level(s):                5
+    Starting point:                          cols_ibuf[2] / O
+    Ending point:                            decoder.state / D
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            lab3_skm|int_osc_inferred_clock [rising] (rise=0.000 fall=2.500 period=5.000) on pin CK
+
+Instance / Net                               Pin      Pin               Arrival      No. of    
+Name                             Type        Name     Dir     Delay     Time         Fan Out(s)
+-----------------------------------------------------------------------------------------------
+cols_ibuf[2]                     IB          O        Out     0.000     0.000 f      -         
+cols_c[2]                        Net         -        -       6.717     -            9         
+decoder.coldummy_RNIBULRM[1]     LUT4        B        In      -         6.717 f      -         
+decoder.coldummy_RNIBULRM[1]     LUT4        Z        Out     0.589     7.306 r      -         
+col_pmux_3_ns_1                  Net         -        -       1.371     -            4         
+decoder.state_RNO_17             LUT4        A        In      -         8.677 r      -         
+decoder.state_RNO_17             LUT4        Z        Out     0.661     9.339 r      -         
+state_RNO_17                     Net         -        -       1.371     -            1         
+decoder.state_RNO_9              LUT4        B        In      -         10.710 r     -         
+decoder.state_RNO_9              LUT4        Z        Out     0.589     11.299 r     -         
+state_RNO_9                      Net         -        -       1.371     -            1         
+decoder.state_RNO_2              LUT4        B        In      -         12.670 r     -         
+decoder.state_RNO_2              LUT4        Z        Out     0.589     13.259 r     -         
+state_RNO_2                      Net         -        -       1.371     -            1         
+decoder.state_RNO                LUT4        D        In      -         14.630 r     -         
+decoder.state_RNO                LUT4        Z        Out     0.465     15.095 r     -         
+state_0                          Net         -        -       1.507     -            1         
+decoder.state                    FD1P3DZ     D        In      -         16.602 r     -         
+===============================================================================================
+Total path delay (propagation time + setup) of 16.757 is 3.049(18.2%) logic and 13.708(81.8%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+
+Finished final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 270MB peak: 272MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 270MB peak: 272MB)
+
+---------------------------------------
+Resource Usage Report for lab3_skm 
+
+Mapping to part: ice40up5ksg48i-6
+Cell usage:
+CCU2_B          39 uses
+FD1P3DZ         127 uses
+HSOSC           1 use
+VHI             10 uses
+VLO             10 uses
+LUT4            255 uses
+
+I/O ports: 17
+I/O primitives: 17
+IB             4 uses
+OB             13 uses
+
+I/O Register bits:                  0
+Register bits not including I/Os:   127 of 5280 (2%)
+Total load per clock:
+   lab3_skm|int_osc_inferred_clock: 127
+
+@S |Mapping Summary:
+Total  LUTs: 255 (4%)
+
+Distribution of All Consumed LUTs = LUT4 
+Distribution of All Consumed LUTs 255 = 255 
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 131MB peak: 272MB)
+
+Process took 0h:00m:02s realtime, 0h:00m:02s cputime
+# Sat Sep 19 18:19:44 2026
+
+###########################################################]

@@ -1,0 +1,378 @@
+
+Copyright (C) 1994-2025 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: X-2025.09LR-SP1
+Install: C:\lscc\radiant\2026.1\synpbase
+OS: Windows 10 or later
+Hostname: 8FMZ0R3
+
+Implementation : impl_1
+
+#### START OF AREA REPORT #####[
+
+Part:			ICE40UP5KSG48I-6 (Lattice)
+
+------------------------------------------------------------------------
+########   Utilization report for  Top level view:   lab3_skm   ########
+========================================================================
+
+SEQUENTIAL ELEMENTS
+Name            Total elements     Utilization     Notes
+--------------------------------------------------------
+FD1P3DZ         127                                     
+                                                        
+Total FLOPS     127                100 %                
+========================================================
+Total SEQUENTIAL ELEMENTS in the block lab3_skm:	127 (27.67 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name                   Total elements     Utilization     Notes
+---------------------------------------------------------------
+LUT4                   255                                     
+CCU2_B                 39                                      
+                                                               
+Total LUTS             255                100 %                
+Total CARRY CHAINS     39                 100 %                
+===============================================================
+Total COMBINATIONAL LOGIC in the block lab3_skm:	294 (64.05 % Utilization)
+
+
+IO PADS
+Name         Total elements     Utilization     Notes
+-----------------------------------------------------
+IB           4                                       
+OB           13                                      
+                                                     
+TOTAL IO     17                 100 %                
+=====================================================
+Total IO PADS in the block lab3_skm:	17 (3.70 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+HSOSC               1                                       
+VLO                 10                                      
+VHI                 10                                      
+                                                            
+Total BLACK BOX     21                 100 %                
+============================================================
+Total BLACKBOX in the block lab3_skm:	21 (4.58 % Utilization)
+
+------------------------------------------------------------------------
+########   Utilization report for  cell:   counter_24s_199999   ########
+Instance path:   count                                                  
+========================================================================
+
+SEQUENTIAL ELEMENTS
+Name            Total elements     Utilization     Notes
+--------------------------------------------------------
+FD1P3DZ         24                                      
+                                                        
+Total FLOPS     24                 18.9 %               
+========================================================
+Total SEQUENTIAL ELEMENTS in the block count:	24 (5.23 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name                   Total elements     Utilization     Notes
+---------------------------------------------------------------
+LUT4                   19                                      
+CCU2_B                 13                                      
+                                                               
+Total LUTS             19                 7.45 %               
+Total CARRY CHAINS     13                 33.3 %               
+===============================================================
+Total COMBINATIONAL LOGIC in the block count:	32 (6.97 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+VLO                 1                                       
+VHI                 1                                       
+                                                            
+Total BLACK BOX     2                  9.52 %               
+============================================================
+Total BLACKBOX in the block count:	2 (0.44 % Utilization)
+
+----------------------------------------------------------------------------
+########   Utilization report for  cell:   lab2_scanner_24s_23999   ########
+Instance path:   scan                                                       
+============================================================================
+
+SEQUENTIAL ELEMENTS
+Name            Total elements     Utilization     Notes
+--------------------------------------------------------
+FD1P3DZ         37                                      
+                                                        
+Total FLOPS     37                 29.1 %               
+========================================================
+Total SEQUENTIAL ELEMENTS in the block scan:	37 (8.06 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name                   Total elements     Utilization     Notes
+---------------------------------------------------------------
+LUT4                   109                                     
+CCU2_B                 13                                      
+                                                               
+Total LUTS             109                42.7 %               
+Total CARRY CHAINS     13                 33.3 %               
+===============================================================
+Total COMBINATIONAL LOGIC in the block scan:	122 (26.58 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+VLO                 2                                       
+VHI                 2                                       
+                                                            
+Total BLACK BOX     4                  19 %                 
+============================================================
+Total BLACKBOX in the block scan:	4 (0.87 % Utilization)
+
+-----------------------------------------------------------------------
+########   Utilization report for  cell:   counter_24s_23999   ########
+Instance path:   scan.count                                            
+Parent Instance:   scan                                                
+=======================================================================
+
+SEQUENTIAL ELEMENTS
+Name            Total elements     Utilization     Notes
+--------------------------------------------------------
+FD1P3DZ         37                                      
+                                                        
+Total FLOPS     37                 29.1 %               
+========================================================
+Total SEQUENTIAL ELEMENTS in the block scan.count:	37 (8.06 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name                   Total elements     Utilization     Notes
+---------------------------------------------------------------
+LUT4                   107                                     
+CCU2_B                 13                                      
+                                                               
+Total LUTS             107                42 %                 
+Total CARRY CHAINS     13                 33.3 %               
+===============================================================
+Total COMBINATIONAL LOGIC in the block scan.count:	120 (26.14 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+VLO                 1                                       
+VHI                 1                                       
+                                                            
+Total BLACK BOX     2                  9.52 %               
+============================================================
+Total BLACKBOX in the block scan.count:	2 (0.44 % Utilization)
+
+-------------------------------------------------------------------
+########   Utilization report for  cell:   lab3debouncer   ########
+Instance path:   debouncer                                         
+===================================================================
+
+SEQUENTIAL ELEMENTS
+Name            Total elements     Utilization     Notes
+--------------------------------------------------------
+FD1P3DZ         44                                      
+                                                        
+Total FLOPS     44                 34.6 %               
+========================================================
+Total SEQUENTIAL ELEMENTS in the block debouncer:	44 (9.59 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name                   Total elements     Utilization     Notes
+---------------------------------------------------------------
+LUT4                   37                                      
+CCU2_B                 13                                      
+                                                               
+Total LUTS             37                 14.5 %               
+Total CARRY CHAINS     13                 33.3 %               
+===============================================================
+Total COMBINATIONAL LOGIC in the block debouncer:	50 (10.89 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+VLO                 2                                       
+VHI                 2                                       
+                                                            
+Total BLACK BOX     4                  19 %                 
+============================================================
+Total BLACKBOX in the block debouncer:	4 (0.87 % Utilization)
+
+-----------------------------------------------------------------------
+########   Utilization report for  cell:   counter_24s_95999   ########
+Instance path:   debouncer.debounce_counter                            
+Parent Instance:   debouncer                                           
+=======================================================================
+
+SEQUENTIAL ELEMENTS
+Name            Total elements     Utilization     Notes
+--------------------------------------------------------
+FD1P3DZ         24                                      
+                                                        
+Total FLOPS     24                 18.9 %               
+========================================================
+Total SEQUENTIAL ELEMENTS in the block debouncer.debounce_counter:	24 (5.23 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name                   Total elements     Utilization     Notes
+---------------------------------------------------------------
+LUT4                   24                                      
+CCU2_B                 13                                      
+                                                               
+Total LUTS             24                 9.41 %               
+Total CARRY CHAINS     13                 33.3 %               
+===============================================================
+Total COMBINATIONAL LOGIC in the block debouncer.debounce_counter:	37 (8.06 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+VLO                 1                                       
+VHI                 1                                       
+                                                            
+Total BLACK BOX     2                  9.52 %               
+============================================================
+Total BLACKBOX in the block debouncer.debounce_counter:	2 (0.44 % Utilization)
+
+-------------------------------------------------------------
+########   Utilization report for  cell:   lab3led   ########
+Instance path:   led                                         
+=============================================================
+
+SEQUENTIAL ELEMENTS
+Name            Total elements     Utilization     Notes
+--------------------------------------------------------
+FD1P3DZ         13                                      
+                                                        
+Total FLOPS     13                 10.2 %               
+========================================================
+Total SEQUENTIAL ELEMENTS in the block led:	13 (2.83 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name           Total elements     Utilization     Notes
+-------------------------------------------------------
+LUT4           33                                      
+                                                       
+Total LUTS     33                 12.9 %               
+=======================================================
+Total COMBINATIONAL LOGIC in the block led:	33 (7.19 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+VLO                 3                                       
+VHI                 3                                       
+                                                            
+Total BLACK BOX     6                  28.6 %               
+============================================================
+Total BLACKBOX in the block led:	6 (1.31 % Utilization)
+
+-------------------------------------------------------------------
+########   Utilization report for  cell:   lab2_sevenseg   ########
+Instance path:   led.left                                          
+Parent Instance:   led                                             
+===================================================================
+
+COMBINATIONAL LOGIC
+Name           Total elements     Utilization     Notes
+-------------------------------------------------------
+LUT4           7                                       
+                                                       
+Total LUTS     7                  2.75 %               
+=======================================================
+Total COMBINATIONAL LOGIC in the block led.left:	7 (1.53 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+VLO                 1                                       
+VHI                 1                                       
+                                                            
+Total BLACK BOX     2                  9.52 %               
+============================================================
+Total BLACKBOX in the block led.left:	2 (0.44 % Utilization)
+
+---------------------------------------------------------------------
+########   Utilization report for  cell:   lab2_sevenseg_0   ########
+Instance path:   led.right                                           
+Parent Instance:   led                                               
+=====================================================================
+
+COMBINATIONAL LOGIC
+Name           Total elements     Utilization     Notes
+-------------------------------------------------------
+LUT4           21                                      
+                                                       
+Total LUTS     21                 8.24 %               
+=======================================================
+Total COMBINATIONAL LOGIC in the block led.right:	21 (4.58 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+VLO                 1                                       
+VHI                 1                                       
+                                                            
+Total BLACK BOX     2                  9.52 %               
+============================================================
+Total BLACKBOX in the block led.right:	2 (0.44 % Utilization)
+
+--------------------------------------------------------------
+########   Utilization report for  cell:   lab3main   ########
+Instance path:   decoder                                      
+==============================================================
+
+SEQUENTIAL ELEMENTS
+Name            Total elements     Utilization     Notes
+--------------------------------------------------------
+FD1P3DZ         9                                       
+                                                        
+Total FLOPS     9                  7.09 %               
+========================================================
+Total SEQUENTIAL ELEMENTS in the block decoder:	9 (1.96 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name           Total elements     Utilization     Notes
+-------------------------------------------------------
+LUT4           57                                      
+                                                       
+Total LUTS     57                 22.4 %               
+=======================================================
+Total COMBINATIONAL LOGIC in the block decoder:	57 (12.42 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+VLO                 1                                       
+VHI                 1                                       
+                                                            
+Total BLACK BOX     2                  9.52 %               
+============================================================
+Total BLACKBOX in the block decoder:	2 (0.44 % Utilization)
+
+
+##### END OF AREA REPORT #####]
+

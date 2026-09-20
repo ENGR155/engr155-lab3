@@ -1,0 +1,102 @@
+---------------------------------------------------
+Report for cell lab3_skm
+   Instance path: lab3_skm
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	        364        100.0
+                               LUTGATE	        286        100.0
+                                LUTCCU	         78        100.0
+                                 IOBUF	         17        100.0
+                                PFUREG	        127        100.0
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+                    counter_24s_199999	          1        12.4
+                lab2_scanner_24s_23999	          1        31.9
+                         lab3debouncer	          1        17.3
+                               lab3led	          1         8.8
+                              lab3main	          1        15.1
+---------------------------------------------------
+Report for cell lab2_scanner_24s_23999
+   Instance path: lab3_skm/scan
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	        116        31.9
+                               LUTGATE	         90        31.5
+                                LUTCCU	         26        33.3
+                                PFUREG	         37        29.1
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+                     counter_24s_23999	          1        31.3
+---------------------------------------------------
+Report for cell counter_24s_23999
+   Instance path: lab3_skm/scan/count
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	        114        31.3
+                               LUTGATE	         88        30.8
+                                LUTCCU	         26        33.3
+                                PFUREG	         37        29.1
+---------------------------------------------------
+Report for cell lab3main
+   Instance path: lab3_skm/decoder
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         55        15.1
+                               LUTGATE	         55        19.2
+                                PFUREG	          9         7.1
+---------------------------------------------------
+Report for cell lab3debouncer
+   Instance path: lab3_skm/debouncer
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         63        17.3
+                               LUTGATE	         37        12.9
+                                LUTCCU	         26        33.3
+                                PFUREG	         44        34.6
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+                     counter_24s_95999	          1        13.7
+---------------------------------------------------
+Report for cell counter_24s_95999
+   Instance path: lab3_skm/debouncer/debounce_counter
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         50        13.7
+                               LUTGATE	         24         8.4
+                                LUTCCU	         26        33.3
+                                PFUREG	         24        18.9
+---------------------------------------------------
+Report for cell lab3led
+   Instance path: lab3_skm/led
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         32         8.8
+                               LUTGATE	         32        11.2
+                                PFUREG	         13        10.2
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+                         lab2_sevenseg	          1         1.9
+                       lab2_sevenseg_0	          1         5.5
+---------------------------------------------------
+Report for cell lab2_sevenseg
+   Instance path: lab3_skm/led/left
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	          7         1.9
+                               LUTGATE	          7         2.4
+---------------------------------------------------
+Report for cell lab2_sevenseg_0
+   Instance path: lab3_skm/led/right
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         20         5.5
+                               LUTGATE	         20         7.0
+---------------------------------------------------
+Report for cell counter_24s_199999
+   Instance path: lab3_skm/count
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         45        12.4
+                               LUTGATE	         19         6.6
+                                LUTCCU	         26        33.3
+                                PFUREG	         24        18.9

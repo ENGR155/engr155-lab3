@@ -11,13 +11,12 @@ module lab3_skm (
 );
 
     // Starting logic
-    logic int_osc;s
+    logic int_osc;
     logic [23:0] counter;
     logic multi; // For multiplexing the two seven-segment displays
-
-
-    // Internal high-speed oscillator
-    HSOSC #(.CLKHF_DIV(2'b01))
+		 
+	// Internal high-speed oscillator
+	HSOSC #(.CLKHF_DIV("0b01"))
          hf_osc (.CLKHFPU(1'b1), .CLKHFEN(1'b1), .CLKHF(int_osc));
 
     // Widths and max counts for the deocder and LED modules - 50 Hz for both

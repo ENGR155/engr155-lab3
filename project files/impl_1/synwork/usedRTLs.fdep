@@ -1,0 +1,11 @@
+#List of actual used RTLs.
+
+File                                                                                                       Type     IN_PROJECT/INCLUDED/LIBRARY
+
+"C:\Users\skantimahanty\Documents\GitHub\engr155-lab3\project files\source\impl_1\lab3_skm.sv"          verilog                      IN PROJECT
+"C:\Users\skantimahanty\Documents\GitHub\engr155-lab3\project files\source\impl_1\counter.sv"           verilog                      IN PROJECT
+"C:\Users\skantimahanty\Documents\GitHub\engr155-lab3\project files\source\impl_1\lab3led.sv"           verilog                      IN PROJECT
+"C:\Users\skantimahanty\Documents\GitHub\engr155-lab3\project files\source\impl_1\lab2_sevenseg.sv"     verilog                      IN PROJECT
+"C:\Users\skantimahanty\Documents\GitHub\engr155-lab3\project files\source\impl_1\lab3debouncer.sv"     verilog                      IN PROJECT
+"C:\Users\skantimahanty\Documents\GitHub\engr155-lab3\project files\source\impl_1\lab3main.sv"          verilog                      IN PROJECT
+"C:\Users\skantimahanty\Documents\GitHub\engr155-lab3\project files\source\impl_1\lab2_scanner.sv"      verilog                      IN PROJECT

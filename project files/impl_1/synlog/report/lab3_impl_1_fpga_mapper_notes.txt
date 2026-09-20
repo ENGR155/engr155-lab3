@@ -1,0 +1,26 @@
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+@N: BZ173 :"c:\users\skantimahanty\documents\github\engr155-lab3\project files\source\impl_1\lab2_sevenseg.sv":9:8:9:11|ROM right.seg_1[6:0] (in view: work.lab3led(verilog)) mapped in logic.
+@N: BZ173 :"c:\users\skantimahanty\documents\github\engr155-lab3\project files\source\impl_1\lab2_sevenseg.sv":9:8:9:11|ROM left.seg_1[6:0] (in view: work.lab3led(verilog)) mapped in logic.
+@N: BZ173 :"c:\users\skantimahanty\documents\github\engr155-lab3\project files\source\impl_1\lab2_sevenseg.sv":9:8:9:11|ROM right.seg_1[6:0] (in view: work.lab3led(verilog)) mapped in logic.
+@N: MO106 :"c:\users\skantimahanty\documents\github\engr155-lab3\project files\source\impl_1\lab2_sevenseg.sv":9:8:9:11|Found ROM right.seg_1[6:0] (in view: work.lab3led(verilog)) with 16 words by 7 bits.
+@N: BZ173 :"c:\users\skantimahanty\documents\github\engr155-lab3\project files\source\impl_1\lab2_sevenseg.sv":9:8:9:11|ROM left.seg_1[6:0] (in view: work.lab3led(verilog)) mapped in logic.
+@N: MO106 :"c:\users\skantimahanty\documents\github\engr155-lab3\project files\source\impl_1\lab2_sevenseg.sv":9:8:9:11|Found ROM left.seg_1[6:0] (in view: work.lab3led(verilog)) with 16 words by 7 bits.
+@N: BN362 :"c:\users\skantimahanty\documents\github\engr155-lab3\project files\source\impl_1\lab3main.sv":148:4:148:12|Removing sequential instance decoder.num[4] (in view: work.lab3_skm(verilog)) because it does not drive other instances.
+@N: FX271 :"c:\users\skantimahanty\documents\github\engr155-lab3\project files\source\impl_1\counter.sv":13:3:13:11|Replicating instance scan.count.count[12] (in view: work.lab3_skm(verilog)) with 18 loads 2 times to improve timing.
+@N: FX271 :"c:\users\skantimahanty\documents\github\engr155-lab3\project files\source\impl_1\counter.sv":13:3:13:11|Replicating instance scan.count.count[11] (in view: work.lab3_skm(verilog)) with 15 loads 1 time to improve timing.
+@N: FX271 :"c:\users\skantimahanty\documents\github\engr155-lab3\project files\source\impl_1\counter.sv":13:3:13:11|Replicating instance scan.count.count[13] (in view: work.lab3_skm(verilog)) with 14 loads 1 time to improve timing.
+@N: FX271 :"c:\users\skantimahanty\documents\github\engr155-lab3\project files\source\impl_1\counter.sv":13:3:13:11|Replicating instance scan.count.count[6] (in view: work.lab3_skm(verilog)) with 10 loads 1 time to improve timing.
+@N: FX271 :"c:\users\skantimahanty\documents\github\engr155-lab3\project files\source\impl_1\counter.sv":13:3:13:11|Replicating instance scan.count.count[8] (in view: work.lab3_skm(verilog)) with 10 loads 1 time to improve timing.
+@N: FX271 :"c:\users\skantimahanty\documents\github\engr155-lab3\project files\source\impl_1\counter.sv":13:3:13:11|Replicating instance scan.count.count[3] (in view: work.lab3_skm(verilog)) with 8 loads 1 time to improve timing.
+@N: FX271 :"c:\users\skantimahanty\documents\github\engr155-lab3\project files\source\impl_1\counter.sv":13:3:13:11|Replicating instance scan.count.count[7] (in view: work.lab3_skm(verilog)) with 8 loads 1 time to improve timing.
+@N: FX271 :"c:\users\skantimahanty\documents\github\engr155-lab3\project files\source\impl_1\counter.sv":13:3:13:11|Replicating instance scan.count.count[2] (in view: work.lab3_skm(verilog)) with 8 loads 1 time to improve timing.
+@N: FX271 :"c:\users\skantimahanty\documents\github\engr155-lab3\project files\source\impl_1\counter.sv":13:3:13:11|Replicating instance scan.count.count[0] (in view: work.lab3_skm(verilog)) with 8 loads 1 time to improve timing.
+@N: FX271 :"c:\users\skantimahanty\documents\github\engr155-lab3\project files\source\impl_1\counter.sv":13:3:13:11|Replicating instance scan.count.count[1] (in view: work.lab3_skm(verilog)) with 8 loads 1 time to improve timing.
+@N: FX271 :"c:\users\skantimahanty\documents\github\engr155-lab3\project files\source\impl_1\counter.sv":13:3:13:11|Replicating instance scan.count.count[5] (in view: work.lab3_skm(verilog)) with 9 loads 1 time to improve timing.
+@N: FX271 :"c:\users\skantimahanty\documents\github\engr155-lab3\project files\source\impl_1\counter.sv":13:3:13:11|Replicating instance scan.count.count[15] (in view: work.lab3_skm(verilog)) with 15 loads 1 time to improve timing.
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.

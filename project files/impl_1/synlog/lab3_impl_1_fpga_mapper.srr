@@ -1,0 +1,816 @@
+# Sat Sep 19 18:19:42 2026
+
+
+Copyright (C) 1994-2025 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: X-2025.09LR-SP1
+Install: C:\lscc\radiant\2026.1\synpbase
+OS: Windows 10 or later
+Hostname: 8FMZ0R3
+
+Implementation : impl_1
+Synopsys Lattice Technology Mapper, Version map202509latsp1, Build 093R, Built May 20 2026 06:42:48, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 186MB peak: 186MB)
+
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 188MB peak: 204MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 188MB peak: 204MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 190MB peak: 204MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 192MB peak: 204MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 249MB peak: 249MB)
+
+@N: BZ173 :"c:\users\skantimahanty\documents\github\engr155-lab3\project files\source\impl_1\lab2_sevenseg.sv":9:8:9:11|ROM right.seg_1[6:0] (in view: work.lab3led(verilog)) mapped in logic.
+@N: BZ173 :"c:\users\skantimahanty\documents\github\engr155-lab3\project files\source\impl_1\lab2_sevenseg.sv":9:8:9:11|ROM left.seg_1[6:0] (in view: work.lab3led(verilog)) mapped in logic.
+@N: BZ173 :"c:\users\skantimahanty\documents\github\engr155-lab3\project files\source\impl_1\lab2_sevenseg.sv":9:8:9:11|ROM right.seg_1[6:0] (in view: work.lab3led(verilog)) mapped in logic.
+@N: MO106 :"c:\users\skantimahanty\documents\github\engr155-lab3\project files\source\impl_1\lab2_sevenseg.sv":9:8:9:11|Found ROM right.seg_1[6:0] (in view: work.lab3led(verilog)) with 16 words by 7 bits.
+@N: BZ173 :"c:\users\skantimahanty\documents\github\engr155-lab3\project files\source\impl_1\lab2_sevenseg.sv":9:8:9:11|ROM left.seg_1[6:0] (in view: work.lab3led(verilog)) mapped in logic.
+@N: MO106 :"c:\users\skantimahanty\documents\github\engr155-lab3\project files\source\impl_1\lab2_sevenseg.sv":9:8:9:11|Found ROM left.seg_1[6:0] (in view: work.lab3led(verilog)) with 16 words by 7 bits.
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 255MB peak: 255MB)
+
+
+Starting area decomp  (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 255MB peak: 255MB)
+
+
+Finished area decomp  (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 255MB peak: 255MB)
+
+
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 255MB peak: 256MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 262MB peak: 262MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+NConnInternalConnection caching is on
+@N: BN362 :"c:\users\skantimahanty\documents\github\engr155-lab3\project files\source\impl_1\lab3main.sv":148:4:148:12|Removing sequential instance decoder.num[4] (in view: work.lab3_skm(verilog)) because it does not drive other instances.
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 263MB peak: 263MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 264MB peak: 264MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:01s; Memory used current: 264MB peak: 264MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 264MB peak: 265MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 265MB peak: 265MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 265MB peak: 271MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:01s		   -13.30ns		 258 /       114
+   2		0h:00m:01s		   -13.30ns		 256 /       114
+   3		0h:00m:01s		   -13.30ns		 256 /       114
+@N: FX271 :"c:\users\skantimahanty\documents\github\engr155-lab3\project files\source\impl_1\counter.sv":13:3:13:11|Replicating instance scan.count.count[12] (in view: work.lab3_skm(verilog)) with 18 loads 2 times to improve timing.
+@N: FX271 :"c:\users\skantimahanty\documents\github\engr155-lab3\project files\source\impl_1\counter.sv":13:3:13:11|Replicating instance scan.count.count[11] (in view: work.lab3_skm(verilog)) with 15 loads 1 time to improve timing.
+@N: FX271 :"c:\users\skantimahanty\documents\github\engr155-lab3\project files\source\impl_1\counter.sv":13:3:13:11|Replicating instance scan.count.count[13] (in view: work.lab3_skm(verilog)) with 14 loads 1 time to improve timing.
+@N: FX271 :"c:\users\skantimahanty\documents\github\engr155-lab3\project files\source\impl_1\counter.sv":13:3:13:11|Replicating instance scan.count.count[6] (in view: work.lab3_skm(verilog)) with 10 loads 1 time to improve timing.
+@N: FX271 :"c:\users\skantimahanty\documents\github\engr155-lab3\project files\source\impl_1\counter.sv":13:3:13:11|Replicating instance scan.count.count[8] (in view: work.lab3_skm(verilog)) with 10 loads 1 time to improve timing.
+@N: FX271 :"c:\users\skantimahanty\documents\github\engr155-lab3\project files\source\impl_1\counter.sv":13:3:13:11|Replicating instance scan.count.count[3] (in view: work.lab3_skm(verilog)) with 8 loads 1 time to improve timing.
+@N: FX271 :"c:\users\skantimahanty\documents\github\engr155-lab3\project files\source\impl_1\counter.sv":13:3:13:11|Replicating instance scan.count.count[7] (in view: work.lab3_skm(verilog)) with 8 loads 1 time to improve timing.
+@N: FX271 :"c:\users\skantimahanty\documents\github\engr155-lab3\project files\source\impl_1\counter.sv":13:3:13:11|Replicating instance scan.count.count[2] (in view: work.lab3_skm(verilog)) with 8 loads 1 time to improve timing.
+@N: FX271 :"c:\users\skantimahanty\documents\github\engr155-lab3\project files\source\impl_1\counter.sv":13:3:13:11|Replicating instance scan.count.count[0] (in view: work.lab3_skm(verilog)) with 8 loads 1 time to improve timing.
+@N: FX271 :"c:\users\skantimahanty\documents\github\engr155-lab3\project files\source\impl_1\counter.sv":13:3:13:11|Replicating instance scan.count.count[1] (in view: work.lab3_skm(verilog)) with 8 loads 1 time to improve timing.
+@N: FX271 :"c:\users\skantimahanty\documents\github\engr155-lab3\project files\source\impl_1\counter.sv":13:3:13:11|Replicating instance scan.count.count[5] (in view: work.lab3_skm(verilog)) with 9 loads 1 time to improve timing.
+Timing driven replication report
+Added 12 Registers via timing driven replication
+Added 10 LUTs via timing driven replication
+
+   4		0h:00m:01s		   -10.53ns		 329 /       126
+   5		0h:00m:01s		   -10.53ns		 332 /       126
+
+@N: FX271 :"c:\users\skantimahanty\documents\github\engr155-lab3\project files\source\impl_1\counter.sv":13:3:13:11|Replicating instance scan.count.count[15] (in view: work.lab3_skm(verilog)) with 15 loads 1 time to improve timing.
+Timing driven replication report
+Added 1 Registers via timing driven replication
+Added 0 LUTs via timing driven replication
+
+   6		0h:00m:01s		    -7.75ns		 334 /       127
+   7		0h:00m:01s		    -7.75ns		 337 /       127
+   8		0h:00m:01s		    -7.75ns		 337 /       127
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 270MB peak: 271MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 271MB peak: 271MB)
+
+@W: FX310 |Ignoring option "-dcc_insertion" since the technology does not support DCC. 
+
+Starting CDBProcessSetClockGroups... (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 271MB peak: 271MB)
+
+
+Finished with CDBProcessSetClockGroups (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 271MB peak: 272MB)
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 223MB peak: 272MB)
+
+Writing Analyst data base C:\Users\skantimahanty\Documents\GitHub\engr155-lab3\project files\impl_1\synwork\lab3_impl_1_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 270MB peak: 272MB)
+
+Writing Verilog Simulation files
+
+Writing scf file... (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 271MB peak: 272MB)
+
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+
+Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 271MB peak: 272MB)
+
+
+Finished Writing Netlists (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 271MB peak: 272MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 269MB peak: 272MB)
+
+@W: MT246 :"c:\users\skantimahanty\documents\github\engr155-lab3\project files\source\impl_1\lab3_skm.sv":20:9:20:14|Blackbox HSOSC is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
+@W: MT420 |Found inferred clock lab3_skm|int_osc_inferred_clock with period 5.00ns. Please declare a user-defined clock on net int_osc.
+
+
+##### START OF TIMING REPORT #####[
+# Timing report written on Sat Sep 19 18:19:44 2026
+#
+
+
+Top view:               lab3_skm
+Requested Frequency:    200.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    C:\lscc\radiant\2026.1\scripts\tcl\flow\radiant_synplify_vars.tcl
+                       C:\Users\skantimahanty\Documents\GitHub\engr155-lab3\project files\impl_1\lab3_impl_1_cpe.ldc
+                       
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: -12.795
+
+                                    Requested     Estimated     Requested     Estimated                 Clock        Clock                
+Starting Clock                      Frequency     Frequency     Period        Period        Slack       Type         Group                
+------------------------------------------------------------------------------------------------------------------------------------------
+lab3_skm|int_osc_inferred_clock     200.0 MHz     61.8 MHz      5.000         16.169        -11.169     inferred     Inferred_clkgroup_0_1
+System                              200.0 MHz     58.9 MHz      5.000         16.964        -11.964     system       system_clkgroup      
+==========================================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                            |    rise  to  rise     |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                         Ending                           |  constraint  slack    |  constraint  slack  |  constraint  slack  |  constraint  slack
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+System                           lab3_skm|int_osc_inferred_clock  |  5.000       -11.964  |  No paths    -      |  No paths    -      |  No paths    -    
+lab3_skm|int_osc_inferred_clock  System                           |  5.000       -12.795  |  No paths    -      |  No paths    -      |  No paths    -    
+lab3_skm|int_osc_inferred_clock  lab3_skm|int_osc_inferred_clock  |  5.000       -11.169  |  No paths    -      |  No paths    -      |  No paths    -    
+==========================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: lab3_skm|int_osc_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                             Starting                                                                  Arrival            
+Instance                     Reference                           Type        Pin     Net               Time        Slack  
+                             Clock                                                                                        
+--------------------------------------------------------------------------------------------------------------------------
+count.count[5]               lab3_skm|int_osc_inferred_clock     FD1P3DZ     Q       counter[5]        0.796       -12.795
+count.count[6]               lab3_skm|int_osc_inferred_clock     FD1P3DZ     Q       counter[6]        0.796       -12.723
+scan.count.count_fast[5]     lab3_skm|int_osc_inferred_clock     FD1P3DZ     Q       count_fast[5]     0.796       -11.169
+scan.count.count_fast[6]     lab3_skm|int_osc_inferred_clock     FD1P3DZ     Q       count_fast[6]     0.796       -11.097
+scan.count.count_fast[7]     lab3_skm|int_osc_inferred_clock     FD1P3DZ     Q       count_fast[7]     0.796       -11.066
+scan.count.count_fast[0]     lab3_skm|int_osc_inferred_clock     FD1P3DZ     Q       count_fast[0]     0.796       -11.066
+scan.count.count_fast[1]     lab3_skm|int_osc_inferred_clock     FD1P3DZ     Q       count_fast[1]     0.796       -10.993
+scan.count.count_fast[2]     lab3_skm|int_osc_inferred_clock     FD1P3DZ     Q       count_fast[2]     0.796       -10.962
+scan.count.count[4]          lab3_skm|int_osc_inferred_clock     FD1P3DZ     Q       count2[4]         0.796       -10.900
+scan.count.count_fast[3]     lab3_skm|int_osc_inferred_clock     FD1P3DZ     Q       count_fast[3]     0.796       -10.869
+==========================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                  Starting                                                                 Required            
+Instance          Reference                           Type        Pin     Net              Time         Slack  
+                  Clock                                                                                        
+---------------------------------------------------------------------------------------------------------------
+seg_obuf[0]       lab3_skm|int_osc_inferred_clock     OB          I       seg_c[0]         5.000        -12.795
+seg_obuf[1]       lab3_skm|int_osc_inferred_clock     OB          I       seg_c[1]         5.000        -12.795
+seg_obuf[2]       lab3_skm|int_osc_inferred_clock     OB          I       seg_c[2]         5.000        -12.795
+seg_obuf[3]       lab3_skm|int_osc_inferred_clock     OB          I       seg_c[3]         5.000        -12.795
+seg_obuf[4]       lab3_skm|int_osc_inferred_clock     OB          I       seg_c[4]         5.000        -12.795
+seg_obuf[5]       lab3_skm|int_osc_inferred_clock     OB          I       seg_c[5]         5.000        -12.795
+seg_obuf[6]       lab3_skm|int_osc_inferred_clock     OB          I       seg_c[6]         5.000        -12.795
+anode_obuf[0]     lab3_skm|int_osc_inferred_clock     OB          I       anode_c_i[1]     5.000        -12.702
+decoder.state     lab3_skm|int_osc_inferred_clock     FD1P3DZ     D       state_0          4.845        -11.169
+anode_obuf[1]     lab3_skm|int_osc_inferred_clock     OB          I       anode_c[1]       5.000        -10.763
+===============================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      5.000
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    + Estimated clock delay at ending point: 0.000
+    = Required time:                         5.000
+
+    - Propagation time:                      17.795
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -12.795
+
+    Number of logic level(s):                7
+    Starting point:                          count.count[5] / Q
+    Ending point:                            seg_obuf[0] / I
+    The start point is clocked by            lab3_skm|int_osc_inferred_clock [rising] (rise=0.000 fall=2.500 period=5.000) on pin CK
+    The end   point is clocked by            System [rising]
+
+Instance / Net                                    Pin      Pin               Arrival      No. of    
+Name                                  Type        Name     Dir     Delay     Time         Fan Out(s)
+----------------------------------------------------------------------------------------------------
+count.count[5]                        FD1P3DZ     Q        Out     0.796     0.796 f      -         
+counter[5]                            Net         -        -       1.599     -            3         
+led.right.seg_1_6_0_.multilto6        LUT4        A        In      -         2.395 f      -         
+led.right.seg_1_6_0_.multilto6        LUT4        Z        Out     0.661     3.056 r      -         
+multilt7_0                            Net         -        -       1.371     -            1         
+led.right.seg_1_6_0_.multilto10_0     LUT4        B        In      -         4.427 r      -         
+led.right.seg_1_6_0_.multilto10_0     LUT4        Z        Out     0.558     4.986 f      -         
+multilto10_0                          Net         -        -       1.371     -            1         
+led.right.seg_1_6_0_.multilto14_1     LUT4        D        In      -         6.356 f      -         
+led.right.seg_1_6_0_.multilto14_1     LUT4        Z        Out     0.465     6.822 r      -         
+multilto14_1                          Net         -        -       1.371     -            1         
+led.right.seg_1_6_0_.multilto14       LUT4        C        In      -         8.193 r      -         
+led.right.seg_1_6_0_.multilto14       LUT4        Z        Out     0.558     8.751 r      -         
+multilt16_0                           Net         -        -       1.371     -            1         
+led.right.seg_1_6_0_.multilto23_0     LUT4        D        In      -         10.122 r     -         
+led.right.seg_1_6_0_.multilto23_0     LUT4        Z        Out     0.465     10.587 r     -         
+multilto23_0                          Net         -        -       1.371     -            1         
+led.right.seg_1_6_0_.multilto23       LUT4        D        In      -         11.958 r     -         
+led.right.seg_1_6_0_.multilto23       LUT4        Z        Out     0.465     12.423 r     -         
+anode_c[1]                            Net         -        -       1.371     -            9         
+led.right.seg_1_6_0_.seg_ns[0]        LUT4        A        In      -         13.794 r     -         
+led.right.seg_1_6_0_.seg_ns[0]        LUT4        Z        Out     0.661     14.455 r     -         
+seg_c[0]                              Net         -        -       3.340     -            1         
+seg_obuf[0]                           OB          I        In      -         17.795 r     -         
+====================================================================================================
+Total path delay (propagation time + setup) of 17.795 is 4.630(26.0%) logic and 13.165(74.0%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 2: 
+      Requested Period:                      5.000
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    + Estimated clock delay at ending point: 0.000
+    = Required time:                         5.000
+
+    - Propagation time:                      17.795
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -12.795
+
+    Number of logic level(s):                7
+    Starting point:                          count.count[5] / Q
+    Ending point:                            seg_obuf[6] / I
+    The start point is clocked by            lab3_skm|int_osc_inferred_clock [rising] (rise=0.000 fall=2.500 period=5.000) on pin CK
+    The end   point is clocked by            System [rising]
+
+Instance / Net                                    Pin      Pin               Arrival      No. of    
+Name                                  Type        Name     Dir     Delay     Time         Fan Out(s)
+----------------------------------------------------------------------------------------------------
+count.count[5]                        FD1P3DZ     Q        Out     0.796     0.796 f      -         
+counter[5]                            Net         -        -       1.599     -            3         
+led.right.seg_1_6_0_.multilto6        LUT4        A        In      -         2.395 f      -         
+led.right.seg_1_6_0_.multilto6        LUT4        Z        Out     0.661     3.056 r      -         
+multilt7_0                            Net         -        -       1.371     -            1         
+led.right.seg_1_6_0_.multilto10_0     LUT4        B        In      -         4.427 r      -         
+led.right.seg_1_6_0_.multilto10_0     LUT4        Z        Out     0.558     4.986 f      -         
+multilto10_0                          Net         -        -       1.371     -            1         
+led.right.seg_1_6_0_.multilto14_1     LUT4        D        In      -         6.356 f      -         
+led.right.seg_1_6_0_.multilto14_1     LUT4        Z        Out     0.465     6.822 r      -         
+multilto14_1                          Net         -        -       1.371     -            1         
+led.right.seg_1_6_0_.multilto14       LUT4        C        In      -         8.193 r      -         
+led.right.seg_1_6_0_.multilto14       LUT4        Z        Out     0.558     8.751 r      -         
+multilt16_0                           Net         -        -       1.371     -            1         
+led.right.seg_1_6_0_.multilto23_0     LUT4        D        In      -         10.122 r     -         
+led.right.seg_1_6_0_.multilto23_0     LUT4        Z        Out     0.465     10.587 r     -         
+multilto23_0                          Net         -        -       1.371     -            1         
+led.right.seg_1_6_0_.multilto23       LUT4        D        In      -         11.958 r     -         
+led.right.seg_1_6_0_.multilto23       LUT4        Z        Out     0.465     12.423 r     -         
+anode_c[1]                            Net         -        -       1.371     -            9         
+led.right.seg_1_6_0_.seg_ns[6]        LUT4        A        In      -         13.794 r     -         
+led.right.seg_1_6_0_.seg_ns[6]        LUT4        Z        Out     0.661     14.455 r     -         
+seg_c[6]                              Net         -        -       3.340     -            1         
+seg_obuf[6]                           OB          I        In      -         17.795 r     -         
+====================================================================================================
+Total path delay (propagation time + setup) of 17.795 is 4.630(26.0%) logic and 13.165(74.0%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 3: 
+      Requested Period:                      5.000
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    + Estimated clock delay at ending point: 0.000
+    = Required time:                         5.000
+
+    - Propagation time:                      17.795
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -12.795
+
+    Number of logic level(s):                7
+    Starting point:                          count.count[5] / Q
+    Ending point:                            seg_obuf[5] / I
+    The start point is clocked by            lab3_skm|int_osc_inferred_clock [rising] (rise=0.000 fall=2.500 period=5.000) on pin CK
+    The end   point is clocked by            System [rising]
+
+Instance / Net                                    Pin      Pin               Arrival      No. of    
+Name                                  Type        Name     Dir     Delay     Time         Fan Out(s)
+----------------------------------------------------------------------------------------------------
+count.count[5]                        FD1P3DZ     Q        Out     0.796     0.796 f      -         
+counter[5]                            Net         -        -       1.599     -            3         
+led.right.seg_1_6_0_.multilto6        LUT4        A        In      -         2.395 f      -         
+led.right.seg_1_6_0_.multilto6        LUT4        Z        Out     0.661     3.056 r      -         
+multilt7_0                            Net         -        -       1.371     -            1         
+led.right.seg_1_6_0_.multilto10_0     LUT4        B        In      -         4.427 r      -         
+led.right.seg_1_6_0_.multilto10_0     LUT4        Z        Out     0.558     4.986 f      -         
+multilto10_0                          Net         -        -       1.371     -            1         
+led.right.seg_1_6_0_.multilto14_1     LUT4        D        In      -         6.356 f      -         
+led.right.seg_1_6_0_.multilto14_1     LUT4        Z        Out     0.465     6.822 r      -         
+multilto14_1                          Net         -        -       1.371     -            1         
+led.right.seg_1_6_0_.multilto14       LUT4        C        In      -         8.193 r      -         
+led.right.seg_1_6_0_.multilto14       LUT4        Z        Out     0.558     8.751 r      -         
+multilt16_0                           Net         -        -       1.371     -            1         
+led.right.seg_1_6_0_.multilto23_0     LUT4        D        In      -         10.122 r     -         
+led.right.seg_1_6_0_.multilto23_0     LUT4        Z        Out     0.465     10.587 r     -         
+multilto23_0                          Net         -        -       1.371     -            1         
+led.right.seg_1_6_0_.multilto23       LUT4        D        In      -         11.958 r     -         
+led.right.seg_1_6_0_.multilto23       LUT4        Z        Out     0.465     12.423 r     -         
+anode_c[1]                            Net         -        -       1.371     -            9         
+led.right.seg_1_6_0_.seg_ns[5]        LUT4        A        In      -         13.794 r     -         
+led.right.seg_1_6_0_.seg_ns[5]        LUT4        Z        Out     0.661     14.455 r     -         
+seg_c[5]                              Net         -        -       3.340     -            1         
+seg_obuf[5]                           OB          I        In      -         17.795 r     -         
+====================================================================================================
+Total path delay (propagation time + setup) of 17.795 is 4.630(26.0%) logic and 13.165(74.0%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 4: 
+      Requested Period:                      5.000
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    + Estimated clock delay at ending point: 0.000
+    = Required time:                         5.000
+
+    - Propagation time:                      17.795
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -12.795
+
+    Number of logic level(s):                7
+    Starting point:                          count.count[5] / Q
+    Ending point:                            seg_obuf[4] / I
+    The start point is clocked by            lab3_skm|int_osc_inferred_clock [rising] (rise=0.000 fall=2.500 period=5.000) on pin CK
+    The end   point is clocked by            System [rising]
+
+Instance / Net                                    Pin      Pin               Arrival      No. of    
+Name                                  Type        Name     Dir     Delay     Time         Fan Out(s)
+----------------------------------------------------------------------------------------------------
+count.count[5]                        FD1P3DZ     Q        Out     0.796     0.796 f      -         
+counter[5]                            Net         -        -       1.599     -            3         
+led.right.seg_1_6_0_.multilto6        LUT4        A        In      -         2.395 f      -         
+led.right.seg_1_6_0_.multilto6        LUT4        Z        Out     0.661     3.056 r      -         
+multilt7_0                            Net         -        -       1.371     -            1         
+led.right.seg_1_6_0_.multilto10_0     LUT4        B        In      -         4.427 r      -         
+led.right.seg_1_6_0_.multilto10_0     LUT4        Z        Out     0.558     4.986 f      -         
+multilto10_0                          Net         -        -       1.371     -            1         
+led.right.seg_1_6_0_.multilto14_1     LUT4        D        In      -         6.356 f      -         
+led.right.seg_1_6_0_.multilto14_1     LUT4        Z        Out     0.465     6.822 r      -         
+multilto14_1                          Net         -        -       1.371     -            1         
+led.right.seg_1_6_0_.multilto14       LUT4        C        In      -         8.193 r      -         
+led.right.seg_1_6_0_.multilto14       LUT4        Z        Out     0.558     8.751 r      -         
+multilt16_0                           Net         -        -       1.371     -            1         
+led.right.seg_1_6_0_.multilto23_0     LUT4        D        In      -         10.122 r     -         
+led.right.seg_1_6_0_.multilto23_0     LUT4        Z        Out     0.465     10.587 r     -         
+multilto23_0                          Net         -        -       1.371     -            1         
+led.right.seg_1_6_0_.multilto23       LUT4        D        In      -         11.958 r     -         
+led.right.seg_1_6_0_.multilto23       LUT4        Z        Out     0.465     12.423 r     -         
+anode_c[1]                            Net         -        -       1.371     -            9         
+led.right.seg_1_6_0_.seg_ns[4]        LUT4        A        In      -         13.794 r     -         
+led.right.seg_1_6_0_.seg_ns[4]        LUT4        Z        Out     0.661     14.455 r     -         
+seg_c[4]                              Net         -        -       3.340     -            1         
+seg_obuf[4]                           OB          I        In      -         17.795 r     -         
+====================================================================================================
+Total path delay (propagation time + setup) of 17.795 is 4.630(26.0%) logic and 13.165(74.0%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 5: 
+      Requested Period:                      5.000
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    + Estimated clock delay at ending point: 0.000
+    = Required time:                         5.000
+
+    - Propagation time:                      17.795
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -12.795
+
+    Number of logic level(s):                7
+    Starting point:                          count.count[5] / Q
+    Ending point:                            seg_obuf[3] / I
+    The start point is clocked by            lab3_skm|int_osc_inferred_clock [rising] (rise=0.000 fall=2.500 period=5.000) on pin CK
+    The end   point is clocked by            System [rising]
+
+Instance / Net                                    Pin      Pin               Arrival      No. of    
+Name                                  Type        Name     Dir     Delay     Time         Fan Out(s)
+----------------------------------------------------------------------------------------------------
+count.count[5]                        FD1P3DZ     Q        Out     0.796     0.796 f      -         
+counter[5]                            Net         -        -       1.599     -            3         
+led.right.seg_1_6_0_.multilto6        LUT4        A        In      -         2.395 f      -         
+led.right.seg_1_6_0_.multilto6        LUT4        Z        Out     0.661     3.056 r      -         
+multilt7_0                            Net         -        -       1.371     -            1         
+led.right.seg_1_6_0_.multilto10_0     LUT4        B        In      -         4.427 r      -         
+led.right.seg_1_6_0_.multilto10_0     LUT4        Z        Out     0.558     4.986 f      -         
+multilto10_0                          Net         -        -       1.371     -            1         
+led.right.seg_1_6_0_.multilto14_1     LUT4        D        In      -         6.356 f      -         
+led.right.seg_1_6_0_.multilto14_1     LUT4        Z        Out     0.465     6.822 r      -         
+multilto14_1                          Net         -        -       1.371     -            1         
+led.right.seg_1_6_0_.multilto14       LUT4        C        In      -         8.193 r      -         
+led.right.seg_1_6_0_.multilto14       LUT4        Z        Out     0.558     8.751 r      -         
+multilt16_0                           Net         -        -       1.371     -            1         
+led.right.seg_1_6_0_.multilto23_0     LUT4        D        In      -         10.122 r     -         
+led.right.seg_1_6_0_.multilto23_0     LUT4        Z        Out     0.465     10.587 r     -         
+multilto23_0                          Net         -        -       1.371     -            1         
+led.right.seg_1_6_0_.multilto23       LUT4        D        In      -         11.958 r     -         
+led.right.seg_1_6_0_.multilto23       LUT4        Z        Out     0.465     12.423 r     -         
+anode_c[1]                            Net         -        -       1.371     -            9         
+led.right.seg_1_6_0_.seg_ns[3]        LUT4        A        In      -         13.794 r     -         
+led.right.seg_1_6_0_.seg_ns[3]        LUT4        Z        Out     0.661     14.455 r     -         
+seg_c[3]                              Net         -        -       3.340     -            1         
+seg_obuf[3]                           OB          I        In      -         17.795 r     -         
+====================================================================================================
+Total path delay (propagation time + setup) of 17.795 is 4.630(26.0%) logic and 13.165(74.0%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: System
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                 Starting                                     Arrival            
+Instance         Reference     Type     Pin     Net           Time        Slack  
+                 Clock                                                           
+---------------------------------------------------------------------------------
+cols_ibuf[0]     System        IB       O       cols_c[0]     0.000       -11.964
+cols_ibuf[2]     System        IB       O       cols_c[2]     0.000       -11.891
+cols_ibuf[3]     System        IB       O       cols_c[3]     0.000       -11.664
+cols_ibuf[1]     System        IB       O       cols_c[1]     0.000       -11.633
+=================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                        Starting                                                  Required            
+Instance                Reference     Type        Pin     Net                     Time         Slack  
+                        Clock                                                                         
+------------------------------------------------------------------------------------------------------
+decoder.num[3]          System        FD1P3DZ     D       numnext_cnst_0_i[3]     4.845        -11.964
+decoder.state           System        FD1P3DZ     D       state_0                 4.845        -11.829
+decoder.num[1]          System        FD1P3DZ     D       N_9_0                   4.845        -9.931 
+decoder.num[0]          System        FD1P3DZ     D       N_7_0                   4.845        -8.002 
+decoder.coldummy[0]     System        FD1P3DZ     SP      state_3                 4.845        -6.001 
+decoder.coldummy[1]     System        FD1P3DZ     SP      state_3                 4.845        -6.001 
+decoder.num[0]          System        FD1P3DZ     SP      state_3                 4.845        -6.001 
+decoder.num[1]          System        FD1P3DZ     SP      state_3                 4.845        -6.001 
+decoder.num[2]          System        FD1P3DZ     SP      state_3                 4.845        -6.001 
+decoder.num[3]          System        FD1P3DZ     SP      state_3                 4.845        -6.001 
+======================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      5.000
+    - Setup time:                            0.155
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         4.845
+
+    - Propagation time:                      16.809
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 -11.964
+
+    Number of logic level(s):                5
+    Starting point:                          cols_ibuf[0] / O
+    Ending point:                            decoder.num[3] / D
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            lab3_skm|int_osc_inferred_clock [rising] (rise=0.000 fall=2.500 period=5.000) on pin CK
+
+Instance / Net                       Pin      Pin               Arrival      No. of    
+Name                     Type        Name     Dir     Delay     Time         Fan Out(s)
+---------------------------------------------------------------------------------------
+cols_ibuf[0]             IB          O        Out     0.000     0.000 f      -         
+cols_c[0]                Net         -        -       6.717     -            9         
+decoder.g0_4             LUT4        A        In      -         6.717 f      -         
+decoder.g0_4             LUT4        Z        Out     0.661     7.378 r      -         
+N_13_0                   Net         -        -       1.371     -            2         
+decoder.num_RNO_2[3]     LUT4        A        In      -         8.749 r      -         
+decoder.num_RNO_2[3]     LUT4        Z        Out     0.661     9.411 r      -         
+g3_3                     Net         -        -       1.371     -            1         
+decoder.num_RNO_1[3]     LUT4        A        In      -         10.782 r     -         
+decoder.num_RNO_1[3]     LUT4        Z        Out     0.661     11.444 r     -         
+g3_5                     Net         -        -       1.371     -            1         
+decoder.num_RNO_0[3]     LUT4        C        In      -         12.815 r     -         
+decoder.num_RNO_0[3]     LUT4        Z        Out     0.558     13.373 r     -         
+g3                       Net         -        -       1.371     -            1         
+decoder.num_RNO[3]       LUT4        C        In      -         14.744 r     -         
+decoder.num_RNO[3]       LUT4        Z        Out     0.558     15.302 r     -         
+numnext_cnst_0_i[3]      Net         -        -       1.507     -            1         
+decoder.num[3]           FD1P3DZ     D        In      -         16.809 r     -         
+=======================================================================================
+Total path delay (propagation time + setup) of 16.964 is 3.256(19.2%) logic and 13.708(80.8%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 2: 
+      Requested Period:                      5.000
+    - Setup time:                            0.155
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         4.845
+
+    - Propagation time:                      16.736
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 -11.891
+
+    Number of logic level(s):                5
+    Starting point:                          cols_ibuf[2] / O
+    Ending point:                            decoder.num[3] / D
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            lab3_skm|int_osc_inferred_clock [rising] (rise=0.000 fall=2.500 period=5.000) on pin CK
+
+Instance / Net                       Pin      Pin               Arrival      No. of    
+Name                     Type        Name     Dir     Delay     Time         Fan Out(s)
+---------------------------------------------------------------------------------------
+cols_ibuf[2]             IB          O        Out     0.000     0.000 f      -         
+cols_c[2]                Net         -        -       6.717     -            9         
+decoder.g0_4             LUT4        B        In      -         6.717 f      -         
+decoder.g0_4             LUT4        Z        Out     0.589     7.306 r      -         
+N_13_0                   Net         -        -       1.371     -            2         
+decoder.num_RNO_2[3]     LUT4        A        In      -         8.677 r      -         
+decoder.num_RNO_2[3]     LUT4        Z        Out     0.661     9.339 r      -         
+g3_3                     Net         -        -       1.371     -            1         
+decoder.num_RNO_1[3]     LUT4        A        In      -         10.710 r     -         
+decoder.num_RNO_1[3]     LUT4        Z        Out     0.661     11.371 r     -         
+g3_5                     Net         -        -       1.371     -            1         
+decoder.num_RNO_0[3]     LUT4        C        In      -         12.742 r     -         
+decoder.num_RNO_0[3]     LUT4        Z        Out     0.558     13.300 r     -         
+g3                       Net         -        -       1.371     -            1         
+decoder.num_RNO[3]       LUT4        C        In      -         14.671 r     -         
+decoder.num_RNO[3]       LUT4        Z        Out     0.558     15.229 r     -         
+numnext_cnst_0_i[3]      Net         -        -       1.507     -            1         
+decoder.num[3]           FD1P3DZ     D        In      -         16.736 r     -         
+=======================================================================================
+Total path delay (propagation time + setup) of 16.891 is 3.183(18.8%) logic and 13.708(81.2%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 3: 
+      Requested Period:                      5.000
+    - Setup time:                            0.155
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         4.845
+
+    - Propagation time:                      16.674
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 -11.829
+
+    Number of logic level(s):                5
+    Starting point:                          cols_ibuf[0] / O
+    Ending point:                            decoder.state / D
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            lab3_skm|int_osc_inferred_clock [rising] (rise=0.000 fall=2.500 period=5.000) on pin CK
+
+Instance / Net                               Pin      Pin               Arrival      No. of    
+Name                             Type        Name     Dir     Delay     Time         Fan Out(s)
+-----------------------------------------------------------------------------------------------
+cols_ibuf[0]                     IB          O        Out     0.000     0.000 f      -         
+cols_c[0]                        Net         -        -       6.717     -            9         
+decoder.coldummy_RNIBULRM[1]     LUT4        A        In      -         6.717 f      -         
+decoder.coldummy_RNIBULRM[1]     LUT4        Z        Out     0.661     7.378 r      -         
+col_pmux_3_ns_1                  Net         -        -       1.371     -            4         
+decoder.state_RNO_17             LUT4        A        In      -         8.749 r      -         
+decoder.state_RNO_17             LUT4        Z        Out     0.661     9.411 r      -         
+state_RNO_17                     Net         -        -       1.371     -            1         
+decoder.state_RNO_9              LUT4        B        In      -         10.782 r     -         
+decoder.state_RNO_9              LUT4        Z        Out     0.589     11.371 r     -         
+state_RNO_9                      Net         -        -       1.371     -            1         
+decoder.state_RNO_2              LUT4        B        In      -         12.742 r     -         
+decoder.state_RNO_2              LUT4        Z        Out     0.589     13.331 r     -         
+state_RNO_2                      Net         -        -       1.371     -            1         
+decoder.state_RNO                LUT4        D        In      -         14.702 r     -         
+decoder.state_RNO                LUT4        Z        Out     0.465     15.168 r     -         
+state_0                          Net         -        -       1.507     -            1         
+decoder.state                    FD1P3DZ     D        In      -         16.674 r     -         
+===============================================================================================
+Total path delay (propagation time + setup) of 16.829 is 3.122(18.5%) logic and 13.708(81.5%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 4: 
+      Requested Period:                      5.000
+    - Setup time:                            0.155
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         4.845
+
+    - Propagation time:                      16.643
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 -11.798
+
+    Number of logic level(s):                5
+    Starting point:                          cols_ibuf[0] / O
+    Ending point:                            decoder.state / D
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            lab3_skm|int_osc_inferred_clock [rising] (rise=0.000 fall=2.500 period=5.000) on pin CK
+
+Instance / Net                               Pin      Pin               Arrival      No. of    
+Name                             Type        Name     Dir     Delay     Time         Fan Out(s)
+-----------------------------------------------------------------------------------------------
+cols_ibuf[0]                     IB          O        Out     0.000     0.000 f      -         
+cols_c[0]                        Net         -        -       6.717     -            9         
+decoder.coldummy_RNIBULRM[1]     LUT4        A        In      -         6.717 f      -         
+decoder.coldummy_RNIBULRM[1]     LUT4        Z        Out     0.661     7.378 r      -         
+col_pmux_3_ns_1                  Net         -        -       1.371     -            4         
+decoder.state_RNO_18             LUT4        A        In      -         8.749 r      -         
+decoder.state_RNO_18             LUT4        Z        Out     0.661     9.411 r      -         
+state_RNO_18                     Net         -        -       1.371     -            1         
+decoder.state_RNO_9              LUT4        C        In      -         10.782 r     -         
+decoder.state_RNO_9              LUT4        Z        Out     0.558     11.340 r     -         
+state_RNO_9                      Net         -        -       1.371     -            1         
+decoder.state_RNO_2              LUT4        B        In      -         12.711 r     -         
+decoder.state_RNO_2              LUT4        Z        Out     0.589     13.300 r     -         
+state_RNO_2                      Net         -        -       1.371     -            1         
+decoder.state_RNO                LUT4        D        In      -         14.671 r     -         
+decoder.state_RNO                LUT4        Z        Out     0.465     15.136 r     -         
+state_0                          Net         -        -       1.507     -            1         
+decoder.state                    FD1P3DZ     D        In      -         16.643 r     -         
+===============================================================================================
+Total path delay (propagation time + setup) of 16.798 is 3.090(18.4%) logic and 13.708(81.6%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 5: 
+      Requested Period:                      5.000
+    - Setup time:                            0.155
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         4.845
+
+    - Propagation time:                      16.602
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 -11.757
+
+    Number of logic level(s):                5
+    Starting point:                          cols_ibuf[2] / O
+    Ending point:                            decoder.state / D
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            lab3_skm|int_osc_inferred_clock [rising] (rise=0.000 fall=2.500 period=5.000) on pin CK
+
+Instance / Net                               Pin      Pin               Arrival      No. of    
+Name                             Type        Name     Dir     Delay     Time         Fan Out(s)
+-----------------------------------------------------------------------------------------------
+cols_ibuf[2]                     IB          O        Out     0.000     0.000 f      -         
+cols_c[2]                        Net         -        -       6.717     -            9         
+decoder.coldummy_RNIBULRM[1]     LUT4        B        In      -         6.717 f      -         
+decoder.coldummy_RNIBULRM[1]     LUT4        Z        Out     0.589     7.306 r      -         
+col_pmux_3_ns_1                  Net         -        -       1.371     -            4         
+decoder.state_RNO_17             LUT4        A        In      -         8.677 r      -         
+decoder.state_RNO_17             LUT4        Z        Out     0.661     9.339 r      -         
+state_RNO_17                     Net         -        -       1.371     -            1         
+decoder.state_RNO_9              LUT4        B        In      -         10.710 r     -         
+decoder.state_RNO_9              LUT4        Z        Out     0.589     11.299 r     -         
+state_RNO_9                      Net         -        -       1.371     -            1         
+decoder.state_RNO_2              LUT4        B        In      -         12.670 r     -         
+decoder.state_RNO_2              LUT4        Z        Out     0.589     13.259 r     -         
+state_RNO_2                      Net         -        -       1.371     -            1         
+decoder.state_RNO                LUT4        D        In      -         14.630 r     -         
+decoder.state_RNO                LUT4        Z        Out     0.465     15.095 r     -         
+state_0                          Net         -        -       1.507     -            1         
+decoder.state                    FD1P3DZ     D        In      -         16.602 r     -         
+===============================================================================================
+Total path delay (propagation time + setup) of 16.757 is 3.049(18.2%) logic and 13.708(81.8%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+
+Finished final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 270MB peak: 272MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 270MB peak: 272MB)
+
+---------------------------------------
+Resource Usage Report for lab3_skm 
+
+Mapping to part: ice40up5ksg48i-6
+Cell usage:
+CCU2_B          39 uses
+FD1P3DZ         127 uses
+HSOSC           1 use
+VHI             10 uses
+VLO             10 uses
+LUT4            255 uses
+
+I/O ports: 17
+I/O primitives: 17
+IB             4 uses
+OB             13 uses
+
+I/O Register bits:                  0
+Register bits not including I/Os:   127 of 5280 (2%)
+Total load per clock:
+   lab3_skm|int_osc_inferred_clock: 127
+
+@S |Mapping Summary:
+Total  LUTs: 255 (4%)
+
+Distribution of All Consumed LUTs = LUT4 
+Distribution of All Consumed LUTs 255 = 255 
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 131MB peak: 272MB)
+
+Process took 0h:00m:02s realtime, 0h:00m:02s cputime
+# Sat Sep 19 18:19:44 2026
+
+###########################################################]

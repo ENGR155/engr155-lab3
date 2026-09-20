@@ -1,0 +1,86 @@
+{
+"Synplify Pro (R) Job Log" : {
+	"Date" : "18:03:15    19-Sep-2026",
+	"Working Directory" : "C:/Users/skantimahanty/Documents/GitHub/engr155-lab3/project files/impl_1",
+	"Install" : "C:/lscc/radiant/2026.1/synpbase"
+},
+"impl_1" :{
+   "Job Flow" : "Sequential",
+   "Start Time" : "18:03:08",
+   "Runtime" : "07s",
+   "Executable Run Time" : "05s",
+   "synthesis" : {
+      "Job Flow" : "Sequential",
+      "Start Time" : "18:03:08",
+      "Runtime" : "07s",
+      "Executable Run Time" : "05s",
+      "compile" : {
+         "Job Flow" : "Sequential",
+         "Start Time" : "18:03:08",
+         "Runtime" : "04s",
+         "Executable Run Time" : "03s",
+         "compile_flow" : {
+            "Job Flow" : "Sequential",
+            "Start Time" : "18:03:08",
+            "Runtime" : "03s",
+            "Executable Run Time" : "02s",
+            "compiler" : {
+               "executable" : "bin64/c_hdl.exe",
+               "Run Directory" : "C:/Users/skantimahanty/Documents/GitHub/engr155-lab3/project files/impl_1",
+               "Run State" : "Complete",
+               "Return Code" : "0",
+               "Run Success" : "yes",
+               "Run Start Time" : "18:03:08",
+               "Run Time" : "03s",
+               "Exe Run Time" : "02s",
+               "max_parallel_jobs" : "4",
+               "Memory Usage" : "-",
+               "Up-to-date (run skipped)" : "no"
+            },
+            "multi_srs_gen" : {
+               "executable" : "bin64/syn_nfilter.exe",
+               "Run Directory" : "C:/Users/skantimahanty/Documents/GitHub/engr155-lab3/project files/impl_1",
+               "Run State" : "Complete",
+               "Return Code" : "0",
+               "Run Success" : "yes",
+               "Run Start Time" : "18:03:11",
+               "Run Time" : "00s",
+               "Exe Run Time" : "00s",
+               "Memory Usage" : "-",
+               "Up-to-date (run skipped)" : "no"
+            }
+         },
+         "premap" : {
+            "executable" : "bin64/m_generic.exe",
+            "Run Directory" : "C:/Users/skantimahanty/Documents/GitHub/engr155-lab3/project files/impl_1",
+            "Run State" : "Complete",
+            "Return Code" : "1",
+            "Run Success" : "yes",
+            "Run Start Time" : "18:03:11",
+            "Run Time" : "01s",
+            "Exe Run Time" : "01s",
+            "Memory Usage" : "-",
+            "Up-to-date (run skipped)" : "no"
+         }
+      },
+      "map" : {
+         "Job Flow" : "Sequential",
+         "Start Time" : "18:03:13",
+         "Runtime" : "02s",
+         "Executable Run Time" : "02s",
+         "fpga_mapper" : {
+            "executable" : "bin64/m_generic.exe",
+            "Run Directory" : "C:/Users/skantimahanty/Documents/GitHub/engr155-lab3/project files/impl_1",
+            "Run State" : "Complete",
+            "Return Code" : "1",
+            "Run Success" : "yes",
+            "Run Start Time" : "18:03:13",
+            "Run Time" : "02s",
+            "Exe Run Time" : "02s",
+            "Memory Usage" : "-",
+            "Up-to-date (run skipped)" : "no"
+         }
+      }
+   }
+}
+}

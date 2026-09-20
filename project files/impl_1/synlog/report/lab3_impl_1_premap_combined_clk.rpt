@@ -1,0 +1,21 @@
+
+
+@S |Clock Optimization Summary
+
+
+
+#### START OF PREMAP CLOCK OPTIMIZATION REPORT #####[
+
+0 non-gated/non-generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+1 gated/generated clock tree(s) driving 115 clock pin(s) of sequential element(s)
+0 instances converted, 115 sequential instances remain driven by gated/generated clocks
+
+========================================================== Gated/Generated Clocks ===========================================================
+Clock Tree ID     Driving Element     Drive Element Type     Unconverted Fanout     Sample Instance            Explanation                   
+---------------------------------------------------------------------------------------------------------------------------------------------
+@KP:ckid0_5       hf_osc.CLKHF        HSOSC                  115                    scan.count.count[23:0]     Clock Optimization not enabled
+=============================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######
+

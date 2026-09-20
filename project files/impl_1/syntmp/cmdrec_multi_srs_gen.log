@@ -1,0 +1,7 @@
+C:\lscc\radiant\2026.1\synpbase\bin64\syn_nfilter.exe  -link  -top  lab3_skm  -multisrs  "C:\Users\skantimahanty\Documents\GitHub\engr155-lab3\project files\impl_1\synwork\lab3_impl_1_comp.srs"  -osyn  "C:\Users\skantimahanty\Documents\GitHub\engr155-lab3\project files\impl_1\synwork\lab3_impl_1_mult.srs"  -log  "C:\Users\skantimahanty\Documents\GitHub\engr155-lab3\project files\impl_1\synlog\lab3_impl_1_multi_srs_gen.srr" 
+relcom:..\..\..\..\..\..\..\..\lscc\radiant\2026.1\synpbase\bin64\syn_nfilter.exe -link -top lab3_skm -multisrs "C:\Users\skantimahanty\Documents\GitHub\engr155-lab3\project files\impl_1\synwork\lab3_impl_1_comp.srs" -osyn "C:\Users\skantimahanty\Documents\GitHub\engr155-lab3\project files\impl_1\synwork\lab3_impl_1_mult.srs" -log "C:\Users\skantimahanty\Documents\GitHub\engr155-lab3\project files\impl_1\synlog\lab3_impl_1_multi_srs_gen.srr"
+rc:0 success:1 runtime:0
+file:..\synwork\lab3_impl_1_comp.srs|io:i|time:1789867179|size:14920|exec:0|csum:E4BDB5F5B49BDFF4A61DE59198ADD92D
+file:..\synwork\lab3_impl_1_mult.srs|io:o|time:1789867180|size:4147|exec:0|csum:
+file:..\synlog\lab3_impl_1_multi_srs_gen.srr|io:o|time:1789867180|size:1176|exec:0|csum:
+file:..\..\..\..\..\..\..\..\lscc\radiant\2026.1\synpbase\bin64\syn_nfilter.exe|io:i|time:1779441299|size:10887168|exec:1|csum:7C0A7065AC7D00E791C5352FDA1F66ED
