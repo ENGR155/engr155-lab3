@@ -2,7 +2,7 @@
 // Made September 20, 2026
 // Synchronizes both the rows and columns
 
-module lab3synchronizer (
+module lab3sync (
     input  logic       clk,
     input  logic       reset_n,
     input  logic [3:0] cols_async,
