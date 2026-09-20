@@ -30,11 +30,11 @@ module lab3debouncer #(
             seg_0 <= seg;
             seg_1 <= seg_0;
 
-            // A change starts a new candidate and restarts timing.
+            // A change starts a new candidate and restarts timing
             if (seg_1 != candidate)
                 candidate <= seg_1;
 
-            // Accept output only after the candidate remains unchanged.
+            // Accept output only after the candidate remains unchanged
             else if (timer_count == max_count)
                 seg_out <= candidate;
         end
