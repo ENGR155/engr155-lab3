@@ -3,60 +3,50 @@
 // Decoder module that takes a number and converts it into two LEDs
 
 module lab3led(
-    input logic clk, reset_n,
-    input logic [4:0] num, // input number
-    output logic [6:0] segleft, segright // left and right segments
+    input  logic       clk,
+    input  logic       reset_n,
+    input  logic [4:0] num,
+    output logic [6:0] segleft,
+    output logic [6:0] segright
 );
 
-// Two states - Nothing (or null) is pressed, new number is pressed
-logic state, nextstate;
+    // Left and right numbers
+    logic [3:0] left_num;
+    logic [3:0] right_num;
 
-logic [3:0] numdummy; // Dummy variable for switching
-logic [6:0] segleft_normal, segleft_next; // Dummy segment variable (next is the next value in left, normal is the current left stuff)
-logic [6:0] segright_normal, segright_next; // Dummy segment variable (next is the next value in right, normal is the current right stuff)
+    // Remembers the previous value
+    logic [4:0] previous_num;
 
-// Segment output dummy variable
-logic [6:0] segrightdummy;
-logic [4:0] num2; // Num variable that checks if it's the same
+    always_ff @(posedge clk) begin
+        if (reset_n == 0) begin
+            left_num     <= 4'd0;
+            right_num    <= 4'd0;
+            previous_num <= 5'b11111;
+        end
+        else begin
+            // Update if input changes
+            if (num != previous_num) begin
+                previous_num <= num;
 
-// Segment display for the new variable
-    lab2_sevenseg sevenseg_decoder (
-    .s   (num[3:0]),
-    .seg (segrightdummy)
+                // No null value is displayed
+                if (num != 5'b11111) begin
+                    left_num  <= right_num;
+                    right_num <= num[3:0];
+                end
+            end
+        end
+    end
+
+    // Left LED
+    lab2_sevenseg left (
+        .s   (left_num),
+        .seg (segleft)
     );
 
-// Next state logic
-always_comb begin
-    if (num == 5'b11111) or (num2 == num) begin
-         nextstate = 0;
-         segleft_normal = segleft_next; // Same left value
-         segright_normal = segright_next; // Same right value
-    end
-    else begin
-        segleft_normal = segright; // Shifts to left
-        segright_normal = segrightdummy;
-        nextstate = 1; // New number pressed
-    
-    end
-end
-
-// State transition
-always_ff @(posedge clk, posedge reset_n) begin
-    if (reset_n == 0) begin
-        state <= 0;
-        segleft_normal <= 7'b1000000; // Initial state of 0
-        segright_normal <= 7'b1000000;
-    end
-    else begin
-        num2 <= num;
-        state <= nextstate;
-        segleft_normal <= segleft_next; // Shifts to the next left
-        segright_normal <= segright_next; // New right
-    end
-end
-
-// Final assign logic
-assign segleft = segleft_normal;
-assign segright = segright_normal;
+    // Right LED
+    lab2_sevenseg right (
+        .s   (right_num),
+        .seg (segright)
+    );
 
 endmodule

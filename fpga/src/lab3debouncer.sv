@@ -2,56 +2,58 @@
 // Made September 18, 2026
 // Debouncer module that makes sure outputs are consistent
 
-module lab3debouncer(
+
+module lab3debouncer #(
+    parameter width = 24,
+    parameter logic [width-1:0] max_count = 95_999
+)(
+    input  logic       clk,
+    input  logic       reset_n,
     input  logic [4:0] seg,
-    input  logic       clk, reset_n,
     output logic [4:0] seg_out
 );
 
-    // Synchronizers to prevent metastability from raw input
     logic [4:0] seg_0, seg_1;
-    logic [4:0] seg_stable;
-    
-    logic counter_reset_n, counter_enable; // Internal counter signals
+    logic [4:0] candidate;
+    logic [width-1:0] timer_count;
+    logic timer_reset_n;
 
-    // Two stage synchronizer
+    // Two-stage synchronizer
     always_ff @(posedge clk) begin
         if (!reset_n) begin
-            seg_0 <= 5'b0;
-            seg_1 <= 5'b0;
-        end else begin
+            seg_0     <= 5'b11111;
+            seg_1     <= 5'b11111;
+            candidate <= 5'b11111;
+            seg_out   <= 5'b11111;
+        end
+        else begin
             seg_0 <= seg;
             seg_1 <= seg_0;
+
+            // A change starts a new candidate and restarts timing.
+            if (seg_1 != candidate)
+                candidate <= seg_1;
+
+            // Accept output only after the candidate remains unchanged.
+            else if (timer_count == max_count)
+                seg_out <= candidate;
         end
     end
 
-    // If input differs from our last stable value, enable counter, otherwise force reset
-    assign counter_enable  = (seg_1 != seg_stable);
-    assign counter_reset_n = reset_n && (seg_1 != seg_stable);
+    assign timer_reset_n =
+        reset_n &&
+        (seg_1 == candidate) &&
+        (candidate != seg_out);
 
-    logic [23:0] counterdummy; // Dummy counter
-
-    // Counter setup - max count selected to be 4 ms
+    // Setting up counter
     counter #(
-        .width(24), 
-        .max_count(24'd199_999)
-    ) counter (
-        .clk(clk),
-        .reset_n(counter_reset_n),
-        .enable(counter_enable),
-        .count2(counterdummy) 
+        .width(width),
+        .max_count(max_count)
+    ) debounce_counter (
+        .clk     (clk),
+        .reset_n (timer_reset_n),
+        .enable  (1'b1),
+        .count2  (timer_count)
     );
-
-    // Update output when flash - 4 ms
-    always_ff @(posedge clk) begin
-        if (!reset_n) begin
-            seg_stable <= 5'b0;
-        end else if (counter_enable && (counter.count == 24'd199_999)) begin
-            seg_stable <= seg_1;
-        end
-    end
-
-    // Output logic
-    assign seg_out = seg_stable;
 
 endmodule

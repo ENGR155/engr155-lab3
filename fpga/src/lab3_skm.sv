@@ -14,9 +14,6 @@ module lab3_skm (
     logic int_osc;
     logic [23:0] counter;
     logic multi; // For multiplexing the two seven-segment displays
-    logic [3:0] s_1;
-    logic [3:0] s // Switches 1
-    logic [3:0] s_2 // Switches 2
 
 
     // Internal high-speed oscillator
@@ -25,35 +22,27 @@ module lab3_skm (
 
     // Widths and max counts for the deocder and LED modules - 50 Hz for both
     parameter width1 = 24;
-    parameter logic [width1-1:0] max_count1 = 199_999;
+    parameter logic [width1-1:0] max_count1 = 23_999;
+    parameter logic [width1-1:0] display_switch = 199_999; // For display
     
     // Sets up every module
 
-    // Sets up a counter for the multiplexer
-    counter #(
-        .width     (width1),
-        .max_count (max_count1)
-    ) count (
-        .reset_n  (1'b1),
-        .clk    (int_osc),
-        .enable (1'b1),
-        .count2  (counter)
-    );
-
     // Sets up a scanning module to output rows
     lab2_scanner #(
-        .width     (width2),
-        .max_count (max_count2)
+        .width     (width1),
+        .max_count (max_count1)
     ) scan (
+        .reset_n (1'b1),
         .clk     (int_osc),
+        .enable  (1'b1),
         .rows    (rows)
     );
 
     logic [4:0] numdummy; // Dummy variable that passes through the decoder
 
     // Sets up decoder
-    lab3main deoder (
-        .clk (counter),
+    lab3main decoder (
+        .clk (int_osc),
         .reset_n (1'b1),
         .row (rows),
         .col (cols),
@@ -67,7 +56,7 @@ module lab3_skm (
         .seg (numdummy),
         .clk (int_osc),
         .reset_n (1'b1),
-        .seg_out (numdummy2),
+        .seg_out (numdummy2)
     );
 
     // Final segleft segright
@@ -75,21 +64,30 @@ module lab3_skm (
 
     // Sets up LED
     lab3led led (
-        .clk (counter),
+        .clk (int_osc),
         .reset_n (1'b1),
+        .num (numdummy2),
         .segleft (segleft),
         .segright (segright)
     );
     
+    // Sets up a counter for the multiplexer
+    counter #(
+        .width     (width1),
+        .max_count (display_switch)
+    ) count (
+        .reset_n  (1'b1),
+        .clk    (int_osc),
+        .enable (1'b1),
+        .count2  (counter)
+    );
+    
     // Assigning final logic and switching
-    assign multi = (counter > max_count1/2);
+    assign multi = (counter > display_switch/2);
 
-    assign s_1 = multi ? segleft : segright;
+    assign seg = multi ? segleft : segright;
 
     assign anode[0] = multi;
     assign anode[1] = ~multi;   
-
-    // Assigning final logic by reading from columns
-    assign led = ~cols;
 
 endmodule
