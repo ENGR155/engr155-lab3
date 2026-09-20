@@ -1,5 +1,5 @@
 // Stephen Kanti Mahanty - skantimahanty@hmc.edu
-// Made September 5, 2026
+// Made September 20, 2026
 // Top-level module that connects two seven-segment displays
 // and multiplexes them to save on resources.
 
@@ -38,23 +38,37 @@ module lab3_skm (
         .rows    (rows)
     );
 
+    // Columns and rows output from synchronizer
+    logic [3:0] cols2; 
+    logic [3:0] rows2;
+
+    // Sets up synchronizer
+    lab3sync sync (
+        .clk        (int_osc),
+        .reset_n    (1'b1),
+        .cols_async (cols),
+        .rows_async (rows),
+        .cols_sync  (cols2),
+        .rows_sync  (rows2)
+    );
+
     logic [4:0] numdummy; // Dummy variable that passes through the decoder
 
     // Sets up decoder
     lab3main decoder (
-        .clk (int_osc),
+        .clk     (int_osc),
         .reset_n (1'b1),
-        .row (rows),
-        .col (cols),
-        .segout (numdummy)
+        .row     (rows2),
+        .col     (cols2),
+        .segout  (numdummy)
     );
 
     logic [4:0] numdummy2; // Same dummy variable but from debouncer
 
     // Sets up debouncer
     lab3debouncer debouncer (
-        .seg (numdummy),
-        .clk (int_osc),
+        .seg     (numdummy),
+        .clk     (int_osc),
         .reset_n (1'b1),
         .seg_out (numdummy2)
     );
@@ -64,10 +78,10 @@ module lab3_skm (
 
     // Sets up LED
     lab3led led (
-        .clk (int_osc),
-        .reset_n (1'b1),
-        .num (numdummy2),
-        .segleft (segleft),
+        .clk      (int_osc),
+        .reset_n  (1'b1),
+        .num      (numdummy2),
+        .segleft  (segleft),
         .segright (segright)
     );
     
@@ -77,9 +91,9 @@ module lab3_skm (
         .max_count (display_switch)
     ) count (
         .reset_n  (1'b1),
-        .clk    (int_osc),
-        .enable (1'b1),
-        .count2  (counter)
+        .clk      (int_osc),
+        .enable   (1'b1),
+        .count2   (counter)
     );
     
     // Assigning final logic and switching
