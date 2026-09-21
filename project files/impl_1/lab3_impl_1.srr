@@ -1,9 +1,9 @@
 #Build: Synplify Pro (R) X-2025.09LR-SP1, Build 154R, May 20 2026
 #install: C:\lscc\radiant\2026.1\synpbase
 #OS: Windows 10 or later
-#Hostname: HFMZ0R3
+#Hostname: 6CJZ0R3
 
-# Sun Sep 20 17:46:51 2026
+# Sun Sep 20 17:54:59 2026
 
 #Implementation: impl_1
 
@@ -17,7 +17,7 @@ Tool: Synplify Pro (R)
 Build: X-2025.09LR-SP1
 Install: C:\lscc\radiant\2026.1\synpbase
 OS: Windows 10 or later
-Hostname: HFMZ0R3
+Hostname: 6CJZ0R3
 
 Implementation : impl_1
 Synopsys HDL Compiler, Version comp202509synp2, Build 154R, Built May 20 2026 06:20:37, @
@@ -34,7 +34,7 @@ Tool: Synplify Pro (R)
 Build: X-2025.09LR-SP1
 Install: C:\lscc\radiant\2026.1\synpbase
 OS: Windows 10 or later
-Hostname: HFMZ0R3
+Hostname: 6CJZ0R3
 
 Implementation : impl_1
 Synopsys VHDL Compiler, Version comp202509synp2, Build 154R, Built May 20 2026 06:20:37, @
@@ -45,11 +45,11 @@ Top entity isn't set yet!
 @N: CD140 :	| Using the VHDL 1993 Standard for file 'C:\lscc\radiant\2026.1\ip\pmi\pmi_iCE40UP.vhd'.
 VHDL syntax check successful!
 
-At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 149MB peak: 150MB)
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 149MB peak: 149MB)
 
 
 Process completed successfully.
-# Sun Sep 20 17:46:54 2026
+# Sun Sep 20 17:55:02 2026
 
 ###########################################################]
 ###########################################################[
@@ -63,7 +63,7 @@ Tool: Synplify Pro (R)
 Build: X-2025.09LR-SP1
 Install: C:\lscc\radiant\2026.1\synpbase
 OS: Windows 10 or later
-Hostname: HFMZ0R3
+Hostname: 6CJZ0R3
 
 Implementation : impl_1
 Synopsys Verilog Compiler, Version comp202509synp2, Build 154R, Built May 20 2026 06:20:37, @
@@ -233,11 +233,11 @@ Synopsys Verilog Compiler, Version comp202509synp2, Build 154R, Built May 20 202
 @I::"C:\Users\skantimahanty\Documents\GitHub\engr155-lab3\project files\source\impl_1\lab3sync.sv" (library work)
 Verilog syntax check successful!
 
-At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 183MB peak: 183MB)
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 182MB peak: 183MB)
 
 
 Process completed successfully.
-# Sun Sep 20 17:46:55 2026
+# Sun Sep 20 17:55:04 2026
 
 ###########################################################]
 ###########################################################[
@@ -404,8 +404,15 @@ Process completed successfully.
 @I::"C:\Users\skantimahanty\Documents\GitHub\engr155-lab3\project files\source\impl_1\lab3main.sv" (library work)
 @I::"C:\Users\skantimahanty\Documents\GitHub\engr155-lab3\project files\source\impl_1\lab3sync.sv" (library work)
 Verilog syntax check successful!
-Options changed - recompiling
-@W: CG168 :"C:\Users\skantimahanty\Documents\GitHub\engr155-lab3\project files\source\impl_1\lab3_skm.sv":21:9:21:14|Type of parameter CLKHF_DIV on the instance hf_osc is not in accordance with the type of parameter on corresponding module. Please update RTL with correct parameter type 
+File C:\Users\skantimahanty\Documents\GitHub\engr155-lab3\project files\impl_1\synwork\_verilog_hintfile changed - recompiling
+File C:\Users\skantimahanty\Documents\GitHub\engr155-lab3\project files\source\impl_1\counter.sv changed - recompiling
+File C:\Users\skantimahanty\Documents\GitHub\engr155-lab3\project files\source\impl_1\lab3_skm.sv changed - recompiling
+File C:\Users\skantimahanty\Documents\GitHub\engr155-lab3\project files\source\impl_1\lab2_scanner.sv changed - recompiling
+File C:\Users\skantimahanty\Documents\GitHub\engr155-lab3\project files\source\impl_1\lab2_sevenseg.sv changed - recompiling
+File C:\Users\skantimahanty\Documents\GitHub\engr155-lab3\project files\source\impl_1\lab3debouncer.sv changed - recompiling
+File C:\Users\skantimahanty\Documents\GitHub\engr155-lab3\project files\source\impl_1\lab3led.sv changed - recompiling
+File C:\Users\skantimahanty\Documents\GitHub\engr155-lab3\project files\source\impl_1\lab3main.sv changed - recompiling
+File C:\Users\skantimahanty\Documents\GitHub\engr155-lab3\project files\source\impl_1\lab3sync.sv changed - recompiling
 @N: CG364 :"C:\lscc\radiant\2026.1\synpbase\lib\generic\ice40up.v":795:7:795:11|Synthesizing module HSOSC in library work.
 Running optimization stage 1 on HSOSC .......
 Finished optimization stage 1 on HSOSC (CPU Time 0h:00m:00s, Memory Used current: 184MB peak: 185MB)
@@ -415,7 +422,7 @@ Finished optimization stage 1 on HSOSC (CPU Time 0h:00m:00s, Memory Used current
 	max_count=24'b000000000101110110111111
    Generated name = counter_24s_23999
 Running optimization stage 1 on counter_24s_23999 .......
-Finished optimization stage 1 on counter_24s_23999 (CPU Time 0h:00m:00s, Memory Used current: 185MB peak: 185MB)
+Finished optimization stage 1 on counter_24s_23999 (CPU Time 0h:00m:00s, Memory Used current: 185MB peak: 186MB)
 @N: CG364 :"C:\Users\skantimahanty\Documents\GitHub\engr155-lab3\project files\source\impl_1\lab2_scanner.sv":5:7:5:18|Synthesizing module lab2_scanner in library work.
 
 	width=32'b00000000000000000000000000011000
@@ -425,58 +432,58 @@ Running optimization stage 1 on lab2_scanner_24s_23999 .......
 Finished optimization stage 1 on lab2_scanner_24s_23999 (CPU Time 0h:00m:00s, Memory Used current: 185MB peak: 186MB)
 @N: CG364 :"C:\Users\skantimahanty\Documents\GitHub\engr155-lab3\project files\source\impl_1\lab3sync.sv":5:7:5:14|Synthesizing module lab3sync in library work.
 Running optimization stage 1 on lab3sync .......
-Finished optimization stage 1 on lab3sync (CPU Time 0h:00m:00s, Memory Used current: 188MB peak: 188MB)
+Finished optimization stage 1 on lab3sync (CPU Time 0h:00m:00s, Memory Used current: 185MB peak: 186MB)
 @N: CG364 :"C:\Users\skantimahanty\Documents\GitHub\engr155-lab3\project files\source\impl_1\lab3main.sv":1:7:1:14|Synthesizing module lab3main in library work.
 Running optimization stage 1 on lab3main .......
-Finished optimization stage 1 on lab3main (CPU Time 0h:00m:00s, Memory Used current: 191MB peak: 191MB)
+Finished optimization stage 1 on lab3main (CPU Time 0h:00m:00s, Memory Used current: 186MB peak: 186MB)
 @N: CG364 :"C:\Users\skantimahanty\Documents\GitHub\engr155-lab3\project files\source\impl_1\counter.sv":5:7:5:13|Synthesizing module counter in library work.
 
 	width=32'b00000000000000000000000000011000
 	max_count=24'b000000010111011011111111
    Generated name = counter_24s_95999
 Running optimization stage 1 on counter_24s_95999 .......
-Finished optimization stage 1 on counter_24s_95999 (CPU Time 0h:00m:00s, Memory Used current: 191MB peak: 191MB)
+Finished optimization stage 1 on counter_24s_95999 (CPU Time 0h:00m:00s, Memory Used current: 186MB peak: 186MB)
 @N: CG364 :"C:\Users\skantimahanty\Documents\GitHub\engr155-lab3\project files\source\impl_1\lab3debouncer.sv":6:7:6:19|Synthesizing module lab3debouncer in library work.
 Running optimization stage 1 on lab3debouncer .......
-Finished optimization stage 1 on lab3debouncer (CPU Time 0h:00m:00s, Memory Used current: 191MB peak: 192MB)
+Finished optimization stage 1 on lab3debouncer (CPU Time 0h:00m:00s, Memory Used current: 186MB peak: 187MB)
 @N: CG364 :"C:\Users\skantimahanty\Documents\GitHub\engr155-lab3\project files\source\impl_1\lab2_sevenseg.sv":5:7:5:19|Synthesizing module lab2_sevenseg in library work.
 Running optimization stage 1 on lab2_sevenseg .......
-Finished optimization stage 1 on lab2_sevenseg (CPU Time 0h:00m:00s, Memory Used current: 191MB peak: 192MB)
+Finished optimization stage 1 on lab2_sevenseg (CPU Time 0h:00m:00s, Memory Used current: 186MB peak: 187MB)
 @N: CG364 :"C:\Users\skantimahanty\Documents\GitHub\engr155-lab3\project files\source\impl_1\lab3led.sv":5:7:5:13|Synthesizing module lab3led in library work.
 Running optimization stage 1 on lab3led .......
-Finished optimization stage 1 on lab3led (CPU Time 0h:00m:00s, Memory Used current: 192MB peak: 193MB)
+Finished optimization stage 1 on lab3led (CPU Time 0h:00m:00s, Memory Used current: 187MB peak: 188MB)
 @N: CG364 :"C:\Users\skantimahanty\Documents\GitHub\engr155-lab3\project files\source\impl_1\counter.sv":5:7:5:13|Synthesizing module counter in library work.
 
 	width=32'b00000000000000000000000000011000
 	max_count=24'b000000110000110100111111
    Generated name = counter_24s_199999
 Running optimization stage 1 on counter_24s_199999 .......
-Finished optimization stage 1 on counter_24s_199999 (CPU Time 0h:00m:00s, Memory Used current: 192MB peak: 193MB)
+Finished optimization stage 1 on counter_24s_199999 (CPU Time 0h:00m:00s, Memory Used current: 187MB peak: 188MB)
 @N: CG364 :"C:\Users\skantimahanty\Documents\GitHub\engr155-lab3\project files\source\impl_1\lab3_skm.sv":6:7:6:14|Synthesizing module lab3_skm in library work.
 Running optimization stage 1 on lab3_skm .......
-Finished optimization stage 1 on lab3_skm (CPU Time 0h:00m:00s, Memory Used current: 192MB peak: 193MB)
+Finished optimization stage 1 on lab3_skm (CPU Time 0h:00m:00s, Memory Used current: 187MB peak: 188MB)
 Running optimization stage 2 on lab3_skm .......
-Finished optimization stage 2 on lab3_skm (CPU Time 0h:00m:00s, Memory Used current: 192MB peak: 193MB)
+Finished optimization stage 2 on lab3_skm (CPU Time 0h:00m:00s, Memory Used current: 187MB peak: 188MB)
 Running optimization stage 2 on counter_24s_199999 .......
-Finished optimization stage 2 on counter_24s_199999 (CPU Time 0h:00m:00s, Memory Used current: 193MB peak: 193MB)
+Finished optimization stage 2 on counter_24s_199999 (CPU Time 0h:00m:00s, Memory Used current: 187MB peak: 188MB)
 Running optimization stage 2 on lab3led .......
-Finished optimization stage 2 on lab3led (CPU Time 0h:00m:00s, Memory Used current: 193MB peak: 194MB)
+Finished optimization stage 2 on lab3led (CPU Time 0h:00m:00s, Memory Used current: 188MB peak: 189MB)
 Running optimization stage 2 on lab2_sevenseg .......
-Finished optimization stage 2 on lab2_sevenseg (CPU Time 0h:00m:00s, Memory Used current: 193MB peak: 194MB)
+Finished optimization stage 2 on lab2_sevenseg (CPU Time 0h:00m:00s, Memory Used current: 188MB peak: 189MB)
 Running optimization stage 2 on lab3debouncer .......
-Finished optimization stage 2 on lab3debouncer (CPU Time 0h:00m:00s, Memory Used current: 193MB peak: 194MB)
+Finished optimization stage 2 on lab3debouncer (CPU Time 0h:00m:00s, Memory Used current: 188MB peak: 189MB)
 Running optimization stage 2 on counter_24s_95999 .......
-Finished optimization stage 2 on counter_24s_95999 (CPU Time 0h:00m:00s, Memory Used current: 193MB peak: 194MB)
+Finished optimization stage 2 on counter_24s_95999 (CPU Time 0h:00m:00s, Memory Used current: 188MB peak: 189MB)
 Running optimization stage 2 on lab3main .......
-Finished optimization stage 2 on lab3main (CPU Time 0h:00m:00s, Memory Used current: 194MB peak: 194MB)
+Finished optimization stage 2 on lab3main (CPU Time 0h:00m:00s, Memory Used current: 189MB peak: 190MB)
 Running optimization stage 2 on lab3sync .......
-Finished optimization stage 2 on lab3sync (CPU Time 0h:00m:00s, Memory Used current: 194MB peak: 194MB)
+Finished optimization stage 2 on lab3sync (CPU Time 0h:00m:00s, Memory Used current: 189MB peak: 190MB)
 Running optimization stage 2 on lab2_scanner_24s_23999 .......
-Finished optimization stage 2 on lab2_scanner_24s_23999 (CPU Time 0h:00m:00s, Memory Used current: 194MB peak: 194MB)
+Finished optimization stage 2 on lab2_scanner_24s_23999 (CPU Time 0h:00m:00s, Memory Used current: 189MB peak: 190MB)
 Running optimization stage 2 on counter_24s_23999 .......
-Finished optimization stage 2 on counter_24s_23999 (CPU Time 0h:00m:00s, Memory Used current: 194MB peak: 194MB)
+Finished optimization stage 2 on counter_24s_23999 (CPU Time 0h:00m:00s, Memory Used current: 189MB peak: 190MB)
 Running optimization stage 2 on HSOSC .......
-Finished optimization stage 2 on HSOSC (CPU Time 0h:00m:00s, Memory Used current: 194MB peak: 194MB)
+Finished optimization stage 2 on HSOSC (CPU Time 0h:00m:00s, Memory Used current: 189MB peak: 190MB)
 
 For a summary of runtime per design unit, please see file:
 ==========================================================
@@ -484,11 +491,11 @@ For a summary of runtime per design unit, please see file:
 
 
 
-At c_ver Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 194MB peak: 194MB)
+At c_ver Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 189MB peak: 190MB)
 
 
 Process completed successfully.
-# Sun Sep 20 17:46:57 2026
+# Sun Sep 20 17:55:07 2026
 
 ###########################################################]
 ###########################################################[
@@ -502,19 +509,19 @@ Tool: Synplify Pro (R)
 Build: X-2025.09LR-SP1
 Install: C:\lscc\radiant\2026.1\synpbase
 OS: Windows 10 or later
-Hostname: HFMZ0R3
+Hostname: 6CJZ0R3
 
 Implementation : impl_1
 Synopsys Synopsys Netlist Linker, Version comp202509synp2, Build 154R, Built May 20 2026 06:20:37, @
 
 @N|Running in 64-bit mode
 
-At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 153MB peak: 153MB)
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 152MB peak: 153MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Sun Sep 20 17:47:00 2026
+# Sun Sep 20 17:55:09 2026
 
 ###########################################################]
 
@@ -524,12 +531,12 @@ For a summary of runtime and memory usage for all design units, please see file:
 
 @END
 
-At c_hdl Exit (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:02s; Memory used current: 94MB peak: 95MB)
+At c_hdl Exit (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:03s; Memory used current: 93MB peak: 95MB)
 
-Process took 0h:00m:07s realtime, 0h:00m:02s cputime
+Process took 0h:00m:09s realtime, 0h:00m:03s cputime
 
 Process completed successfully.
-# Sun Sep 20 17:47:00 2026
+# Sun Sep 20 17:55:09 2026
 
 ###########################################################]
 ###########################################################[
@@ -543,7 +550,7 @@ Tool: Synplify Pro (R)
 Build: X-2025.09LR-SP1
 Install: C:\lscc\radiant\2026.1\synpbase
 OS: Windows 10 or later
-Hostname: HFMZ0R3
+Hostname: 6CJZ0R3
 
 Implementation : impl_1
 Synopsys Synopsys Netlist Linker, Version comp202509synp2, Build 154R, Built May 20 2026 06:20:37, @
@@ -551,15 +558,15 @@ Synopsys Synopsys Netlist Linker, Version comp202509synp2, Build 154R, Built May
 @N|Running in 64-bit mode
 File C:\Users\skantimahanty\Documents\GitHub\engr155-lab3\project files\impl_1\synwork\lab3_impl_1_comp.srs changed - recompiling
 
-At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 152MB peak: 153MB)
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 153MB peak: 153MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Sun Sep 20 17:47:01 2026
+# Sun Sep 20 17:55:11 2026
 
 ###########################################################]
-# Sun Sep 20 17:47:12 2026
+# Sun Sep 20 17:55:24 2026
 
 
 Copyright (C) 1994-2025 Synopsys, Inc.
@@ -571,13 +578,13 @@ Tool: Synplify Pro (R)
 Build: X-2025.09LR-SP1
 Install: C:\lscc\radiant\2026.1\synpbase
 OS: Windows 10 or later
-Hostname: HFMZ0R3
+Hostname: 6CJZ0R3
 
 Implementation : impl_1
 Synopsys Lattice Technology Pre-mapping, Version map202509latsp1, Build 093R, Built May 20 2026 06:42:48, @
 
 
-Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 186MB peak: 186MB)
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 185MB peak: 185MB)
 
 
 Done reading skeleton netlist (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 190MB peak: 203MB)
@@ -590,42 +597,42 @@ See clock summary report "C:\Users\skantimahanty\Documents\GitHub\engr155-lab3\p
 @N: MF248 |Running in 64-bit mode.
 @N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
 
-Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 194MB peak: 203MB)
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 193MB peak: 203MB)
 
 
-Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 194MB peak: 203MB)
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 193MB peak: 203MB)
 
 
-Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 196MB peak: 203MB)
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 195MB peak: 203MB)
 
 
-Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 196MB peak: 203MB)
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 195MB peak: 203MB)
 
 NConnInternalConnection caching is on
 @W: FX1172 :"c:\users\skantimahanty\documents\github\engr155-lab3\project files\source\impl_1\counter.sv":13:3:13:11|User-specified initial value defined for instance scan.count.count[23:0] is being ignored due to limitations in architecture. 
 @W: FX1172 :"c:\users\skantimahanty\documents\github\engr155-lab3\project files\source\impl_1\counter.sv":13:3:13:11|User-specified initial value defined for instance debouncer.debounce_counter.count[23:0] is being ignored due to limitations in architecture. 
 @W: FX1172 :"c:\users\skantimahanty\documents\github\engr155-lab3\project files\source\impl_1\counter.sv":13:3:13:11|User-specified initial value defined for instance count.count[23:0] is being ignored due to limitations in architecture. 
 
-Starting HSTDM IP insertion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 251MB peak: 251MB)
+Starting HSTDM IP insertion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 250MB peak: 250MB)
 
 
-Finished HSTDM IP insertion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 251MB peak: 251MB)
+Finished HSTDM IP insertion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 250MB peak: 251MB)
 
 
-Started DisTri Cleanup (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 251MB peak: 251MB)
+Started DisTri Cleanup (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 250MB peak: 251MB)
 
 
-Finished DisTri Cleanup (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 251MB peak: 252MB)
+Finished DisTri Cleanup (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 250MB peak: 251MB)
 
 
 Starting clock optimization report phase (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 252MB peak: 252MB)
 
 
-Finished clock optimization report phase (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 253MB peak: 253MB)
+Finished clock optimization report phase (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 252MB peak: 252MB)
 
 @N: FX1184 |Applying syn_allowed_resources blockrams=30 on top level netlist lab3_skm 
 
-Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 253MB peak: 253MB)
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 252MB peak: 253MB)
 
 
 
@@ -679,25 +686,25 @@ Clock Tree ID     Driving Element     Drive Element Type     Unconverted Fanout 
 Finished Pre Mapping Phase.
 @N: BN225 |Writing default property annotation file C:\Users\skantimahanty\Documents\GitHub\engr155-lab3\project files\impl_1\lab3_impl_1.sap.
 
-Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 254MB peak: 254MB)
+Starting constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 253MB peak: 253MB)
 
 
-Finished constraint checker preprocessing (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 254MB peak: 255MB)
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 253MB peak: 254MB)
 
 
-Finished constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 255MB peak: 255MB)
+Finished constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 254MB peak: 254MB)
 
 Pre-mapping successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 170MB peak: 256MB)
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 170MB peak: 256MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Sun Sep 20 17:47:13 2026
+# Sun Sep 20 17:55:26 2026
 
 ###########################################################]
 Map & Optimize Report
 
-# Sun Sep 20 17:47:13 2026
+# Sun Sep 20 17:55:26 2026
 
 
 Copyright (C) 1994-2025 Synopsys, Inc.
@@ -709,7 +716,7 @@ Tool: Synplify Pro (R)
 Build: X-2025.09LR-SP1
 Install: C:\lscc\radiant\2026.1\synpbase
 OS: Windows 10 or later
-Hostname: HFMZ0R3
+Hostname: 6CJZ0R3
 
 Implementation : impl_1
 Synopsys Lattice Technology Mapper, Version map202509latsp1, Build 093R, Built May 20 2026 06:42:48, @
@@ -752,7 +759,7 @@ Starting area decomp  (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s
 Finished area decomp  (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 254MB peak: 254MB)
 
 
-Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 254MB peak: 254MB)
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 254MB peak: 255MB)
 
 
 Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 257MB peak: 257MB)
@@ -764,22 +771,22 @@ Available hyper_sources - for debug and ip models
 NConnInternalConnection caching is on
 @N: BN362 :"c:\users\skantimahanty\documents\github\engr155-lab3\project files\source\impl_1\lab3main.sv":148:4:148:12|Removing sequential instance decoder.num[4] (in view: work.lab3_skm(verilog)) because it does not drive other instances.
 
-Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 257MB peak: 257MB)
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 257MB peak: 258MB)
 
 
-Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 257MB peak: 258MB)
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 257MB peak: 258MB)
 
 
-Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 258MB peak: 258MB)
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 258MB peak: 258MB)
 
 
-Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 258MB peak: 258MB)
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 258MB peak: 259MB)
 
 
-Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 258MB peak: 258MB)
+Finished preparing to map (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 258MB peak: 259MB)
 
 
-Finished technology mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 260MB peak: 260MB)
+Finished technology mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 260MB peak: 260MB)
 
 Pass		 CPU time		Worst Slack		Luts / Registers
 ------------------------------------------------------------
@@ -806,26 +813,26 @@ Finished restoring hierarchy (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:
 
 @W: FX310 |Ignoring option "-dcc_insertion" since the technology does not support DCC. 
 
-Starting CDBProcessSetClockGroups... (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 264MB peak: 265MB)
+Starting CDBProcessSetClockGroups... (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:02s; Memory used current: 264MB peak: 265MB)
 
 
-Finished with CDBProcessSetClockGroups (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 264MB peak: 265MB)
+Finished with CDBProcessSetClockGroups (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 264MB peak: 265MB)
 
 
-Start Writing Netlists (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 216MB peak: 265MB)
+Start Writing Netlists (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 216MB peak: 265MB)
 
 Writing Analyst data base C:\Users\skantimahanty\Documents\GitHub\engr155-lab3\project files\impl_1\synwork\lab3_impl_1_m.srm
 
-Finished Writing Netlist Databases (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 264MB peak: 265MB)
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 263MB peak: 265MB)
 
 Writing Verilog Simulation files
 
-Writing scf file... (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 264MB peak: 265MB)
+Writing scf file... (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 264MB peak: 265MB)
 
 @N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
 @N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
 
-Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:02s; Memory used current: 265MB peak: 265MB)
+Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 265MB peak: 265MB)
 
 
 Finished Writing Netlists (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 265MB peak: 265MB)
@@ -838,7 +845,7 @@ Start final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:0
 
 
 ##### START OF TIMING REPORT #####[
-# Timing report written on Sun Sep 20 17:47:16 2026
+# Timing report written on Sun Sep 20 17:55:29 2026
 #
 
 
@@ -1384,9 +1391,9 @@ Distribution of All Consumed LUTs 200 = 200
 
 Mapper successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 129MB peak: 265MB)
+At Mapper Exit (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 129MB peak: 265MB)
 
-Process took 0h:00m:02s realtime, 0h:00m:02s cputime
-# Sun Sep 20 17:47:16 2026
+Process took 0h:00m:03s realtime, 0h:00m:03s cputime
+# Sun Sep 20 17:55:29 2026
 
 ###########################################################]

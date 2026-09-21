@@ -8,7 +8,7 @@ Package: SG48
 Performance Grade:  High-Performance_1.2V
 
 Mapper:    version Radiant Software (64-bit) 2026.1.0.37.0
-Mapped on: Sat Sep 19 18:19:46 2026
+Mapped on: Sun Sep 20 17:55:36 2026
 
 Design Information
 ------------------
@@ -23,12 +23,12 @@ Command line:   map -pdc
 Design Summary
 --------------
 
-   Number of slice registers: 127 out of  5280 (2%)
+   Number of slice registers: 131 out of  5280 (2%)
    Number of I/O registers:      0 out of   117 (0%)
-   Number of LUT4s:           364 out of  5280 (7%)
-      Number of logic LUT4s:             256
-      Number of inserted feedthru LUT4s:  29
-      Number of replicated LUT4s:          1
+   Number of LUT4s:           312 out of  5280 (6%)
+      Number of logic LUT4s:             201
+      Number of inserted feedthru LUT4s:  31
+      Number of replicated LUT4s:          2
       Number of ripple logic:             39 (78 LUT4s)
    Number of IO sites used:   17 out of 39 (44%)
       Number of IO sites used for general PIO: 17
@@ -52,11 +52,11 @@ Design Summary
    Number of EBRs:             0 out of 30 (0%)
    Number of PLLs:             0 out of 1 (0%)
    Number of Clocks:  1
-      Net int_osc: 117 loads, 117 rising, 0 falling (Driver: Pin
+      Net int_osc: 121 loads, 121 rising, 0 falling (Driver: Pin
      hf_osc.osc_inst/CLKHF)
    Number of Clock Enables:  3
-      Net VCC: 1 loads, 0 SLICEs
       Net decoder.state_3: 8 loads, 8 SLICEs
+      Net VCC: 1 loads, 0 SLICEs
       Net led.left_num_0_sqmuxa: 8 loads, 8 SLICEs
    Number of LSRs:  0
    Top 10 highest fanout non-clock nets:
@@ -69,16 +69,16 @@ Design Summary
 
 Design Summary (cont)
 ---------------------
-      Net scan.state6lt4_0: 28 loads
       Net debouncer.timer_reset_n_i: 24 loads
-      Net scan.count.count14_11: 21 loads
-      Net scan.count.count14_7: 21 loads
       Net debouncer.candidate6_22: 20 loads
-      Net scan.count2[14]: 17 loads
       Net debouncer.candidate6_21: 15 loads
       Net anode_6[1]: 14 loads
-      Net scan.count2[11]: 14 loads
-      Net scan.count2[15]: 13 loads
+      Net scan.count.count14_10: 14 loads
+      Net scan.count.count14_5: 14 loads
+      Net scan.count.count14_6: 14 loads
+      Net count.count56_12: 12 loads
+      Net count.count56_16: 12 loads
+      Net scan.count.count2[12]: 12 loads
 
 
 
@@ -175,9 +175,9 @@ Run Time and Memory Usage
 -------------------------
 
    Total CPU Time: 0 secs
-   Total REAL Time: 0 secs
-   Peak Memory Usage: 72 MB
-Checksum -- map: 36b869f78dc566391fa081ffb4fd623ca39f1fda
+   Total REAL Time: 3 secs
+   Peak Memory Usage: 70 MB
+Checksum -- map: 2d2618cee3bc94f120ed02ed959b26d4574fd341
 
 
 

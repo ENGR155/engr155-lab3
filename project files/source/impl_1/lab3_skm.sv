@@ -17,7 +17,7 @@ module lab3_skm (
 
 
     // Internal high-speed oscillator
-    HSOSC #(.CLKHF_DIV(2'b01))
+    HSOSC #(.CLKHF_DIV("0b01"))
          hf_osc (.CLKHFPU(1'b1), .CLKHFEN(1'b1), .CLKHF(int_osc));
 
     // Widths and max counts for the deocder and LED modules - 50 Hz for both

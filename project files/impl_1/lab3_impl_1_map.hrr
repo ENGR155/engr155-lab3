@@ -3,100 +3,109 @@ Report for cell lab3_skm
    Instance path: lab3_skm
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  LUT4	        364        100.0
-                               LUTGATE	        286        100.0
+                                  LUT4	        312        100.0
+                               LUTGATE	        234        100.0
                                 LUTCCU	         78        100.0
                                  IOBUF	         17        100.0
-                                PFUREG	        127        100.0
+                                PFUREG	        131        100.0
 SUB MODULES
                                   cell	      count    LUT4 Usage(%)
-                    counter_24s_199999	          1        12.4
-                lab2_scanner_24s_23999	          1        31.9
-                         lab3debouncer	          1        17.3
-                               lab3led	          1         8.8
-                              lab3main	          1        15.1
+                    counter_24s_199999	          1        14.4
+                lab2_scanner_24s_23999	          1        33.7
+                         lab3debouncer	          1        20.2
+                               lab3led	          1        10.3
+                              lab3main	          1         9.0
+                              lab3sync	          1         1.3
 ---------------------------------------------------
 Report for cell lab2_scanner_24s_23999
    Instance path: lab3_skm/scan
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  LUT4	        116        31.9
-                               LUTGATE	         90        31.5
+                                  LUT4	        105        33.7
+                               LUTGATE	         79        33.8
                                 LUTCCU	         26        33.3
-                                PFUREG	         37        29.1
+                                PFUREG	         25        19.1
 SUB MODULES
                                   cell	      count    LUT4 Usage(%)
-                     counter_24s_23999	          1        31.3
+                     counter_24s_23999	          1        33.7
 ---------------------------------------------------
 Report for cell counter_24s_23999
    Instance path: lab3_skm/scan/count
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  LUT4	        114        31.3
-                               LUTGATE	         88        30.8
+                                  LUT4	        105        33.7
+                               LUTGATE	         79        33.8
                                 LUTCCU	         26        33.3
-                                PFUREG	         37        29.1
+                                PFUREG	         25        19.1
+---------------------------------------------------
+Report for cell lab3sync
+   Instance path: lab3_skm/sync
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	          4         1.3
+                               LUTGATE	          4         1.7
+                                PFUREG	         16        12.2
 ---------------------------------------------------
 Report for cell lab3main
    Instance path: lab3_skm/decoder
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  LUT4	         55        15.1
-                               LUTGATE	         55        19.2
-                                PFUREG	          9         7.1
+                                  LUT4	         28         9.0
+                               LUTGATE	         28        12.0
+                                PFUREG	          9         6.9
 ---------------------------------------------------
 Report for cell lab3debouncer
    Instance path: lab3_skm/debouncer
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  LUT4	         63        17.3
-                               LUTGATE	         37        12.9
+                                  LUT4	         63        20.2
+                               LUTGATE	         37        15.8
                                 LUTCCU	         26        33.3
-                                PFUREG	         44        34.6
+                                PFUREG	         44        33.6
 SUB MODULES
                                   cell	      count    LUT4 Usage(%)
-                     counter_24s_95999	          1        13.7
+                     counter_24s_95999	          1        16.0
 ---------------------------------------------------
 Report for cell counter_24s_95999
    Instance path: lab3_skm/debouncer/debounce_counter
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  LUT4	         50        13.7
-                               LUTGATE	         24         8.4
+                                  LUT4	         50        16.0
+                               LUTGATE	         24        10.3
                                 LUTCCU	         26        33.3
-                                PFUREG	         24        18.9
+                                PFUREG	         24        18.3
 ---------------------------------------------------
 Report for cell lab3led
    Instance path: lab3_skm/led
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  LUT4	         32         8.8
-                               LUTGATE	         32        11.2
-                                PFUREG	         13        10.2
+                                  LUT4	         32        10.3
+                               LUTGATE	         32        13.7
+                                PFUREG	         13         9.9
 SUB MODULES
                                   cell	      count    LUT4 Usage(%)
-                         lab2_sevenseg	          1         1.9
-                       lab2_sevenseg_0	          1         5.5
+                         lab2_sevenseg	          1         2.2
+                       lab2_sevenseg_0	          1         6.4
 ---------------------------------------------------
 Report for cell lab2_sevenseg
    Instance path: lab3_skm/led/left
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  LUT4	          7         1.9
-                               LUTGATE	          7         2.4
+                                  LUT4	          7         2.2
+                               LUTGATE	          7         3.0
 ---------------------------------------------------
 Report for cell lab2_sevenseg_0
    Instance path: lab3_skm/led/right
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  LUT4	         20         5.5
-                               LUTGATE	         20         7.0
+                                  LUT4	         20         6.4
+                               LUTGATE	         20         8.5
 ---------------------------------------------------
 Report for cell counter_24s_199999
    Instance path: lab3_skm/count
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  LUT4	         45        12.4
-                               LUTGATE	         19         6.6
+                                  LUT4	         45        14.4
+                               LUTGATE	         19         8.1
                                 LUTCCU	         26        33.3
-                                PFUREG	         24        18.9
+                                PFUREG	         24        18.3

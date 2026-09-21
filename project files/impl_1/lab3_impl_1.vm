@@ -2,7 +2,7 @@
 // Written by Synplify Pro 
 // Product Version "X-2025.09LR-SP1"
 // Program "Synplify Pro", Mapper "map202509latsp1, Build 093R"
-// Sun Sep 20 17:47:15 2026
+// Sun Sep 20 17:55:29 2026
 //
 // Source file index table:
 // Object locations will have the form <file>:<line>
@@ -4073,7 +4073,7 @@ wire GND ;
 	.CLKHFEN(VCC),
 	.CLKHF(int_osc)
 );
-defparam hf_osc.CLKHF_DIV="1";
+defparam hf_osc.CLKHF_DIV="0b01";
 // @61:34
   lab2_scanner_24s_23999 scan (
 	.rows_c(rows_c[3:0]),

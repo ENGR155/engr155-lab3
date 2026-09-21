@@ -1,6 +1,6 @@
 #OPTIONS:"|-mixedhdl|-modhint|C:\\Users\\skantimahanty\\Documents\\GitHub\\engr155-lab3\\project files\\impl_1\\synwork\\_verilog_hintfile|-top|lab3_skm|-layerid|0|-orig_srs|C:\\Users\\skantimahanty\\Documents\\GitHub\\engr155-lab3\\project files\\impl_1\\synwork\\lab3_impl_1_comp.srs|-prodtype|synplify_pro|-primux|-fixsmult|-infer_seqShift|-sdff_counter|-nram|-divnmod|-nostructver|-lattice|-ice|-I|C:\\Users\\skantimahanty\\Documents\\GitHub\\engr155-lab3\\project files|-I|C:\\Users\\skantimahanty\\Documents\\GitHub\\engr155-lab3\\project files\\impl_1\\|-I|C:\\lscc\\radiant\\2026.1\\synpbase\\lib|-v2001|-devicelib|C:\\lscc\\radiant\\2026.1\\synpbase\\lib\\generic\\ice40up.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-D_MULTIPLE_FILE_COMPILATION_UNIT_|-lib|work|-lib|work|-fsysv|-lib|work|-fsysv|-lib|work|-fsysv|-lib|work|-fsysv|-lib|work|-fsysv|-lib|work|-fsysv|-lib|work|-fsysv|-lib|work|-fsysv"
 #CUR:"C:\\lscc\\radiant\\2026.1\\synpbase\\bin64\\c_ver.exe":1779441298
-#CUR:"C:\\Users\\skantimahanty\\Documents\\GitHub\\engr155-lab3\\project files\\impl_1\\synwork\\_verilog_hintfile":1789951326
+#CUR:"C:\\Users\\skantimahanty\\Documents\\GitHub\\engr155-lab3\\project files\\impl_1\\synwork\\_verilog_hintfile":1789951864
 #CUR:"C:\\lscc\\radiant\\2026.1\\synpbase\\lib\\generic\\ice40up.v":1779441326
 #CUR:"C:\\lscc\\radiant\\2026.1\\synpbase\\lib\\vlog\\hypermods.v":1779441329
 #CUR:"C:\\lscc\\radiant\\2026.1\\synpbase\\lib\\vlog\\scemi_objects.v":1779441329
@@ -73,14 +73,14 @@
 #CUR:"C:\\lscc\\radiant\\2026.1\\ip\\pmi\\../LFMXO4/ram_dq/rtl\\hsiao_ecc_decoder.v":1771899005
 #CUR:"C:\\lscc\\radiant\\2026.1\\ip\\pmi\\../LFMXO4/ram_dq/rtl\\lscc_lfmxo4_ram_dq_lut_decode.v":1774840490
 #CUR:"C:\\lscc\\radiant\\2026.1\\ip\\pmi\\pmi_dsp.v":1536293095
-#CUR:"C:\\Users\\skantimahanty\\Documents\\GitHub\\engr155-lab3\\project files\\source\\impl_1\\counter.sv":1789951326
-#CUR:"C:\\Users\\skantimahanty\\Documents\\GitHub\\engr155-lab3\\project files\\source\\impl_1\\lab3_skm.sv":1789951326
-#CUR:"C:\\Users\\skantimahanty\\Documents\\GitHub\\engr155-lab3\\project files\\source\\impl_1\\lab2_scanner.sv":1789951326
-#CUR:"C:\\Users\\skantimahanty\\Documents\\GitHub\\engr155-lab3\\project files\\source\\impl_1\\lab2_sevenseg.sv":1789951326
-#CUR:"C:\\Users\\skantimahanty\\Documents\\GitHub\\engr155-lab3\\project files\\source\\impl_1\\lab3debouncer.sv":1789951326
-#CUR:"C:\\Users\\skantimahanty\\Documents\\GitHub\\engr155-lab3\\project files\\source\\impl_1\\lab3led.sv":1789951326
-#CUR:"C:\\Users\\skantimahanty\\Documents\\GitHub\\engr155-lab3\\project files\\source\\impl_1\\lab3main.sv":1789951326
-#CUR:"C:\\Users\\skantimahanty\\Documents\\GitHub\\engr155-lab3\\project files\\source\\impl_1\\lab3sync.sv":1789951405
+#CUR:"C:\\Users\\skantimahanty\\Documents\\GitHub\\engr155-lab3\\project files\\source\\impl_1\\counter.sv":1789951864
+#CUR:"C:\\Users\\skantimahanty\\Documents\\GitHub\\engr155-lab3\\project files\\source\\impl_1\\lab3_skm.sv":1789952087
+#CUR:"C:\\Users\\skantimahanty\\Documents\\GitHub\\engr155-lab3\\project files\\source\\impl_1\\lab2_scanner.sv":1789951864
+#CUR:"C:\\Users\\skantimahanty\\Documents\\GitHub\\engr155-lab3\\project files\\source\\impl_1\\lab2_sevenseg.sv":1789951864
+#CUR:"C:\\Users\\skantimahanty\\Documents\\GitHub\\engr155-lab3\\project files\\source\\impl_1\\lab3debouncer.sv":1789951864
+#CUR:"C:\\Users\\skantimahanty\\Documents\\GitHub\\engr155-lab3\\project files\\source\\impl_1\\lab3led.sv":1789951864
+#CUR:"C:\\Users\\skantimahanty\\Documents\\GitHub\\engr155-lab3\\project files\\source\\impl_1\\lab3main.sv":1789951864
+#CUR:"C:\\Users\\skantimahanty\\Documents\\GitHub\\engr155-lab3\\project files\\source\\impl_1\\lab3sync.sv":1789951864
 #numinternalfiles:4
 #defaultlanguage:verilog
 0			"C:\lscc\radiant\2026.1\ip\pmi\pmi_iCE40UP.v" verilog

@@ -18,7 +18,7 @@ The file contains the job information from compiler to be displayed as part of t
   <report_link name="more"><data>C:\Users\skantimahanty\Documents\GitHub\engr155-lab3\project files\impl_1\synlog\report\lab3_impl_1_compiler_notes.txt</data></report_link>
   </info>
 			<info name="Warnings">
-  <data>1</data>
+  <data>0</data>
   <report_link name="more"><data>C:\Users\skantimahanty\Documents\GitHub\engr155-lab3\project files\impl_1\synlog\report\lab3_impl_1_compiler_warnings.txt</data></report_link>
   </info>
 			<info name="Errors">
@@ -29,13 +29,13 @@ The file contains the job information from compiler to be displayed as part of t
   <data>-</data>
   </info>
 			<info name="Real Time">
-  <data>00h:00m:09s</data>
+  <data>00h:00m:10s</data>
   </info>
 			<info name="Peak Memory">
   <data>-</data>
   </info>
 			<info name="Date &amp;Time">
-  <data type="timestamp">1789951620</data>
+  <data type="timestamp">1789952109</data>
   </info>
 			</job_info>
 </job_run_status>
