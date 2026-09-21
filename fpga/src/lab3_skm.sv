@@ -11,6 +11,7 @@ module lab3_skm (
 );
 
     // Starting logic
+    logic [3:0] segout;
     logic int_osc;
     logic [23:0] counter;
     logic multi; // For multiplexing the two seven-segment displays
