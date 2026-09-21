@@ -1,17 +1,17 @@
 @P:  Worst Slack : -12.795
-@P:  lab3_skm|int_osc_inferred_clock - Estimated Frequency : 61.8 MHz
+@P:  lab3_skm|int_osc_inferred_clock - Estimated Frequency : 72.6 MHz
 @P:  lab3_skm|int_osc_inferred_clock - Requested Frequency : 200.0 MHz
-@P:  lab3_skm|int_osc_inferred_clock - Estimated Period : 16.169
+@P:  lab3_skm|int_osc_inferred_clock - Estimated Period : 13.776
 @P:  lab3_skm|int_osc_inferred_clock - Requested Period : 5.000
-@P:  lab3_skm|int_osc_inferred_clock - Slack : -11.169
-@P:  System - Estimated Frequency : 58.9 MHz
+@P:  lab3_skm|int_osc_inferred_clock - Slack : -8.776
+@P:  System - Estimated Frequency : 143.8 MHz
 @P:  System - Requested Frequency : 200.0 MHz
-@P:  System - Estimated Period : 16.964
+@P:  System - Estimated Period : 6.952
 @P:  System - Requested Period : 5.000
-@P:  System - Slack : -11.964
+@P:  System - Slack : -1.952
 @P: lab3_skm Part : ice40up5ksg48i-6
 @P: lab3_skm I/O primitives : 17
 @P: lab3_skm I/O Register bits : 0
-@P: lab3_skm Register bits (Non I/O) : 127 (2%)
-@P: lab3_skm Total Luts : 255 of 5280 (4%)
+@P: lab3_skm Register bits (Non I/O) : 131 (2%)
+@P: lab3_skm Total Luts : 200 of 5280 (3%)
 @P:  CPU Time : 0h:00m:02s

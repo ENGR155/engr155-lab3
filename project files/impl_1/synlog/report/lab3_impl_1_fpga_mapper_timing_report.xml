@@ -17,13 +17,13 @@ Max Top 5 critical clocks will be reported. For rest user needs to refer to Deta
 <row>
 <data>lab3_skm|int_osc_inferred_clock</data>
 <data>200.0 MHz</data>
-<data>61.8 MHz</data>
-<data>-11.169</data>
+<data>72.6 MHz</data>
+<data>-8.776</data>
 </row>
 <row>
 <data>System</data>
 <data>200.0 MHz</data>
-<data>58.9 MHz</data>
-<data>-11.964</data>
+<data>143.8 MHz</data>
+<data>-1.952</data>
 </row>
 </report_table>

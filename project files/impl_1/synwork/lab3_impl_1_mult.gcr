@@ -1,6 +1,6 @@
 i int_osc
 m 0 0
-u 14 115
+u 18 131
 n ckid0_0 {t:count.count[23:0].C} Clock Optimization not enabled
 p {p:count.clk}{t:count.count[23:0].C}
 e ckid0_0 {t:count.count[23:0].C} dff
@@ -12,9 +12,11 @@ p {p:debouncer.clk}{t:debouncer.seg_out[4:0].C}
 e ckid0_3 {t:debouncer.seg_out[4:0].C} sdffse
 p {p:decoder.clk}{t:decoder.num[4:0].C}
 e ckid0_4 {t:decoder.num[4:0].C} sdffse
+p {p:sync.clk}{t:sync.rows_sync[3:0].C}
+e ckid0_5 {t:sync.rows_sync[3:0].C} sdffpatr
 p {p:scan.count.clk}{t:scan.count.count[23:0].C}
-e ckid0_5 {t:scan.count.count[23:0].C} dff
-d ckid0_0,ckid0_1,ckid0_2,ckid0_3,ckid0_4,ckid0_5 {t:hf_osc.CLKHF} HSOSC Clock Optimization not enabled
+e ckid0_6 {t:scan.count.count[23:0].C} dff
+d ckid0_0,ckid0_1,ckid0_2,ckid0_3,ckid0_4,ckid0_5,ckid0_6 {t:hf_osc.CLKHF} HSOSC Clock Optimization not enabled
 i int_osc_i
 m 0 0
 u 0 0

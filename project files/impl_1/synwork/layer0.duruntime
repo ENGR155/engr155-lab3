@@ -17,6 +17,8 @@ Runtime Summary:
 			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
 		* Library: work, DesignUnit: lab3main
 			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: lab3sync
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
 		* Library: work, DesignUnit: lab2_scanner_24s_23999
 			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
 		* Library: work, DesignUnit: counter_24s_23999

@@ -1,2 +1,2 @@
-@W: CG168 :"C:\Users\skantimahanty\Documents\GitHub\engr155-lab3\project files\source\impl_1\lab3_skm.sv":20:9:20:14|Type of parameter CLKHF_DIV on the instance hf_osc is not in accordance with the type of parameter on corresponding module. Please update RTL with correct parameter type 
+@W: CG168 :"C:\Users\skantimahanty\Documents\GitHub\engr155-lab3\project files\source\impl_1\lab3_skm.sv":21:9:21:14|Type of parameter CLKHF_DIV on the instance hf_osc is not in accordance with the type of parameter on corresponding module. Please update RTL with correct parameter type 
 

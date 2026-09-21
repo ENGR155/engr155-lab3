@@ -14,6 +14,7 @@ add_file -verilog -vlog_std sysv "C:/Users/skantimahanty/Documents/GitHub/engr15
 add_file -verilog -vlog_std sysv "C:/Users/skantimahanty/Documents/GitHub/engr155-lab3/project files/source/impl_1/lab3debouncer.sv"
 add_file -verilog -vlog_std sysv "C:/Users/skantimahanty/Documents/GitHub/engr155-lab3/project files/source/impl_1/lab3led.sv"
 add_file -verilog -vlog_std sysv "C:/Users/skantimahanty/Documents/GitHub/engr155-lab3/project files/source/impl_1/lab3main.sv"
+add_file -verilog -vlog_std sysv "C:/Users/skantimahanty/Documents/GitHub/engr155-lab3/project files/source/impl_1/lab3sync.sv"
 
 
 #implementation: "impl_1"

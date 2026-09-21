@@ -1,9 +1,9 @@
 #Build: Synplify Pro (R) X-2025.09LR-SP1, Build 154R, May 20 2026
 #install: C:\lscc\radiant\2026.1\synpbase
 #OS: Windows 10 or later
-#Hostname: 8FMZ0R3
+#Hostname: HFMZ0R3
 
-# Sat Sep 19 18:19:37 2026
+# Sun Sep 20 17:46:51 2026
 
 #Implementation: impl_1
 
@@ -17,7 +17,7 @@ Tool: Synplify Pro (R)
 Build: X-2025.09LR-SP1
 Install: C:\lscc\radiant\2026.1\synpbase
 OS: Windows 10 or later
-Hostname: 8FMZ0R3
+Hostname: HFMZ0R3
 
 Implementation : impl_1
 Synopsys HDL Compiler, Version comp202509synp2, Build 154R, Built May 20 2026 06:20:37, @
@@ -34,7 +34,7 @@ Tool: Synplify Pro (R)
 Build: X-2025.09LR-SP1
 Install: C:\lscc\radiant\2026.1\synpbase
 OS: Windows 10 or later
-Hostname: 8FMZ0R3
+Hostname: HFMZ0R3
 
 Implementation : impl_1
 Synopsys VHDL Compiler, Version comp202509synp2, Build 154R, Built May 20 2026 06:20:37, @
@@ -45,11 +45,11 @@ Top entity isn't set yet!
 @N: CD140 :	| Using the VHDL 1993 Standard for file 'C:\lscc\radiant\2026.1\ip\pmi\pmi_iCE40UP.vhd'.
 VHDL syntax check successful!
 
-At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 150MB peak: 150MB)
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 149MB peak: 150MB)
 
 
 Process completed successfully.
-# Sat Sep 19 18:19:37 2026
+# Sun Sep 20 17:46:54 2026
 
 ###########################################################]
 ###########################################################[
@@ -63,7 +63,7 @@ Tool: Synplify Pro (R)
 Build: X-2025.09LR-SP1
 Install: C:\lscc\radiant\2026.1\synpbase
 OS: Windows 10 or later
-Hostname: 8FMZ0R3
+Hostname: HFMZ0R3
 
 Implementation : impl_1
 Synopsys Verilog Compiler, Version comp202509synp2, Build 154R, Built May 20 2026 06:20:37, @
@@ -230,13 +230,14 @@ Synopsys Verilog Compiler, Version comp202509synp2, Build 154R, Built May 20 202
 @I::"C:\Users\skantimahanty\Documents\GitHub\engr155-lab3\project files\source\impl_1\lab3debouncer.sv" (library work)
 @I::"C:\Users\skantimahanty\Documents\GitHub\engr155-lab3\project files\source\impl_1\lab3led.sv" (library work)
 @I::"C:\Users\skantimahanty\Documents\GitHub\engr155-lab3\project files\source\impl_1\lab3main.sv" (library work)
+@I::"C:\Users\skantimahanty\Documents\GitHub\engr155-lab3\project files\source\impl_1\lab3sync.sv" (library work)
 Verilog syntax check successful!
 
-At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 183MB peak: 184MB)
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 183MB peak: 183MB)
 
 
 Process completed successfully.
-# Sat Sep 19 18:19:38 2026
+# Sun Sep 20 17:46:55 2026
 
 ###########################################################]
 ###########################################################[
@@ -401,74 +402,81 @@ Process completed successfully.
 @I::"C:\Users\skantimahanty\Documents\GitHub\engr155-lab3\project files\source\impl_1\lab3debouncer.sv" (library work)
 @I::"C:\Users\skantimahanty\Documents\GitHub\engr155-lab3\project files\source\impl_1\lab3led.sv" (library work)
 @I::"C:\Users\skantimahanty\Documents\GitHub\engr155-lab3\project files\source\impl_1\lab3main.sv" (library work)
+@I::"C:\Users\skantimahanty\Documents\GitHub\engr155-lab3\project files\source\impl_1\lab3sync.sv" (library work)
 Verilog syntax check successful!
-File C:\Users\skantimahanty\Documents\GitHub\engr155-lab3\project files\source\impl_1\lab3_skm.sv changed - recompiling
+Options changed - recompiling
+@W: CG168 :"C:\Users\skantimahanty\Documents\GitHub\engr155-lab3\project files\source\impl_1\lab3_skm.sv":21:9:21:14|Type of parameter CLKHF_DIV on the instance hf_osc is not in accordance with the type of parameter on corresponding module. Please update RTL with correct parameter type 
 @N: CG364 :"C:\lscc\radiant\2026.1\synpbase\lib\generic\ice40up.v":795:7:795:11|Synthesizing module HSOSC in library work.
 Running optimization stage 1 on HSOSC .......
-Finished optimization stage 1 on HSOSC (CPU Time 0h:00m:00s, Memory Used current: 185MB peak: 186MB)
+Finished optimization stage 1 on HSOSC (CPU Time 0h:00m:00s, Memory Used current: 184MB peak: 185MB)
 @N: CG364 :"C:\Users\skantimahanty\Documents\GitHub\engr155-lab3\project files\source\impl_1\counter.sv":5:7:5:13|Synthesizing module counter in library work.
 
 	width=32'b00000000000000000000000000011000
 	max_count=24'b000000000101110110111111
    Generated name = counter_24s_23999
 Running optimization stage 1 on counter_24s_23999 .......
-Finished optimization stage 1 on counter_24s_23999 (CPU Time 0h:00m:00s, Memory Used current: 186MB peak: 186MB)
+Finished optimization stage 1 on counter_24s_23999 (CPU Time 0h:00m:00s, Memory Used current: 185MB peak: 185MB)
 @N: CG364 :"C:\Users\skantimahanty\Documents\GitHub\engr155-lab3\project files\source\impl_1\lab2_scanner.sv":5:7:5:18|Synthesizing module lab2_scanner in library work.
 
 	width=32'b00000000000000000000000000011000
 	max_count=24'b000000000101110110111111
    Generated name = lab2_scanner_24s_23999
 Running optimization stage 1 on lab2_scanner_24s_23999 .......
-Finished optimization stage 1 on lab2_scanner_24s_23999 (CPU Time 0h:00m:00s, Memory Used current: 186MB peak: 187MB)
+Finished optimization stage 1 on lab2_scanner_24s_23999 (CPU Time 0h:00m:00s, Memory Used current: 185MB peak: 186MB)
+@N: CG364 :"C:\Users\skantimahanty\Documents\GitHub\engr155-lab3\project files\source\impl_1\lab3sync.sv":5:7:5:14|Synthesizing module lab3sync in library work.
+Running optimization stage 1 on lab3sync .......
+Finished optimization stage 1 on lab3sync (CPU Time 0h:00m:00s, Memory Used current: 188MB peak: 188MB)
 @N: CG364 :"C:\Users\skantimahanty\Documents\GitHub\engr155-lab3\project files\source\impl_1\lab3main.sv":1:7:1:14|Synthesizing module lab3main in library work.
 Running optimization stage 1 on lab3main .......
-Finished optimization stage 1 on lab3main (CPU Time 0h:00m:00s, Memory Used current: 186MB peak: 187MB)
+Finished optimization stage 1 on lab3main (CPU Time 0h:00m:00s, Memory Used current: 191MB peak: 191MB)
 @N: CG364 :"C:\Users\skantimahanty\Documents\GitHub\engr155-lab3\project files\source\impl_1\counter.sv":5:7:5:13|Synthesizing module counter in library work.
 
 	width=32'b00000000000000000000000000011000
 	max_count=24'b000000010111011011111111
    Generated name = counter_24s_95999
 Running optimization stage 1 on counter_24s_95999 .......
-Finished optimization stage 1 on counter_24s_95999 (CPU Time 0h:00m:00s, Memory Used current: 186MB peak: 187MB)
+Finished optimization stage 1 on counter_24s_95999 (CPU Time 0h:00m:00s, Memory Used current: 191MB peak: 191MB)
 @N: CG364 :"C:\Users\skantimahanty\Documents\GitHub\engr155-lab3\project files\source\impl_1\lab3debouncer.sv":6:7:6:19|Synthesizing module lab3debouncer in library work.
 Running optimization stage 1 on lab3debouncer .......
-Finished optimization stage 1 on lab3debouncer (CPU Time 0h:00m:00s, Memory Used current: 187MB peak: 188MB)
+Finished optimization stage 1 on lab3debouncer (CPU Time 0h:00m:00s, Memory Used current: 191MB peak: 192MB)
 @N: CG364 :"C:\Users\skantimahanty\Documents\GitHub\engr155-lab3\project files\source\impl_1\lab2_sevenseg.sv":5:7:5:19|Synthesizing module lab2_sevenseg in library work.
 Running optimization stage 1 on lab2_sevenseg .......
-Finished optimization stage 1 on lab2_sevenseg (CPU Time 0h:00m:00s, Memory Used current: 187MB peak: 188MB)
+Finished optimization stage 1 on lab2_sevenseg (CPU Time 0h:00m:00s, Memory Used current: 191MB peak: 192MB)
 @N: CG364 :"C:\Users\skantimahanty\Documents\GitHub\engr155-lab3\project files\source\impl_1\lab3led.sv":5:7:5:13|Synthesizing module lab3led in library work.
 Running optimization stage 1 on lab3led .......
-Finished optimization stage 1 on lab3led (CPU Time 0h:00m:00s, Memory Used current: 188MB peak: 189MB)
+Finished optimization stage 1 on lab3led (CPU Time 0h:00m:00s, Memory Used current: 192MB peak: 193MB)
 @N: CG364 :"C:\Users\skantimahanty\Documents\GitHub\engr155-lab3\project files\source\impl_1\counter.sv":5:7:5:13|Synthesizing module counter in library work.
 
 	width=32'b00000000000000000000000000011000
 	max_count=24'b000000110000110100111111
    Generated name = counter_24s_199999
 Running optimization stage 1 on counter_24s_199999 .......
-Finished optimization stage 1 on counter_24s_199999 (CPU Time 0h:00m:00s, Memory Used current: 188MB peak: 189MB)
+Finished optimization stage 1 on counter_24s_199999 (CPU Time 0h:00m:00s, Memory Used current: 192MB peak: 193MB)
 @N: CG364 :"C:\Users\skantimahanty\Documents\GitHub\engr155-lab3\project files\source\impl_1\lab3_skm.sv":6:7:6:14|Synthesizing module lab3_skm in library work.
 Running optimization stage 1 on lab3_skm .......
-Finished optimization stage 1 on lab3_skm (CPU Time 0h:00m:00s, Memory Used current: 188MB peak: 189MB)
+Finished optimization stage 1 on lab3_skm (CPU Time 0h:00m:00s, Memory Used current: 192MB peak: 193MB)
 Running optimization stage 2 on lab3_skm .......
-Finished optimization stage 2 on lab3_skm (CPU Time 0h:00m:00s, Memory Used current: 188MB peak: 189MB)
+Finished optimization stage 2 on lab3_skm (CPU Time 0h:00m:00s, Memory Used current: 192MB peak: 193MB)
 Running optimization stage 2 on counter_24s_199999 .......
-Finished optimization stage 2 on counter_24s_199999 (CPU Time 0h:00m:00s, Memory Used current: 188MB peak: 189MB)
+Finished optimization stage 2 on counter_24s_199999 (CPU Time 0h:00m:00s, Memory Used current: 193MB peak: 193MB)
 Running optimization stage 2 on lab3led .......
-Finished optimization stage 2 on lab3led (CPU Time 0h:00m:00s, Memory Used current: 188MB peak: 189MB)
+Finished optimization stage 2 on lab3led (CPU Time 0h:00m:00s, Memory Used current: 193MB peak: 194MB)
 Running optimization stage 2 on lab2_sevenseg .......
-Finished optimization stage 2 on lab2_sevenseg (CPU Time 0h:00m:00s, Memory Used current: 188MB peak: 189MB)
+Finished optimization stage 2 on lab2_sevenseg (CPU Time 0h:00m:00s, Memory Used current: 193MB peak: 194MB)
 Running optimization stage 2 on lab3debouncer .......
-Finished optimization stage 2 on lab3debouncer (CPU Time 0h:00m:00s, Memory Used current: 189MB peak: 190MB)
+Finished optimization stage 2 on lab3debouncer (CPU Time 0h:00m:00s, Memory Used current: 193MB peak: 194MB)
 Running optimization stage 2 on counter_24s_95999 .......
-Finished optimization stage 2 on counter_24s_95999 (CPU Time 0h:00m:00s, Memory Used current: 189MB peak: 190MB)
+Finished optimization stage 2 on counter_24s_95999 (CPU Time 0h:00m:00s, Memory Used current: 193MB peak: 194MB)
 Running optimization stage 2 on lab3main .......
-Finished optimization stage 2 on lab3main (CPU Time 0h:00m:00s, Memory Used current: 189MB peak: 190MB)
+Finished optimization stage 2 on lab3main (CPU Time 0h:00m:00s, Memory Used current: 194MB peak: 194MB)
+Running optimization stage 2 on lab3sync .......
+Finished optimization stage 2 on lab3sync (CPU Time 0h:00m:00s, Memory Used current: 194MB peak: 194MB)
 Running optimization stage 2 on lab2_scanner_24s_23999 .......
-Finished optimization stage 2 on lab2_scanner_24s_23999 (CPU Time 0h:00m:00s, Memory Used current: 189MB peak: 190MB)
+Finished optimization stage 2 on lab2_scanner_24s_23999 (CPU Time 0h:00m:00s, Memory Used current: 194MB peak: 194MB)
 Running optimization stage 2 on counter_24s_23999 .......
-Finished optimization stage 2 on counter_24s_23999 (CPU Time 0h:00m:00s, Memory Used current: 189MB peak: 190MB)
+Finished optimization stage 2 on counter_24s_23999 (CPU Time 0h:00m:00s, Memory Used current: 194MB peak: 194MB)
 Running optimization stage 2 on HSOSC .......
-Finished optimization stage 2 on HSOSC (CPU Time 0h:00m:00s, Memory Used current: 189MB peak: 190MB)
+Finished optimization stage 2 on HSOSC (CPU Time 0h:00m:00s, Memory Used current: 194MB peak: 194MB)
 
 For a summary of runtime per design unit, please see file:
 ==========================================================
@@ -476,11 +484,11 @@ For a summary of runtime per design unit, please see file:
 
 
 
-At c_ver Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 189MB peak: 190MB)
+At c_ver Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 194MB peak: 194MB)
 
 
 Process completed successfully.
-# Sat Sep 19 18:19:39 2026
+# Sun Sep 20 17:46:57 2026
 
 ###########################################################]
 ###########################################################[
@@ -494,19 +502,19 @@ Tool: Synplify Pro (R)
 Build: X-2025.09LR-SP1
 Install: C:\lscc\radiant\2026.1\synpbase
 OS: Windows 10 or later
-Hostname: 8FMZ0R3
+Hostname: HFMZ0R3
 
 Implementation : impl_1
 Synopsys Synopsys Netlist Linker, Version comp202509synp2, Build 154R, Built May 20 2026 06:20:37, @
 
 @N|Running in 64-bit mode
 
-At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 153MB peak: 154MB)
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 153MB peak: 153MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Sat Sep 19 18:19:39 2026
+# Sun Sep 20 17:47:00 2026
 
 ###########################################################]
 
@@ -516,12 +524,12 @@ For a summary of runtime and memory usage for all design units, please see file:
 
 @END
 
-At c_hdl Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 86MB peak: 88MB)
+At c_hdl Exit (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:02s; Memory used current: 94MB peak: 95MB)
 
-Process took 0h:00m:02s realtime, 0h:00m:02s cputime
+Process took 0h:00m:07s realtime, 0h:00m:02s cputime
 
 Process completed successfully.
-# Sat Sep 19 18:19:39 2026
+# Sun Sep 20 17:47:00 2026
 
 ###########################################################]
 ###########################################################[
@@ -535,7 +543,7 @@ Tool: Synplify Pro (R)
 Build: X-2025.09LR-SP1
 Install: C:\lscc\radiant\2026.1\synpbase
 OS: Windows 10 or later
-Hostname: 8FMZ0R3
+Hostname: HFMZ0R3
 
 Implementation : impl_1
 Synopsys Synopsys Netlist Linker, Version comp202509synp2, Build 154R, Built May 20 2026 06:20:37, @
@@ -543,15 +551,15 @@ Synopsys Synopsys Netlist Linker, Version comp202509synp2, Build 154R, Built May
 @N|Running in 64-bit mode
 File C:\Users\skantimahanty\Documents\GitHub\engr155-lab3\project files\impl_1\synwork\lab3_impl_1_comp.srs changed - recompiling
 
-At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 154MB peak: 154MB)
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 152MB peak: 153MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Sat Sep 19 18:19:40 2026
+# Sun Sep 20 17:47:01 2026
 
 ###########################################################]
-# Sat Sep 19 18:19:41 2026
+# Sun Sep 20 17:47:12 2026
 
 
 Copyright (C) 1994-2025 Synopsys, Inc.
@@ -563,7 +571,7 @@ Tool: Synplify Pro (R)
 Build: X-2025.09LR-SP1
 Install: C:\lscc\radiant\2026.1\synpbase
 OS: Windows 10 or later
-Hostname: 8FMZ0R3
+Hostname: HFMZ0R3
 
 Implementation : impl_1
 Synopsys Lattice Technology Pre-mapping, Version map202509latsp1, Build 093R, Built May 20 2026 06:42:48, @
@@ -572,7 +580,7 @@ Synopsys Lattice Technology Pre-mapping, Version map202509latsp1, Build 093R, Bu
 Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 186MB peak: 186MB)
 
 
-Done reading skeleton netlist (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 191MB peak: 204MB)
+Done reading skeleton netlist (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 190MB peak: 203MB)
 
 Reading constraint file: C:\lscc\radiant\2026.1\scripts\tcl\flow\radiant_synplify_vars.tcl
 Reading constraint file: C:\Users\skantimahanty\Documents\GitHub\engr155-lab3\project files\impl_1\lab3_impl_1_cpe.ldc
@@ -582,16 +590,16 @@ See clock summary report "C:\Users\skantimahanty\Documents\GitHub\engr155-lab3\p
 @N: MF248 |Running in 64-bit mode.
 @N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
 
-Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 194MB peak: 204MB)
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 194MB peak: 203MB)
 
 
-Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 194MB peak: 204MB)
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 194MB peak: 203MB)
 
 
-Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 196MB peak: 204MB)
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 196MB peak: 203MB)
 
 
-Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 196MB peak: 204MB)
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 196MB peak: 203MB)
 
 NConnInternalConnection caching is on
 @W: FX1172 :"c:\users\skantimahanty\documents\github\engr155-lab3\project files\source\impl_1\counter.sv":13:3:13:11|User-specified initial value defined for instance scan.count.count[23:0] is being ignored due to limitations in architecture. 
@@ -610,7 +618,7 @@ Started DisTri Cleanup (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00
 Finished DisTri Cleanup (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 251MB peak: 252MB)
 
 
-Starting clock optimization report phase (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 253MB peak: 253MB)
+Starting clock optimization report phase (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 252MB peak: 252MB)
 
 
 Finished clock optimization report phase (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 253MB peak: 253MB)
@@ -627,7 +635,7 @@ Clock Summary
           Start                               Requested     Requested     Clock        Clock                     Clock
 Level     Clock                               Frequency     Period        Type         Group                     Load 
 ----------------------------------------------------------------------------------------------------------------------
-0 -       lab3_skm|int_osc_inferred_clock     200.0 MHz     5.000         inferred     Inferred_clkgroup_0_1     115  
+0 -       lab3_skm|int_osc_inferred_clock     200.0 MHz     5.000         inferred     Inferred_clkgroup_0_1     131  
 ======================================================================================================================
 
 
@@ -638,10 +646,10 @@ Clock Load Summary
                                     Clock     Source                  Clock Pin               Non-clock Pin     Non-clock Pin
 Clock                               Load      Pin                     Seq Example             Seq Example       Comb Example 
 -----------------------------------------------------------------------------------------------------------------------------
-lab3_skm|int_osc_inferred_clock     115       hf_osc.CLKHF(HSOSC)     count.count[23:0].C     -                 -            
+lab3_skm|int_osc_inferred_clock     131       hf_osc.CLKHF(HSOSC)     count.count[23:0].C     -                 -            
 =============================================================================================================================
 
-@W: MT530 :"c:\users\skantimahanty\documents\github\engr155-lab3\project files\source\impl_1\counter.sv":13:3:13:11|Found inferred clock lab3_skm|int_osc_inferred_clock which controls 115 sequential elements including scan.count.count[23:0]. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"c:\users\skantimahanty\documents\github\engr155-lab3\project files\source\impl_1\counter.sv":13:3:13:11|Found inferred clock lab3_skm|int_osc_inferred_clock which controls 131 sequential elements including scan.count.count[23:0]. This clock has no specified timing constraint which may adversely impact design performance. 
 
 ICG Latch Removal Summary:
 Number of ICG latches removed: 0
@@ -655,13 +663,13 @@ Number of ICG latches not removed:	0
 #### START OF PREMAP CLOCK OPTIMIZATION REPORT #####[
 
 0 non-gated/non-generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
-1 gated/generated clock tree(s) driving 115 clock pin(s) of sequential element(s)
-0 instances converted, 115 sequential instances remain driven by gated/generated clocks
+1 gated/generated clock tree(s) driving 131 clock pin(s) of sequential element(s)
+0 instances converted, 131 sequential instances remain driven by gated/generated clocks
 
 ========================================================== Gated/Generated Clocks ===========================================================
 Clock Tree ID     Driving Element     Drive Element Type     Unconverted Fanout     Sample Instance            Explanation                   
 ---------------------------------------------------------------------------------------------------------------------------------------------
-@KP:ckid0_5       hf_osc.CLKHF        HSOSC                  115                    scan.count.count[23:0]     Clock Optimization not enabled
+@KP:ckid0_6       hf_osc.CLKHF        HSOSC                  131                    scan.count.count[23:0]     Clock Optimization not enabled
 =============================================================================================================================================
 
 
@@ -681,15 +689,15 @@ Finished constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:0
 
 Pre-mapping successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 171MB peak: 257MB)
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 170MB peak: 256MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Sat Sep 19 18:19:41 2026
+# Sun Sep 20 17:47:13 2026
 
 ###########################################################]
 Map & Optimize Report
 
-# Sat Sep 19 18:19:42 2026
+# Sun Sep 20 17:47:13 2026
 
 
 Copyright (C) 1994-2025 Synopsys, Inc.
@@ -701,32 +709,32 @@ Tool: Synplify Pro (R)
 Build: X-2025.09LR-SP1
 Install: C:\lscc\radiant\2026.1\synpbase
 OS: Windows 10 or later
-Hostname: 8FMZ0R3
+Hostname: HFMZ0R3
 
 Implementation : impl_1
 Synopsys Lattice Technology Mapper, Version map202509latsp1, Build 093R, Built May 20 2026 06:42:48, @
 
 
-Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 186MB peak: 186MB)
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 185MB peak: 185MB)
 
 @N: MF916 |Option synthesis_strategy=base is enabled. 
 @N: MF248 |Running in 64-bit mode.
 @N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
 
-Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 188MB peak: 204MB)
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 186MB peak: 203MB)
 
 
-Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 188MB peak: 204MB)
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 187MB peak: 203MB)
 
 
-Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 190MB peak: 204MB)
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 189MB peak: 203MB)
 
 
-Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 192MB peak: 204MB)
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 190MB peak: 203MB)
 
 
 
-Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 249MB peak: 249MB)
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 248MB peak: 248MB)
 
 @N: BZ173 :"c:\users\skantimahanty\documents\github\engr155-lab3\project files\source\impl_1\lab2_sevenseg.sv":9:8:9:11|ROM right.seg_1[6:0] (in view: work.lab3led(verilog)) mapped in logic.
 @N: BZ173 :"c:\users\skantimahanty\documents\github\engr155-lab3\project files\source\impl_1\lab2_sevenseg.sv":9:8:9:11|ROM left.seg_1[6:0] (in view: work.lab3led(verilog)) mapped in logic.
@@ -735,19 +743,19 @@ Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapse
 @N: BZ173 :"c:\users\skantimahanty\documents\github\engr155-lab3\project files\source\impl_1\lab2_sevenseg.sv":9:8:9:11|ROM left.seg_1[6:0] (in view: work.lab3led(verilog)) mapped in logic.
 @N: MO106 :"c:\users\skantimahanty\documents\github\engr155-lab3\project files\source\impl_1\lab2_sevenseg.sv":9:8:9:11|Found ROM left.seg_1[6:0] (in view: work.lab3led(verilog)) with 16 words by 7 bits.
 
-Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 255MB peak: 255MB)
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 253MB peak: 253MB)
 
 
-Starting area decomp  (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 255MB peak: 255MB)
+Starting area decomp  (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 253MB peak: 254MB)
 
 
-Finished area decomp  (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 255MB peak: 255MB)
+Finished area decomp  (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 254MB peak: 254MB)
 
 
-Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 255MB peak: 256MB)
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 254MB peak: 254MB)
 
 
-Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 262MB peak: 262MB)
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 257MB peak: 257MB)
 
 
 Available hyper_sources - for debug and ip models
@@ -756,95 +764,81 @@ Available hyper_sources - for debug and ip models
 NConnInternalConnection caching is on
 @N: BN362 :"c:\users\skantimahanty\documents\github\engr155-lab3\project files\source\impl_1\lab3main.sv":148:4:148:12|Removing sequential instance decoder.num[4] (in view: work.lab3_skm(verilog)) because it does not drive other instances.
 
-Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 263MB peak: 263MB)
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 257MB peak: 257MB)
 
 
-Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 264MB peak: 264MB)
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 257MB peak: 258MB)
 
 
-Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:01s; Memory used current: 264MB peak: 264MB)
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 258MB peak: 258MB)
 
 
-Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 264MB peak: 265MB)
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 258MB peak: 258MB)
 
 
-Finished preparing to map (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 265MB peak: 265MB)
+Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 258MB peak: 258MB)
 
 
-Finished technology mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 265MB peak: 271MB)
+Finished technology mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 260MB peak: 260MB)
 
 Pass		 CPU time		Worst Slack		Luts / Registers
 ------------------------------------------------------------
-   1		0h:00m:01s		   -13.30ns		 258 /       114
-   2		0h:00m:01s		   -13.30ns		 256 /       114
-   3		0h:00m:01s		   -13.30ns		 256 /       114
-@N: FX271 :"c:\users\skantimahanty\documents\github\engr155-lab3\project files\source\impl_1\counter.sv":13:3:13:11|Replicating instance scan.count.count[12] (in view: work.lab3_skm(verilog)) with 18 loads 2 times to improve timing.
-@N: FX271 :"c:\users\skantimahanty\documents\github\engr155-lab3\project files\source\impl_1\counter.sv":13:3:13:11|Replicating instance scan.count.count[11] (in view: work.lab3_skm(verilog)) with 15 loads 1 time to improve timing.
-@N: FX271 :"c:\users\skantimahanty\documents\github\engr155-lab3\project files\source\impl_1\counter.sv":13:3:13:11|Replicating instance scan.count.count[13] (in view: work.lab3_skm(verilog)) with 14 loads 1 time to improve timing.
-@N: FX271 :"c:\users\skantimahanty\documents\github\engr155-lab3\project files\source\impl_1\counter.sv":13:3:13:11|Replicating instance scan.count.count[6] (in view: work.lab3_skm(verilog)) with 10 loads 1 time to improve timing.
-@N: FX271 :"c:\users\skantimahanty\documents\github\engr155-lab3\project files\source\impl_1\counter.sv":13:3:13:11|Replicating instance scan.count.count[8] (in view: work.lab3_skm(verilog)) with 10 loads 1 time to improve timing.
-@N: FX271 :"c:\users\skantimahanty\documents\github\engr155-lab3\project files\source\impl_1\counter.sv":13:3:13:11|Replicating instance scan.count.count[3] (in view: work.lab3_skm(verilog)) with 8 loads 1 time to improve timing.
-@N: FX271 :"c:\users\skantimahanty\documents\github\engr155-lab3\project files\source\impl_1\counter.sv":13:3:13:11|Replicating instance scan.count.count[7] (in view: work.lab3_skm(verilog)) with 8 loads 1 time to improve timing.
-@N: FX271 :"c:\users\skantimahanty\documents\github\engr155-lab3\project files\source\impl_1\counter.sv":13:3:13:11|Replicating instance scan.count.count[2] (in view: work.lab3_skm(verilog)) with 8 loads 1 time to improve timing.
-@N: FX271 :"c:\users\skantimahanty\documents\github\engr155-lab3\project files\source\impl_1\counter.sv":13:3:13:11|Replicating instance scan.count.count[0] (in view: work.lab3_skm(verilog)) with 8 loads 1 time to improve timing.
-@N: FX271 :"c:\users\skantimahanty\documents\github\engr155-lab3\project files\source\impl_1\counter.sv":13:3:13:11|Replicating instance scan.count.count[1] (in view: work.lab3_skm(verilog)) with 8 loads 1 time to improve timing.
-@N: FX271 :"c:\users\skantimahanty\documents\github\engr155-lab3\project files\source\impl_1\counter.sv":13:3:13:11|Replicating instance scan.count.count[5] (in view: work.lab3_skm(verilog)) with 9 loads 1 time to improve timing.
-Timing driven replication report
-Added 12 Registers via timing driven replication
-Added 10 LUTs via timing driven replication
-
-   4		0h:00m:01s		   -10.53ns		 329 /       126
-   5		0h:00m:01s		   -10.53ns		 332 /       126
-
-@N: FX271 :"c:\users\skantimahanty\documents\github\engr155-lab3\project files\source\impl_1\counter.sv":13:3:13:11|Replicating instance scan.count.count[15] (in view: work.lab3_skm(verilog)) with 15 loads 1 time to improve timing.
+   1		0h:00m:01s		   -13.95ns		 254 /       130
+   2		0h:00m:01s		   -13.95ns		 245 /       130
+   3		0h:00m:01s		   -11.18ns		 245 /       130
+@N: FX271 :"c:\users\skantimahanty\documents\github\engr155-lab3\project files\source\impl_1\counter.sv":13:3:13:11|Replicating instance scan.count.count[4] (in view: work.lab3_skm(verilog)) with 8 loads 1 time to improve timing.
+@N: FX271 :"c:\users\skantimahanty\documents\github\engr155-lab3\project files\source\impl_1\lab2_scanner.sv":37:17:40:42|Replicating instance scan.g0 (in view: work.lab3_skm(verilog)) with 2 loads 1 time(s) to improve timing.
+@N: FX271 :"c:\users\skantimahanty\documents\github\engr155-lab3\project files\source\impl_1\lab2_scanner.sv":26:8:28:33|Replicating instance scan.state7 (in view: work.lab3_skm(verilog)) with 2 loads 1 time(s) to improve timing.
 Timing driven replication report
 Added 1 Registers via timing driven replication
-Added 0 LUTs via timing driven replication
+Added 3 LUTs via timing driven replication
 
-   6		0h:00m:01s		    -7.75ns		 334 /       127
-   7		0h:00m:01s		    -7.75ns		 337 /       127
-   8		0h:00m:01s		    -7.75ns		 337 /       127
-
-Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 270MB peak: 271MB)
+   4		0h:00m:01s		    -8.17ns		 279 /       131
 
 
-Finished restoring hierarchy (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 271MB peak: 271MB)
+   5		0h:00m:01s		    -7.75ns		 280 /       131
+   6		0h:00m:01s		    -7.75ns		 283 /       131
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 264MB peak: 264MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 264MB peak: 265MB)
 
 @W: FX310 |Ignoring option "-dcc_insertion" since the technology does not support DCC. 
 
-Starting CDBProcessSetClockGroups... (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 271MB peak: 271MB)
+Starting CDBProcessSetClockGroups... (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 264MB peak: 265MB)
 
 
-Finished with CDBProcessSetClockGroups (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 271MB peak: 272MB)
+Finished with CDBProcessSetClockGroups (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 264MB peak: 265MB)
 
 
-Start Writing Netlists (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 223MB peak: 272MB)
+Start Writing Netlists (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 216MB peak: 265MB)
 
 Writing Analyst data base C:\Users\skantimahanty\Documents\GitHub\engr155-lab3\project files\impl_1\synwork\lab3_impl_1_m.srm
 
-Finished Writing Netlist Databases (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 270MB peak: 272MB)
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 264MB peak: 265MB)
 
 Writing Verilog Simulation files
 
-Writing scf file... (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 271MB peak: 272MB)
+Writing scf file... (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 264MB peak: 265MB)
 
 @N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
 @N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
 
-Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 271MB peak: 272MB)
+Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:02s; Memory used current: 265MB peak: 265MB)
 
 
-Finished Writing Netlists (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 271MB peak: 272MB)
+Finished Writing Netlists (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 265MB peak: 265MB)
 
 
-Start final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 269MB peak: 272MB)
+Start final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 263MB peak: 265MB)
 
-@W: MT246 :"c:\users\skantimahanty\documents\github\engr155-lab3\project files\source\impl_1\lab3_skm.sv":20:9:20:14|Blackbox HSOSC is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
+@W: MT246 :"c:\users\skantimahanty\documents\github\engr155-lab3\project files\source\impl_1\lab3_skm.sv":21:9:21:14|Blackbox HSOSC is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
 @W: MT420 |Found inferred clock lab3_skm|int_osc_inferred_clock with period 5.00ns. Please declare a user-defined clock on net int_osc.
 
 
 ##### START OF TIMING REPORT #####[
-# Timing report written on Sat Sep 19 18:19:44 2026
+# Timing report written on Sun Sep 20 17:47:16 2026
 #
 
 
@@ -867,12 +861,12 @@ Performance Summary
 
 Worst slack in design: -12.795
 
-                                    Requested     Estimated     Requested     Estimated                 Clock        Clock                
-Starting Clock                      Frequency     Frequency     Period        Period        Slack       Type         Group                
-------------------------------------------------------------------------------------------------------------------------------------------
-lab3_skm|int_osc_inferred_clock     200.0 MHz     61.8 MHz      5.000         16.169        -11.169     inferred     Inferred_clkgroup_0_1
-System                              200.0 MHz     58.9 MHz      5.000         16.964        -11.964     system       system_clkgroup      
-==========================================================================================================================================
+                                    Requested     Estimated     Requested     Estimated                Clock        Clock                
+Starting Clock                      Frequency     Frequency     Period        Period        Slack      Type         Group                
+-----------------------------------------------------------------------------------------------------------------------------------------
+lab3_skm|int_osc_inferred_clock     200.0 MHz     72.6 MHz      5.000         13.776        -8.776     inferred     Inferred_clkgroup_0_1
+System                              200.0 MHz     143.8 MHz     5.000         6.952         -1.952     system       system_clkgroup      
+=========================================================================================================================================
 
 
 
@@ -885,9 +879,9 @@ Clocks                                                            |    rise  to 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
 Starting                         Ending                           |  constraint  slack    |  constraint  slack  |  constraint  slack  |  constraint  slack
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
-System                           lab3_skm|int_osc_inferred_clock  |  5.000       -11.964  |  No paths    -      |  No paths    -      |  No paths    -    
+System                           lab3_skm|int_osc_inferred_clock  |  5.000       -1.952   |  No paths    -      |  No paths    -      |  No paths    -    
 lab3_skm|int_osc_inferred_clock  System                           |  5.000       -12.795  |  No paths    -      |  No paths    -      |  No paths    -    
-lab3_skm|int_osc_inferred_clock  lab3_skm|int_osc_inferred_clock  |  5.000       -11.169  |  No paths    -      |  No paths    -      |  No paths    -    
+lab3_skm|int_osc_inferred_clock  lab3_skm|int_osc_inferred_clock  |  5.000       -8.776   |  No paths    -      |  No paths    -      |  No paths    -    
 ==========================================================================================================================================================
  Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
        'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
@@ -916,35 +910,35 @@ Instance                     Reference                           Type        Pin
 --------------------------------------------------------------------------------------------------------------------------
 count.count[5]               lab3_skm|int_osc_inferred_clock     FD1P3DZ     Q       counter[5]        0.796       -12.795
 count.count[6]               lab3_skm|int_osc_inferred_clock     FD1P3DZ     Q       counter[6]        0.796       -12.723
-scan.count.count_fast[5]     lab3_skm|int_osc_inferred_clock     FD1P3DZ     Q       count_fast[5]     0.796       -11.169
-scan.count.count_fast[6]     lab3_skm|int_osc_inferred_clock     FD1P3DZ     Q       count_fast[6]     0.796       -11.097
-scan.count.count_fast[7]     lab3_skm|int_osc_inferred_clock     FD1P3DZ     Q       count_fast[7]     0.796       -11.066
-scan.count.count_fast[0]     lab3_skm|int_osc_inferred_clock     FD1P3DZ     Q       count_fast[0]     0.796       -11.066
-scan.count.count_fast[1]     lab3_skm|int_osc_inferred_clock     FD1P3DZ     Q       count_fast[1]     0.796       -10.993
-scan.count.count_fast[2]     lab3_skm|int_osc_inferred_clock     FD1P3DZ     Q       count_fast[2]     0.796       -10.962
-scan.count.count[4]          lab3_skm|int_osc_inferred_clock     FD1P3DZ     Q       count2[4]         0.796       -10.900
-scan.count.count_fast[3]     lab3_skm|int_osc_inferred_clock     FD1P3DZ     Q       count_fast[3]     0.796       -10.869
+count.count[9]               lab3_skm|int_osc_inferred_clock     FD1P3DZ     Q       counter[9]        0.796       -10.773
+count.count[7]               lab3_skm|int_osc_inferred_clock     FD1P3DZ     Q       multilto7         0.796       -10.722
+count.count[8]               lab3_skm|int_osc_inferred_clock     FD1P3DZ     Q       multilto8         0.796       -10.629
+count.count[10]              lab3_skm|int_osc_inferred_clock     FD1P3DZ     Q       counter[10]       0.796       -9.030 
+count.count[12]              lab3_skm|int_osc_inferred_clock     FD1P3DZ     Q       counter[12]       0.796       -8.958 
+count.count[13]              lab3_skm|int_osc_inferred_clock     FD1P3DZ     Q       counter[13]       0.796       -8.927 
+scan.count.count_fast[4]     lab3_skm|int_osc_inferred_clock     FD1P3DZ     Q       count_fast[4]     0.796       -8.875 
+scan.count.count[1]          lab3_skm|int_osc_inferred_clock     FD1P3DZ     Q       count2[1]         0.796       -8.813 
 ==========================================================================================================================
 
 
 Ending Points with Worst Slack
 ******************************
 
-                  Starting                                                                 Required            
-Instance          Reference                           Type        Pin     Net              Time         Slack  
-                  Clock                                                                                        
----------------------------------------------------------------------------------------------------------------
-seg_obuf[0]       lab3_skm|int_osc_inferred_clock     OB          I       seg_c[0]         5.000        -12.795
-seg_obuf[1]       lab3_skm|int_osc_inferred_clock     OB          I       seg_c[1]         5.000        -12.795
-seg_obuf[2]       lab3_skm|int_osc_inferred_clock     OB          I       seg_c[2]         5.000        -12.795
-seg_obuf[3]       lab3_skm|int_osc_inferred_clock     OB          I       seg_c[3]         5.000        -12.795
-seg_obuf[4]       lab3_skm|int_osc_inferred_clock     OB          I       seg_c[4]         5.000        -12.795
-seg_obuf[5]       lab3_skm|int_osc_inferred_clock     OB          I       seg_c[5]         5.000        -12.795
-seg_obuf[6]       lab3_skm|int_osc_inferred_clock     OB          I       seg_c[6]         5.000        -12.795
-anode_obuf[0]     lab3_skm|int_osc_inferred_clock     OB          I       anode_c_i[1]     5.000        -12.702
-decoder.state     lab3_skm|int_osc_inferred_clock     FD1P3DZ     D       state_0          4.845        -11.169
-anode_obuf[1]     lab3_skm|int_osc_inferred_clock     OB          I       anode_c[1]       5.000        -10.763
-===============================================================================================================
+                  Starting                                                              Required            
+Instance          Reference                           Type     Pin     Net              Time         Slack  
+                  Clock                                                                                     
+------------------------------------------------------------------------------------------------------------
+seg_obuf[0]       lab3_skm|int_osc_inferred_clock     OB       I       seg_c[0]         5.000        -12.795
+seg_obuf[1]       lab3_skm|int_osc_inferred_clock     OB       I       seg_c[1]         5.000        -12.795
+seg_obuf[2]       lab3_skm|int_osc_inferred_clock     OB       I       seg_c[2]         5.000        -12.795
+seg_obuf[3]       lab3_skm|int_osc_inferred_clock     OB       I       seg_c[3]         5.000        -12.795
+seg_obuf[4]       lab3_skm|int_osc_inferred_clock     OB       I       seg_c[4]         5.000        -12.795
+seg_obuf[5]       lab3_skm|int_osc_inferred_clock     OB       I       seg_c[5]         5.000        -12.795
+seg_obuf[6]       lab3_skm|int_osc_inferred_clock     OB       I       seg_c[6]         5.000        -12.795
+anode_obuf[0]     lab3_skm|int_osc_inferred_clock     OB       I       anode_c_i[1]     5.000        -12.702
+anode_obuf[1]     lab3_skm|int_osc_inferred_clock     OB       I       anode_c[1]       5.000        -10.763
+rows_obuf[0]      lab3_skm|int_osc_inferred_clock     OB       I       rows_c[0]        5.000        -8.875 
+============================================================================================================
 
 
 
@@ -1208,35 +1202,29 @@ Detailed Report for Clock: System
 Starting Points with Worst Slack
 ********************************
 
-                 Starting                                     Arrival            
-Instance         Reference     Type     Pin     Net           Time        Slack  
-                 Clock                                                           
----------------------------------------------------------------------------------
-cols_ibuf[0]     System        IB       O       cols_c[0]     0.000       -11.964
-cols_ibuf[2]     System        IB       O       cols_c[2]     0.000       -11.891
-cols_ibuf[3]     System        IB       O       cols_c[3]     0.000       -11.664
-cols_ibuf[1]     System        IB       O       cols_c[1]     0.000       -11.633
-=================================================================================
+                 Starting                                     Arrival           
+Instance         Reference     Type     Pin     Net           Time        Slack 
+                 Clock                                                          
+--------------------------------------------------------------------------------
+cols_ibuf[0]     System        IB       O       cols_c[0]     0.000       -1.952
+cols_ibuf[1]     System        IB       O       cols_c[1]     0.000       -1.952
+cols_ibuf[2]     System        IB       O       cols_c[2]     0.000       -1.952
+cols_ibuf[3]     System        IB       O       cols_c[3]     0.000       -1.952
+================================================================================
 
 
 Ending Points with Worst Slack
 ******************************
 
-                        Starting                                                  Required            
-Instance                Reference     Type        Pin     Net                     Time         Slack  
-                        Clock                                                                         
-------------------------------------------------------------------------------------------------------
-decoder.num[3]          System        FD1P3DZ     D       numnext_cnst_0_i[3]     4.845        -11.964
-decoder.state           System        FD1P3DZ     D       state_0                 4.845        -11.829
-decoder.num[1]          System        FD1P3DZ     D       N_9_0                   4.845        -9.931 
-decoder.num[0]          System        FD1P3DZ     D       N_7_0                   4.845        -8.002 
-decoder.coldummy[0]     System        FD1P3DZ     SP      state_3                 4.845        -6.001 
-decoder.coldummy[1]     System        FD1P3DZ     SP      state_3                 4.845        -6.001 
-decoder.num[0]          System        FD1P3DZ     SP      state_3                 4.845        -6.001 
-decoder.num[1]          System        FD1P3DZ     SP      state_3                 4.845        -6.001 
-decoder.num[2]          System        FD1P3DZ     SP      state_3                 4.845        -6.001 
-decoder.num[3]          System        FD1P3DZ     SP      state_3                 4.845        -6.001 
-======================================================================================================
+                       Starting                                        Required           
+Instance               Reference     Type        Pin     Net           Time         Slack 
+                       Clock                                                              
+------------------------------------------------------------------------------------------
+sync.cols_first[0]     System        FD1P3DZ     D       cols_c[0]     4.845        -1.952
+sync.cols_first[1]     System        FD1P3DZ     D       cols_c[1]     4.845        -1.952
+sync.cols_first[2]     System        FD1P3DZ     D       cols_c[2]     4.845        -1.952
+sync.cols_first[3]     System        FD1P3DZ     D       cols_c[3]     4.845        -1.952
+==========================================================================================
 
 
 
@@ -1250,40 +1238,25 @@ Path information for path number 1:
     + Clock delay at ending point:           0.000 (ideal)
     = Required time:                         4.845
 
-    - Propagation time:                      16.809
+    - Propagation time:                      6.797
     - Clock delay at starting point:         0.000 (ideal)
     - Estimated clock delay at start point:  -0.000
-    = Slack (non-critical) :                 -11.964
+    = Slack (non-critical) :                 -1.952
 
-    Number of logic level(s):                5
+    Number of logic level(s):                0
     Starting point:                          cols_ibuf[0] / O
-    Ending point:                            decoder.num[3] / D
+    Ending point:                            sync.cols_first[0] / D
     The start point is clocked by            System [rising]
     The end   point is clocked by            lab3_skm|int_osc_inferred_clock [rising] (rise=0.000 fall=2.500 period=5.000) on pin CK
 
-Instance / Net                       Pin      Pin               Arrival      No. of    
-Name                     Type        Name     Dir     Delay     Time         Fan Out(s)
----------------------------------------------------------------------------------------
-cols_ibuf[0]             IB          O        Out     0.000     0.000 f      -         
-cols_c[0]                Net         -        -       6.717     -            9         
-decoder.g0_4             LUT4        A        In      -         6.717 f      -         
-decoder.g0_4             LUT4        Z        Out     0.661     7.378 r      -         
-N_13_0                   Net         -        -       1.371     -            2         
-decoder.num_RNO_2[3]     LUT4        A        In      -         8.749 r      -         
-decoder.num_RNO_2[3]     LUT4        Z        Out     0.661     9.411 r      -         
-g3_3                     Net         -        -       1.371     -            1         
-decoder.num_RNO_1[3]     LUT4        A        In      -         10.782 r     -         
-decoder.num_RNO_1[3]     LUT4        Z        Out     0.661     11.444 r     -         
-g3_5                     Net         -        -       1.371     -            1         
-decoder.num_RNO_0[3]     LUT4        C        In      -         12.815 r     -         
-decoder.num_RNO_0[3]     LUT4        Z        Out     0.558     13.373 r     -         
-g3                       Net         -        -       1.371     -            1         
-decoder.num_RNO[3]       LUT4        C        In      -         14.744 r     -         
-decoder.num_RNO[3]       LUT4        Z        Out     0.558     15.302 r     -         
-numnext_cnst_0_i[3]      Net         -        -       1.507     -            1         
-decoder.num[3]           FD1P3DZ     D        In      -         16.809 r     -         
-=======================================================================================
-Total path delay (propagation time + setup) of 16.964 is 3.256(19.2%) logic and 13.708(80.8%) route.
+Instance / Net                     Pin      Pin               Arrival     No. of    
+Name                   Type        Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------
+cols_ibuf[0]           IB          O        Out     0.000     0.000 r     -         
+cols_c[0]              Net         -        -       6.797     -           1         
+sync.cols_first[0]     FD1P3DZ     D        In      -         6.797 r     -         
+====================================================================================
+Total path delay (propagation time + setup) of 6.952 is 0.155(2.2%) logic and 6.797(97.8%) route.
 Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
 
 
@@ -1293,40 +1266,25 @@ Path information for path number 2:
     + Clock delay at ending point:           0.000 (ideal)
     = Required time:                         4.845
 
-    - Propagation time:                      16.736
+    - Propagation time:                      6.797
     - Clock delay at starting point:         0.000 (ideal)
     - Estimated clock delay at start point:  -0.000
-    = Slack (non-critical) :                 -11.891
+    = Slack (non-critical) :                 -1.952
 
-    Number of logic level(s):                5
-    Starting point:                          cols_ibuf[2] / O
-    Ending point:                            decoder.num[3] / D
+    Number of logic level(s):                0
+    Starting point:                          cols_ibuf[1] / O
+    Ending point:                            sync.cols_first[1] / D
     The start point is clocked by            System [rising]
     The end   point is clocked by            lab3_skm|int_osc_inferred_clock [rising] (rise=0.000 fall=2.500 period=5.000) on pin CK
 
-Instance / Net                       Pin      Pin               Arrival      No. of    
-Name                     Type        Name     Dir     Delay     Time         Fan Out(s)
----------------------------------------------------------------------------------------
-cols_ibuf[2]             IB          O        Out     0.000     0.000 f      -         
-cols_c[2]                Net         -        -       6.717     -            9         
-decoder.g0_4             LUT4        B        In      -         6.717 f      -         
-decoder.g0_4             LUT4        Z        Out     0.589     7.306 r      -         
-N_13_0                   Net         -        -       1.371     -            2         
-decoder.num_RNO_2[3]     LUT4        A        In      -         8.677 r      -         
-decoder.num_RNO_2[3]     LUT4        Z        Out     0.661     9.339 r      -         
-g3_3                     Net         -        -       1.371     -            1         
-decoder.num_RNO_1[3]     LUT4        A        In      -         10.710 r     -         
-decoder.num_RNO_1[3]     LUT4        Z        Out     0.661     11.371 r     -         
-g3_5                     Net         -        -       1.371     -            1         
-decoder.num_RNO_0[3]     LUT4        C        In      -         12.742 r     -         
-decoder.num_RNO_0[3]     LUT4        Z        Out     0.558     13.300 r     -         
-g3                       Net         -        -       1.371     -            1         
-decoder.num_RNO[3]       LUT4        C        In      -         14.671 r     -         
-decoder.num_RNO[3]       LUT4        Z        Out     0.558     15.229 r     -         
-numnext_cnst_0_i[3]      Net         -        -       1.507     -            1         
-decoder.num[3]           FD1P3DZ     D        In      -         16.736 r     -         
-=======================================================================================
-Total path delay (propagation time + setup) of 16.891 is 3.183(18.8%) logic and 13.708(81.2%) route.
+Instance / Net                     Pin      Pin               Arrival     No. of    
+Name                   Type        Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------
+cols_ibuf[1]           IB          O        Out     0.000     0.000 r     -         
+cols_c[1]              Net         -        -       6.797     -           1         
+sync.cols_first[1]     FD1P3DZ     D        In      -         6.797 r     -         
+====================================================================================
+Total path delay (propagation time + setup) of 6.952 is 0.155(2.2%) logic and 6.797(97.8%) route.
 Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
 
 
@@ -1336,40 +1294,25 @@ Path information for path number 3:
     + Clock delay at ending point:           0.000 (ideal)
     = Required time:                         4.845
 
-    - Propagation time:                      16.674
+    - Propagation time:                      6.797
     - Clock delay at starting point:         0.000 (ideal)
     - Estimated clock delay at start point:  -0.000
-    = Slack (non-critical) :                 -11.829
+    = Slack (non-critical) :                 -1.952
 
-    Number of logic level(s):                5
-    Starting point:                          cols_ibuf[0] / O
-    Ending point:                            decoder.state / D
+    Number of logic level(s):                0
+    Starting point:                          cols_ibuf[2] / O
+    Ending point:                            sync.cols_first[2] / D
     The start point is clocked by            System [rising]
     The end   point is clocked by            lab3_skm|int_osc_inferred_clock [rising] (rise=0.000 fall=2.500 period=5.000) on pin CK
 
-Instance / Net                               Pin      Pin               Arrival      No. of    
-Name                             Type        Name     Dir     Delay     Time         Fan Out(s)
------------------------------------------------------------------------------------------------
-cols_ibuf[0]                     IB          O        Out     0.000     0.000 f      -         
-cols_c[0]                        Net         -        -       6.717     -            9         
-decoder.coldummy_RNIBULRM[1]     LUT4        A        In      -         6.717 f      -         
-decoder.coldummy_RNIBULRM[1]     LUT4        Z        Out     0.661     7.378 r      -         
-col_pmux_3_ns_1                  Net         -        -       1.371     -            4         
-decoder.state_RNO_17             LUT4        A        In      -         8.749 r      -         
-decoder.state_RNO_17             LUT4        Z        Out     0.661     9.411 r      -         
-state_RNO_17                     Net         -        -       1.371     -            1         
-decoder.state_RNO_9              LUT4        B        In      -         10.782 r     -         
-decoder.state_RNO_9              LUT4        Z        Out     0.589     11.371 r     -         
-state_RNO_9                      Net         -        -       1.371     -            1         
-decoder.state_RNO_2              LUT4        B        In      -         12.742 r     -         
-decoder.state_RNO_2              LUT4        Z        Out     0.589     13.331 r     -         
-state_RNO_2                      Net         -        -       1.371     -            1         
-decoder.state_RNO                LUT4        D        In      -         14.702 r     -         
-decoder.state_RNO                LUT4        Z        Out     0.465     15.168 r     -         
-state_0                          Net         -        -       1.507     -            1         
-decoder.state                    FD1P3DZ     D        In      -         16.674 r     -         
-===============================================================================================
-Total path delay (propagation time + setup) of 16.829 is 3.122(18.5%) logic and 13.708(81.5%) route.
+Instance / Net                     Pin      Pin               Arrival     No. of    
+Name                   Type        Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------
+cols_ibuf[2]           IB          O        Out     0.000     0.000 r     -         
+cols_c[2]              Net         -        -       6.797     -           1         
+sync.cols_first[2]     FD1P3DZ     D        In      -         6.797 r     -         
+====================================================================================
+Total path delay (propagation time + setup) of 6.952 is 0.155(2.2%) logic and 6.797(97.8%) route.
 Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
 
 
@@ -1379,83 +1322,25 @@ Path information for path number 4:
     + Clock delay at ending point:           0.000 (ideal)
     = Required time:                         4.845
 
-    - Propagation time:                      16.643
+    - Propagation time:                      6.797
     - Clock delay at starting point:         0.000 (ideal)
     - Estimated clock delay at start point:  -0.000
-    = Slack (non-critical) :                 -11.798
+    = Slack (non-critical) :                 -1.952
 
-    Number of logic level(s):                5
-    Starting point:                          cols_ibuf[0] / O
-    Ending point:                            decoder.state / D
+    Number of logic level(s):                0
+    Starting point:                          cols_ibuf[3] / O
+    Ending point:                            sync.cols_first[3] / D
     The start point is clocked by            System [rising]
     The end   point is clocked by            lab3_skm|int_osc_inferred_clock [rising] (rise=0.000 fall=2.500 period=5.000) on pin CK
 
-Instance / Net                               Pin      Pin               Arrival      No. of    
-Name                             Type        Name     Dir     Delay     Time         Fan Out(s)
------------------------------------------------------------------------------------------------
-cols_ibuf[0]                     IB          O        Out     0.000     0.000 f      -         
-cols_c[0]                        Net         -        -       6.717     -            9         
-decoder.coldummy_RNIBULRM[1]     LUT4        A        In      -         6.717 f      -         
-decoder.coldummy_RNIBULRM[1]     LUT4        Z        Out     0.661     7.378 r      -         
-col_pmux_3_ns_1                  Net         -        -       1.371     -            4         
-decoder.state_RNO_18             LUT4        A        In      -         8.749 r      -         
-decoder.state_RNO_18             LUT4        Z        Out     0.661     9.411 r      -         
-state_RNO_18                     Net         -        -       1.371     -            1         
-decoder.state_RNO_9              LUT4        C        In      -         10.782 r     -         
-decoder.state_RNO_9              LUT4        Z        Out     0.558     11.340 r     -         
-state_RNO_9                      Net         -        -       1.371     -            1         
-decoder.state_RNO_2              LUT4        B        In      -         12.711 r     -         
-decoder.state_RNO_2              LUT4        Z        Out     0.589     13.300 r     -         
-state_RNO_2                      Net         -        -       1.371     -            1         
-decoder.state_RNO                LUT4        D        In      -         14.671 r     -         
-decoder.state_RNO                LUT4        Z        Out     0.465     15.136 r     -         
-state_0                          Net         -        -       1.507     -            1         
-decoder.state                    FD1P3DZ     D        In      -         16.643 r     -         
-===============================================================================================
-Total path delay (propagation time + setup) of 16.798 is 3.090(18.4%) logic and 13.708(81.6%) route.
-Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
-
-
-Path information for path number 5: 
-      Requested Period:                      5.000
-    - Setup time:                            0.155
-    + Clock delay at ending point:           0.000 (ideal)
-    = Required time:                         4.845
-
-    - Propagation time:                      16.602
-    - Clock delay at starting point:         0.000 (ideal)
-    - Estimated clock delay at start point:  -0.000
-    = Slack (non-critical) :                 -11.757
-
-    Number of logic level(s):                5
-    Starting point:                          cols_ibuf[2] / O
-    Ending point:                            decoder.state / D
-    The start point is clocked by            System [rising]
-    The end   point is clocked by            lab3_skm|int_osc_inferred_clock [rising] (rise=0.000 fall=2.500 period=5.000) on pin CK
-
-Instance / Net                               Pin      Pin               Arrival      No. of    
-Name                             Type        Name     Dir     Delay     Time         Fan Out(s)
------------------------------------------------------------------------------------------------
-cols_ibuf[2]                     IB          O        Out     0.000     0.000 f      -         
-cols_c[2]                        Net         -        -       6.717     -            9         
-decoder.coldummy_RNIBULRM[1]     LUT4        B        In      -         6.717 f      -         
-decoder.coldummy_RNIBULRM[1]     LUT4        Z        Out     0.589     7.306 r      -         
-col_pmux_3_ns_1                  Net         -        -       1.371     -            4         
-decoder.state_RNO_17             LUT4        A        In      -         8.677 r      -         
-decoder.state_RNO_17             LUT4        Z        Out     0.661     9.339 r      -         
-state_RNO_17                     Net         -        -       1.371     -            1         
-decoder.state_RNO_9              LUT4        B        In      -         10.710 r     -         
-decoder.state_RNO_9              LUT4        Z        Out     0.589     11.299 r     -         
-state_RNO_9                      Net         -        -       1.371     -            1         
-decoder.state_RNO_2              LUT4        B        In      -         12.670 r     -         
-decoder.state_RNO_2              LUT4        Z        Out     0.589     13.259 r     -         
-state_RNO_2                      Net         -        -       1.371     -            1         
-decoder.state_RNO                LUT4        D        In      -         14.630 r     -         
-decoder.state_RNO                LUT4        Z        Out     0.465     15.095 r     -         
-state_0                          Net         -        -       1.507     -            1         
-decoder.state                    FD1P3DZ     D        In      -         16.602 r     -         
-===============================================================================================
-Total path delay (propagation time + setup) of 16.757 is 3.049(18.2%) logic and 13.708(81.8%) route.
+Instance / Net                     Pin      Pin               Arrival     No. of    
+Name                   Type        Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------
+cols_ibuf[3]           IB          O        Out     0.000     0.000 r     -         
+cols_c[3]              Net         -        -       6.797     -           1         
+sync.cols_first[3]     FD1P3DZ     D        In      -         6.797 r     -         
+====================================================================================
+Total path delay (propagation time + setup) of 6.952 is 0.155(2.2%) logic and 6.797(97.8%) route.
 Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
 
 
@@ -1464,10 +1349,10 @@ Path delay compensated for clock skew. Clock skew is added to clock-to-out value
 
 Timing exceptions that could not be applied
 
-Finished final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 270MB peak: 272MB)
+Finished final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 264MB peak: 265MB)
 
 
-Finished timing report (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 270MB peak: 272MB)
+Finished timing report (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 264MB peak: 265MB)
 
 ---------------------------------------
 Resource Usage Report for lab3_skm 
@@ -1475,11 +1360,11 @@ Resource Usage Report for lab3_skm
 Mapping to part: ice40up5ksg48i-6
 Cell usage:
 CCU2_B          39 uses
-FD1P3DZ         127 uses
+FD1P3DZ         131 uses
 HSOSC           1 use
-VHI             10 uses
-VLO             10 uses
-LUT4            255 uses
+VHI             11 uses
+VLO             11 uses
+LUT4            200 uses
 
 I/O ports: 17
 I/O primitives: 17
@@ -1487,21 +1372,21 @@ IB             4 uses
 OB             13 uses
 
 I/O Register bits:                  0
-Register bits not including I/Os:   127 of 5280 (2%)
+Register bits not including I/Os:   131 of 5280 (2%)
 Total load per clock:
-   lab3_skm|int_osc_inferred_clock: 127
+   lab3_skm|int_osc_inferred_clock: 131
 
 @S |Mapping Summary:
-Total  LUTs: 255 (4%)
+Total  LUTs: 200 (3%)
 
 Distribution of All Consumed LUTs = LUT4 
-Distribution of All Consumed LUTs 255 = 255 
+Distribution of All Consumed LUTs 200 = 200 
 
 Mapper successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 131MB peak: 272MB)
+At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 129MB peak: 265MB)
 
 Process took 0h:00m:02s realtime, 0h:00m:02s cputime
-# Sat Sep 19 18:19:44 2026
+# Sun Sep 20 17:47:16 2026
 
 ###########################################################]

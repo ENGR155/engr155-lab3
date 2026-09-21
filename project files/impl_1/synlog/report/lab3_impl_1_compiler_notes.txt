@@ -198,6 +198,7 @@
 @N: CG364 :"C:\lscc\radiant\2026.1\synpbase\lib\generic\ice40up.v":795:7:795:11|Synthesizing module HSOSC in library work.
 @N: CG364 :"C:\Users\skantimahanty\Documents\GitHub\engr155-lab3\project files\source\impl_1\counter.sv":5:7:5:13|Synthesizing module counter in library work.
 @N: CG364 :"C:\Users\skantimahanty\Documents\GitHub\engr155-lab3\project files\source\impl_1\lab2_scanner.sv":5:7:5:18|Synthesizing module lab2_scanner in library work.
+@N: CG364 :"C:\Users\skantimahanty\Documents\GitHub\engr155-lab3\project files\source\impl_1\lab3sync.sv":5:7:5:14|Synthesizing module lab3sync in library work.
 @N: CG364 :"C:\Users\skantimahanty\Documents\GitHub\engr155-lab3\project files\source\impl_1\lab3main.sv":1:7:1:14|Synthesizing module lab3main in library work.
 @N: CG364 :"C:\Users\skantimahanty\Documents\GitHub\engr155-lab3\project files\source\impl_1\counter.sv":5:7:5:13|Synthesizing module counter in library work.
 @N: CG364 :"C:\Users\skantimahanty\Documents\GitHub\engr155-lab3\project files\source\impl_1\lab3debouncer.sv":6:7:6:19|Synthesizing module lab3debouncer in library work.
