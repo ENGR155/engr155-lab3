@@ -6,13 +6,9 @@ module lab3led(
     input  logic       clk,
     input  logic       reset_n,
     input  logic [4:0] num,
-    output logic [6:0] segleft,
-    output logic [6:0] segright
+    output logic [3:0] left_num,
+    output logic [3:0] right_num
 );
-
-    // Left and right numbers
-    logic [3:0] left_num;
-    logic [3:0] right_num;
 
     // Remembers the previous value
     logic [4:0] previous_num;
@@ -36,17 +32,5 @@ module lab3led(
             end
         end
     end
-
-    // Left LED
-    lab2_sevenseg left (
-        .s   (left_num),
-        .seg (segleft)
-    );
-
-    // Right LED
-    lab2_sevenseg right (
-        .s   (right_num),
-        .seg (segright)
-    );
 
 endmodule

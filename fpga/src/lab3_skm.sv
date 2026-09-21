@@ -74,15 +74,15 @@ module lab3_skm (
     );
 
     // Final segleft segright
-    logic [6:0] segleft, segright;
+    logic [3:0] leftnum, rightnum;
 
     // Sets up LED
     lab3led led (
         .clk      (int_osc),
         .reset_n  (1'b1),
         .num      (numdummy2),
-        .segleft  (segleft),
-        .segright (segright)
+        .left_num  (leftnum),
+        .right_num (rightnum)
     );
     
     // Sets up a counter for the multiplexer
@@ -99,7 +99,14 @@ module lab3_skm (
     // Assigning final logic and switching
     assign multi = (counter > display_switch/2);
 
-    assign seg = multi ? segleft : segright;
+    // Output number
+    assign segout = multi ? leftnum : rightnum;
+
+    // LED Display
+    lab2_sevenseg left (
+        .s   (segout),
+        .seg (seg)
+    );
 
     assign anode[0] = multi;
     assign anode[1] = ~multi;   

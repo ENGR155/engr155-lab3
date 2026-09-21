@@ -27,8 +27,8 @@ module lab3main_tb();
     end
 
     initial begin
-        $dumpfile("lab3main_tb.vcd");
-        $dumpvars(0, lab3main_tb);
+        $dumpfile("dump.vcd");
+        $dumpvars(0, lab3main_tb);        
 
         errors = 0;
         reset_n = 0;

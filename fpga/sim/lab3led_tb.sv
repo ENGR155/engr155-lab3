@@ -26,7 +26,7 @@ module lab3led_tb();
     end
 
     initial begin
-        $dumpfile("lab3led_tb.vcd");
+        $dumpfile("dump.vcd");
         $dumpvars(0, lab3led_tb);
 
         errors = 0;

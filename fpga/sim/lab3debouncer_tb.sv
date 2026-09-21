@@ -29,7 +29,7 @@ module lab3debouncer_tb();
     end
 
     initial begin
-        $dumpfile("lab3debouncer_tb.vcd");
+        $dumpfile("dump.vcd");
         $dumpvars(0, lab3debouncer_tb);
 
         errors = 0;

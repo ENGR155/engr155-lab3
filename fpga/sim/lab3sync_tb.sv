@@ -29,7 +29,7 @@ module lab3sync_tb();
     end
 
     initial begin
-        $dumpfile("lab3sync_tb.vcd");
+        $dumpfile("dump.vcd");
         $dumpvars(0, lab3sync_tb);
 
         errors = 0;
